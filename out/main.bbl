@@ -1,0 +1,153 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Nature_Wiedeking}{misc}{}{}
+      \name{author}{10}{}{%
+        {{hash=c7dd7bc9571215ffe3be64076b8c3a2a}{%
+           family={Wiedeking},
+           familyi={W\bibinitperiod},
+           given={Mathis},
+           giveni={M\bibinitperiod}}}%
+        {{hash=785715b935af5f050005a436968ec101}{%
+           family={Goriely},
+           familyi={G\bibinitperiod},
+           given={Stephane},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bf716546d269bcfbcaf44c20e0cafbad}{%
+           family={Guttormsen},
+           familyi={G\bibinitperiod},
+           given={Magne},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e18beda6f9da397347375ab0ac854b33}{%
+           family={Herwig},
+           familyi={H\bibinitperiod},
+           given={Falk},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2324858748f23b7b2a06713fa6888809}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Ann-Cecilie},
+           giveni={A\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=ce00aada669ff5e444bbb554e13bd4ad}{%
+           family={Liddick},
+           familyi={L\bibinitperiod},
+           given={Sean\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=8a40f03a54e0ea936252dd838ff440b7}{%
+           family={Mücher},
+           familyi={M\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e827ea58501d9026ea69048badab58f5}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Andrea\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ab4bb63453594ebc1ec3e3a2bae9ad79}{%
+           family={Siem},
+           familyi={S\bibinitperiod},
+           given={Sunniva},
+           giveni={S\bibinitperiod}}}%
+        {{hash=34ab173140fb03b8758b70302c21a277}{%
+           family={Spyrou},
+           familyi={S\bibinitperiod},
+           given={Artemis},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{05d09242934087aea8096d6bd6502dc2}
+      \strng{fullhash}{0641da6fb3731211a4a1f67e1e90648d}
+      \strng{fullhashraw}{0641da6fb3731211a4a1f67e1e90648d}
+      \strng{bibnamehash}{05d09242934087aea8096d6bd6502dc2}
+      \strng{authorbibnamehash}{05d09242934087aea8096d6bd6502dc2}
+      \strng{authornamehash}{05d09242934087aea8096d6bd6502dc2}
+      \strng{authorfullhash}{0641da6fb3731211a4a1f67e1e90648d}
+      \strng{authorfullhashraw}{0641da6fb3731211a4a1f67e1e90648d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Physics}
+      \field{title}{Unlocking i-process nucleosynthesis by bridging stellar and nuclear physics}
+      \field{year}{2025}
+      \verb{doi}
+      \verb doi:10.1038/s42254-025-00885-7
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s42254-025-00885-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s42254-025-00885-7
+      \endverb
+    \endentry
+    \entry{TALYS}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=5fcf9adbf7f7463545476d738b83e188}{%
+           family={Koning},
+           familyi={K\bibinitperiod},
+           given={Arjan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=be4b73e8d21235ce684194d142df760f}{%
+           family={Hilaire},
+           familyi={H\bibinitperiod},
+           given={Stephane},
+           giveni={S\bibinitperiod}}}%
+        {{hash=785715b935af5f050005a436968ec101}{%
+           family={Goriely},
+           familyi={G\bibinitperiod},
+           given={Stephane},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{32ba8932e9b63e0d9a178d771202bae8}
+      \strng{fullhash}{32ba8932e9b63e0d9a178d771202bae8}
+      \strng{fullhashraw}{32ba8932e9b63e0d9a178d771202bae8}
+      \strng{bibnamehash}{32ba8932e9b63e0d9a178d771202bae8}
+      \strng{authorbibnamehash}{32ba8932e9b63e0d9a178d771202bae8}
+      \strng{authornamehash}{32ba8932e9b63e0d9a178d771202bae8}
+      \strng{authorfullhash}{32ba8932e9b63e0d9a178d771202bae8}
+      \strng{authorfullhashraw}{32ba8932e9b63e0d9a178d771202bae8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{TALYS is a software package for the simulation of nuclear reactions below 200 MeV. It is used worldwide for the analysis and prediction of nuclear reactions and is based on state-of-art nuclear structure and nuclear reaction models. A general overview of the implemented physics and capabilities of TALYS is given. The general nuclear reaction mechanisms described are the optical model, direct reactions, compound nucleus model, pre-equilibrium reactions and fission. The most important nuclear structure models are those for masses, discrete levels, level densities, photon strength functions and fission barriers. A wide variety of nuclear reactions simulated with TALYS will be demonstrated, ranging from low-energy neutron cross sections, astrophysics, high-energy charged particle reactions and other reactions. TALYS is a nuclear reaction software which aims to give a complete description of nuclear reaction observables, and to be an important link between fundamental nuclear physics and applications.}
+      \field{issn}{1434-601X}
+      \field{journaltitle}{The European Physical Journal A}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{TALYS: modeling of nuclear reactions}
+      \field{volume}{59}
+      \field{year}{2023}
+      \field{pages}{131}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epja/s10050-023-01034-3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1140/epja/s10050-023-01034-3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1140/epja/s10050-023-01034-3
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

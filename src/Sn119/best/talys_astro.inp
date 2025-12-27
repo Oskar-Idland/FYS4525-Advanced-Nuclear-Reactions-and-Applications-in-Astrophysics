@@ -1,0 +1,9 @@
+element Sn
+mass 119
+projectile n
+energy n0-30.grid
+
+best     y
+astro    y
+astrogs  n
+partable y

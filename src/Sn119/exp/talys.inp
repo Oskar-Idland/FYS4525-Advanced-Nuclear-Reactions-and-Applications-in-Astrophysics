@@ -1,0 +1,31 @@
+element Sn
+mass 119
+projectile n
+energy n0-30.grid
+
+ldmodel 4
+M1file 50 120 gsfE1_50_120.dat
+E1file 50 120 gsfM1_50_120.dat
+
+gnorm 1
+
+ptable 50 120 0
+ctable 50 120 0
+
+
+ggr 50 120 5.79 E1
+ggr 50 120 3.13 M1
+
+sgr 50 120 262.8 E1 
+sgr 50 120   1.97 M1 
+
+egr 50 120 15.82 E1
+egr 50 120 10.45 M1
+
+
+outgamma     y
+filetotal    y 
+outdensity   y
+outdiscrete  y 
+fileresidual y
+filechannels y

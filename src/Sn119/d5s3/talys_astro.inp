@@ -1,0 +1,11 @@
+element Sn
+mass 119
+projectile n
+energy n0-30.grid
+
+astro    y
+astrogs  n
+partable y
+
+strength 3
+ldmodel 5

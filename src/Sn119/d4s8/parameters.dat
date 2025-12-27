@@ -1,0 +1,5612 @@
+##
+## Parameters for 120Sn
+##
+## Level density
+##
+a                50 120  16.07977
+aadjust          50 120   1.00000
+gammald          50 120   0.08780
+pair             50 120   2.19089
+Pshift           50 120   0.00000   0
+Pshiftadjust     50 120   0.00000   0
+deltaW           50 120   0.88980   0
+Ntop             50 120  21   0
+Nlow             50 120   6   0
+s2adjust         50 120   1.00000   0
+ctable           50 120   0.07753   0
+ptable           50 120   0.00000   0
+ctableadjust     50 120   0.00000   0
+ptableadjust     50 120   0.00000   0
+D0               50 120 9.00000E-02
+g                50 120   8.00000
+gp               50 120   3.33333
+gn               50 120   4.66667
+gnadjust         50 120   1.00000
+gpadjust         50 120   1.00000
+gadjust          50 120   1.00000
+##
+## Gamma-ray
+##
+gamgam           50 120   0.10500
+gamgamadjust     50 120   1.00000
+etable           50 120   0.00000 E1
+ftable           50 120   1.00000 E1
+wtable           50 120   0.91300 E1
+etableadjust     50 120   0.00000 E1
+ftableadjust     50 120   1.00000 E1
+wtableadjust     50 120   1.00000 E1
+upbendc          50 120 3.50000E-08 M1
+sgr              50 120   1.621 M1
+egr              50 120   8.105 M1
+ggr              50 120   4.000 M1
+sgradjust        50 120   1.000 M1
+egradjust        50 120   1.000 M1
+ggradjust        50 120   1.000 M1
+etable           50 120   0.00000 E2
+ftable           50 120   1.00000 E2
+wtable           50 120   1.00000 E2
+etableadjust     50 120   0.00000 E2
+ftableadjust     50 120   1.00000 E2
+wtableadjust     50 120   1.00000 E2
+upbendc          50 120 0.00000E+00 M2
+sgr              50 120   0.001 M2
+egr              50 120   8.105 M2
+ggr              50 120   4.000 M2
+sgradjust        50 120   1.000 M2
+egradjust        50 120   1.000 M2
+ggradjust        50 120   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 119Sn
+##
+## Level density
+##
+a                50 119  16.63752
+aadjust          50 119   1.00000
+gammald          50 119   0.08805
+pair             50 119   1.10004
+Pshift           50 119   0.00000   0
+Pshiftadjust     50 119   0.00000   0
+deltaW           50 119   1.47018   0
+Ntop             50 119  15   0
+Nlow             50 119   8   0
+s2adjust         50 119   1.00000   0
+ctable           50 119   0.02762   0
+ptable           50 119   0.04749   0
+ctableadjust     50 119   0.00000   0
+ptableadjust     50 119   0.00000   0
+D0               50 119 4.80000E-01
+g                50 119   7.93333
+gp               50 119   3.33333
+gn               50 119   4.60000
+gnadjust         50 119   1.00000
+gpadjust         50 119   1.00000
+gadjust          50 119   1.00000
+##
+## Gamma-ray
+##
+gamgam           50 119   0.10600
+gamgamadjust     50 119   1.00000
+etable           50 119   0.00000 E1
+ftable           50 119   1.00000 E1
+wtable           50 119   0.91300 E1
+etableadjust     50 119   0.00000 E1
+ftableadjust     50 119   1.00000 E1
+wtableadjust     50 119   1.00000 E1
+upbendc          50 119 3.50000E-08 M1
+sgr              50 119   1.610 M1
+egr              50 119   8.116 M1
+ggr              50 119   4.000 M1
+sgradjust        50 119   1.000 M1
+egradjust        50 119   1.000 M1
+ggradjust        50 119   1.000 M1
+etable           50 119   0.00000 E2
+ftable           50 119   1.00000 E2
+wtable           50 119   1.00000 E2
+etableadjust     50 119   0.00000 E2
+ftableadjust     50 119   1.00000 E2
+wtableadjust     50 119   1.00000 E2
+upbendc          50 119 0.00000E+00 M2
+sgr              50 119   0.001 M2
+egr              50 119   8.116 M2
+ggr              50 119   4.000 M2
+sgradjust        50 119   1.000 M2
+egradjust        50 119   1.000 M2
+ggradjust        50 119   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 119In
+##
+## Level density
+##
+a                49 119  17.18098
+aadjust          49 119   1.00000
+gammald          49 119   0.08805
+pair             49 119   1.10004
+Pshift           49 119   0.00000   0
+Pshiftadjust     49 119   0.00000   0
+deltaW           49 119   2.15387   0
+Ntop             49 119  15   0
+Nlow             49 119   8   0
+s2adjust         49 119   1.00000   0
+ctable           49 119   0.00000   0
+ptable           49 119   0.33725   0
+ctableadjust     49 119   0.00000   0
+ptableadjust     49 119   0.00000   0
+g                49 119   7.93333
+gp               49 119   3.26667
+gn               49 119   4.66667
+gnadjust         49 119   1.00000
+gpadjust         49 119   1.00000
+gadjust          49 119   1.00000
+##
+## Gamma-ray
+##
+gamgam           49 119   0.10600
+gamgamadjust     49 119   1.00000
+etable           49 119   0.00000 E1
+ftable           49 119   1.00000 E1
+wtable           49 119   0.91300 E1
+etableadjust     49 119   0.00000 E1
+ftableadjust     49 119   1.00000 E1
+wtableadjust     49 119   1.00000 E1
+upbendc          49 119 3.50000E-08 M1
+sgr              49 119   1.610 M1
+egr              49 119   8.116 M1
+ggr              49 119   4.000 M1
+sgradjust        49 119   1.000 M1
+egradjust        49 119   1.000 M1
+ggradjust        49 119   1.000 M1
+etable           49 119   0.00000 E2
+ftable           49 119   1.00000 E2
+wtable           49 119   1.00000 E2
+etableadjust     49 119   0.00000 E2
+ftableadjust     49 119   1.00000 E2
+wtableadjust     49 119   1.00000 E2
+upbendc          49 119 0.00000E+00 M2
+sgr              49 119   0.001 M2
+egr              49 119   8.116 M2
+ggr              49 119   4.000 M2
+sgradjust        49 119   1.000 M2
+egradjust        49 119   1.000 M2
+ggradjust        49 119   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 118In
+##
+## Level density
+##
+a                49 118  17.55037
+aadjust          49 118   1.00000
+gammald          49 118   0.08830
+pair             49 118   0.00000
+Pshift           49 118   0.00000   0
+Pshiftadjust     49 118   0.00000   0
+deltaW           49 118   2.54517   0
+Ntop             49 118   5   0
+Nlow             49 118   2   0
+s2adjust         49 118   1.00000   0
+ctable           49 118   0.00000   0
+ptable           49 118   0.00000   0
+ctableadjust     49 118   0.00000   0
+ptableadjust     49 118   0.00000   0
+g                49 118   7.86667
+gp               49 118   3.26667
+gn               49 118   4.60000
+gnadjust         49 118   1.00000
+gpadjust         49 118   1.00000
+gadjust          49 118   1.00000
+##
+## Gamma-ray
+##
+gamgam           49 118   0.10600
+gamgamadjust     49 118   1.00000
+etable           49 118   0.00000 E1
+ftable           49 118   1.00000 E1
+wtable           49 118   0.91300 E1
+etableadjust     49 118   0.00000 E1
+ftableadjust     49 118   1.00000 E1
+wtableadjust     49 118   1.00000 E1
+upbendc          49 118 3.50000E-08 M1
+sgr              49 118   1.598 M1
+egr              49 118   8.128 M1
+ggr              49 118   4.000 M1
+sgradjust        49 118   1.000 M1
+egradjust        49 118   1.000 M1
+ggradjust        49 118   1.000 M1
+etable           49 118   0.00000 E2
+ftable           49 118   1.00000 E2
+wtable           49 118   1.00000 E2
+etableadjust     49 118   0.00000 E2
+ftableadjust     49 118   1.00000 E2
+wtableadjust     49 118   1.00000 E2
+upbendc          49 118 0.00000E+00 M2
+sgr              49 118   0.001 M2
+egr              49 118   8.128 M2
+ggr              49 118   4.000 M2
+sgradjust        49 118   1.000 M2
+egradjust        49 118   1.000 M2
+ggradjust        49 118   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 117In
+##
+## Level density
+##
+a                49 117  17.27267
+aadjust          49 117   1.00000
+gammald          49 117   0.08855
+pair             49 117   1.10940
+Pshift           49 117   0.00000   0
+Pshiftadjust     49 117   0.00000   0
+deltaW           49 117   2.51589   0
+Ntop             49 117  18   0
+Nlow             49 117   5   0
+s2adjust         49 117   1.00000   0
+ctable           49 117   0.00000   0
+ptable           49 117   0.18088   0
+ctableadjust     49 117   0.00000   0
+ptableadjust     49 117   0.00000   0
+g                49 117   7.80000
+gp               49 117   3.26667
+gn               49 117   4.53333
+gnadjust         49 117   1.00000
+gpadjust         49 117   1.00000
+gadjust          49 117   1.00000
+##
+## Gamma-ray
+##
+gamgam           49 117   0.10600
+gamgamadjust     49 117   1.00000
+etable           49 117   0.00000 E1
+ftable           49 117   1.00000 E1
+wtable           49 117   0.91300 E1
+etableadjust     49 117   0.00000 E1
+ftableadjust     49 117   1.00000 E1
+wtableadjust     49 117   1.00000 E1
+upbendc          49 117 3.50000E-08 M1
+sgr              49 117   1.587 M1
+egr              49 117   8.139 M1
+ggr              49 117   4.000 M1
+sgradjust        49 117   1.000 M1
+egradjust        49 117   1.000 M1
+ggradjust        49 117   1.000 M1
+etable           49 117   0.00000 E2
+ftable           49 117   1.00000 E2
+wtable           49 117   1.00000 E2
+etableadjust     49 117   0.00000 E2
+ftableadjust     49 117   1.00000 E2
+wtableadjust     49 117   1.00000 E2
+upbendc          49 117 0.00000E+00 M2
+sgr              49 117   0.001 M2
+egr              49 117   8.139 M2
+ggr              49 117   4.000 M2
+sgradjust        49 117   1.000 M2
+egradjust        49 117   1.000 M2
+ggradjust        49 117   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 117Cd
+##
+## Level density
+##
+a                48 117  18.02709
+aadjust          48 117   1.00000
+gammald          48 117   0.08855
+pair             48 117   1.10940
+Pshift           48 117   0.00000   0
+Pshiftadjust     48 117   0.00000   0
+deltaW           48 117   2.93036   0
+Ntop             48 117  15   0
+Nlow             48 117   6   0
+s2adjust         48 117   1.00000   0
+ctable           48 117  -0.06461   0
+ptable           48 117   0.06335   0
+ctableadjust     48 117   0.00000   0
+ptableadjust     48 117   0.00000   0
+D0               48 117 3.90000E-01
+g                48 117   7.80000
+gp               48 117   3.20000
+gn               48 117   4.60000
+gnadjust         48 117   1.00000
+gpadjust         48 117   1.00000
+gadjust          48 117   1.00000
+##
+## Gamma-ray
+##
+gamgam           48 117   0.04700
+gamgamadjust     48 117   1.00000
+etable           48 117   0.00000 E1
+ftable           48 117   1.00000 E1
+wtable           48 117   0.91300 E1
+etableadjust     48 117   0.00000 E1
+ftableadjust     48 117   1.00000 E1
+wtableadjust     48 117   1.00000 E1
+upbendc          48 117 3.50000E-08 M1
+sgr              48 117   1.587 M1
+egr              48 117   8.139 M1
+ggr              48 117   4.000 M1
+sgradjust        48 117   1.000 M1
+egradjust        48 117   1.000 M1
+ggradjust        48 117   1.000 M1
+etable           48 117   0.00000 E2
+ftable           48 117   1.00000 E2
+wtable           48 117   1.00000 E2
+etableadjust     48 117   0.00000 E2
+ftableadjust     48 117   1.00000 E2
+wtableadjust     48 117   1.00000 E2
+upbendc          48 117 0.00000E+00 M2
+sgr              48 117   0.001 M2
+egr              48 117   8.139 M2
+ggr              48 117   4.000 M2
+sgradjust        48 117   1.000 M2
+egradjust        48 117   1.000 M2
+ggradjust        48 117   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 116Cd
+##
+## Level density
+##
+a                48 116  17.46780
+aadjust          48 116   1.00000
+gammald          48 116   0.08880
+pair             48 116   2.22834
+Pshift           48 116   0.00000   0
+Pshiftadjust     48 116   0.00000   0
+deltaW           48 116   2.71672   0
+Ntop             48 116  19   0
+Nlow             48 116   6   0
+s2adjust         48 116   1.00000   0
+ctable           48 116   0.00000   0
+ptable           48 116   0.07126   0
+ctableadjust     48 116   0.00000   0
+ptableadjust     48 116   0.00000   0
+g                48 116   7.73333
+gp               48 116   3.20000
+gn               48 116   4.53333
+gnadjust         48 116   1.00000
+gpadjust         48 116   1.00000
+gadjust          48 116   1.00000
+##
+## Gamma-ray
+##
+gamgam           48 116   0.10700
+gamgamadjust     48 116   1.00000
+etable           48 116   0.00000 E1
+ftable           48 116   1.00000 E1
+wtable           48 116   0.91300 E1
+etableadjust     48 116   0.00000 E1
+ftableadjust     48 116   1.00000 E1
+wtableadjust     48 116   1.00000 E1
+upbendc          48 116 3.50000E-08 M1
+sgr              48 116   1.576 M1
+egr              48 116   8.151 M1
+ggr              48 116   4.000 M1
+sgradjust        48 116   1.000 M1
+egradjust        48 116   1.000 M1
+ggradjust        48 116   1.000 M1
+etable           48 116   0.00000 E2
+ftable           48 116   1.00000 E2
+wtable           48 116   1.00000 E2
+etableadjust     48 116   0.00000 E2
+ftableadjust     48 116   1.00000 E2
+wtableadjust     48 116   1.00000 E2
+upbendc          48 116 0.00000E+00 M2
+sgr              48 116   0.001 M2
+egr              48 116   8.151 M2
+ggr              48 116   4.000 M2
+sgradjust        48 116   1.000 M2
+egradjust        48 116   1.000 M2
+ggradjust        48 116   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 115Cd
+##
+## Level density
+##
+a                48 115  17.93363
+aadjust          48 115   1.00000
+gammald          48 115   0.08906
+pair             48 115   1.11901
+Pshift           48 115   0.00000   0
+Pshiftadjust     48 115   0.00000   0
+deltaW           48 115   3.11970   0
+Ntop             48 115  16   0
+Nlow             48 115   8   0
+s2adjust         48 115   1.00000   0
+ctable           48 115   0.20719   0
+ptable           48 115   0.34387   0
+ctableadjust     48 115   0.00000   0
+ptableadjust     48 115   0.00000   0
+D0               48 115 2.35000E-01
+g                48 115   7.66667
+gp               48 115   3.20000
+gn               48 115   4.46667
+gnadjust         48 115   1.00000
+gpadjust         48 115   1.00000
+gadjust          48 115   1.00000
+##
+## Gamma-ray
+##
+gamgam           48 115   0.05300
+gamgamadjust     48 115   1.00000
+etable           48 115   0.00000 E1
+ftable           48 115   1.00000 E1
+wtable           48 115   0.91300 E1
+etableadjust     48 115   0.00000 E1
+ftableadjust     48 115   1.00000 E1
+wtableadjust     48 115   1.00000 E1
+upbendc          48 115 3.50000E-08 M1
+sgr              48 115   1.564 M1
+egr              48 115   8.162 M1
+ggr              48 115   4.000 M1
+sgradjust        48 115   1.000 M1
+egradjust        48 115   1.000 M1
+ggradjust        48 115   1.000 M1
+etable           48 115   0.00000 E2
+ftable           48 115   1.00000 E2
+wtable           48 115   1.00000 E2
+etableadjust     48 115   0.00000 E2
+ftableadjust     48 115   1.00000 E2
+wtableadjust     48 115   1.00000 E2
+upbendc          48 115 0.00000E+00 M2
+sgr              48 115   0.001 M2
+egr              48 115   8.162 M2
+ggr              48 115   4.000 M2
+sgradjust        48 115   1.000 M2
+egradjust        48 115   1.000 M2
+ggradjust        48 115   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 115Ag
+##
+## Level density
+##
+a                47 115  18.22070
+aadjust          47 115   1.00000
+gammald          47 115   0.08906
+pair             47 115   1.11901
+Pshift           47 115   0.00000   0
+Pshiftadjust     47 115   0.00000   0
+deltaW           47 115   3.67668   0
+Ntop             47 115  10   0
+Nlow             47 115   2   0
+s2adjust         47 115   1.00000   0
+ctable           47 115   0.00000   0
+ptable           47 115   0.00000   0
+ctableadjust     47 115   0.00000   0
+ptableadjust     47 115   0.00000   0
+g                47 115   7.66667
+gp               47 115   3.13333
+gn               47 115   4.53333
+gnadjust         47 115   1.00000
+gpadjust         47 115   1.00000
+gadjust          47 115   1.00000
+##
+## Gamma-ray
+##
+gamgam           47 115   0.10750
+gamgamadjust     47 115   1.00000
+etable           47 115   0.00000 E1
+ftable           47 115   1.00000 E1
+wtable           47 115   0.91300 E1
+etableadjust     47 115   0.00000 E1
+ftableadjust     47 115   1.00000 E1
+wtableadjust     47 115   1.00000 E1
+upbendc          47 115 3.50000E-08 M1
+sgr              47 115   1.564 M1
+egr              47 115   8.162 M1
+ggr              47 115   4.000 M1
+sgradjust        47 115   1.000 M1
+egradjust        47 115   1.000 M1
+ggradjust        47 115   1.000 M1
+etable           47 115   0.00000 E2
+ftable           47 115   1.00000 E2
+wtable           47 115   1.00000 E2
+etableadjust     47 115   0.00000 E2
+ftableadjust     47 115   1.00000 E2
+wtableadjust     47 115   1.00000 E2
+upbendc          47 115 0.00000E+00 M2
+sgr              47 115   0.001 M2
+egr              47 115   8.162 M2
+ggr              47 115   4.000 M2
+sgradjust        47 115   1.000 M2
+egradjust        47 115   1.000 M2
+ggradjust        47 115   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 114Ag
+##
+## Level density
+##
+a                47 114  18.45580
+aadjust          47 114   1.00000
+gammald          47 114   0.08932
+pair             47 114   0.00000
+Pshift           47 114   0.00000   0
+Pshiftadjust     47 114   0.00000   0
+deltaW           47 114   3.88681   0
+Ntop             47 114  10   0
+Nlow             47 114   2   0
+s2adjust         47 114   1.00000   0
+ctable           47 114   0.00000   0
+ptable           47 114   0.00000   0
+ctableadjust     47 114   0.00000   0
+ptableadjust     47 114   0.00000   0
+g                47 114   7.60000
+gp               47 114   3.13333
+gn               47 114   4.46667
+gnadjust         47 114   1.00000
+gpadjust         47 114   1.00000
+gadjust          47 114   1.00000
+##
+## Gamma-ray
+##
+gamgam           47 114   0.10800
+gamgamadjust     47 114   1.00000
+etable           47 114   0.00000 E1
+ftable           47 114   1.00000 E1
+wtable           47 114   0.91300 E1
+etableadjust     47 114   0.00000 E1
+ftableadjust     47 114   1.00000 E1
+wtableadjust     47 114   1.00000 E1
+upbendc          47 114 3.50000E-08 M1
+sgr              47 114   1.553 M1
+egr              47 114   8.174 M1
+ggr              47 114   4.000 M1
+sgradjust        47 114   1.000 M1
+egradjust        47 114   1.000 M1
+ggradjust        47 114   1.000 M1
+etable           47 114   0.00000 E2
+ftable           47 114   1.00000 E2
+wtable           47 114   1.00000 E2
+etableadjust     47 114   0.00000 E2
+ftableadjust     47 114   1.00000 E2
+wtableadjust     47 114   1.00000 E2
+upbendc          47 114 0.00000E+00 M2
+sgr              47 114   0.001 M2
+egr              47 114   8.174 M2
+ggr              47 114   4.000 M2
+sgradjust        47 114   1.000 M2
+egradjust        47 114   1.000 M2
+ggradjust        47 114   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 113Ag
+##
+## Level density
+##
+a                47 113  17.97704
+aadjust          47 113   1.00000
+gammald          47 113   0.08958
+pair             47 113   1.12887
+Pshift           47 113   0.00000   0
+Pshiftadjust     47 113   0.00000   0
+deltaW           47 113   3.74429   0
+Ntop             47 113  15   0
+Nlow             47 113   8   0
+s2adjust         47 113   1.00000   0
+ctable           47 113   0.00000   0
+ptable           47 113  -0.72908   0
+ctableadjust     47 113   0.00000   0
+ptableadjust     47 113   0.00000   0
+g                47 113   7.53333
+gp               47 113   3.13333
+gn               47 113   4.40000
+gnadjust         47 113   1.00000
+gpadjust         47 113   1.00000
+gadjust          47 113   1.00000
+##
+## Gamma-ray
+##
+gamgam           47 113   0.10850
+gamgamadjust     47 113   1.00000
+etable           47 113   0.00000 E1
+ftable           47 113   1.00000 E1
+wtable           47 113   0.91300 E1
+etableadjust     47 113   0.00000 E1
+ftableadjust     47 113   1.00000 E1
+wtableadjust     47 113   1.00000 E1
+upbendc          47 113 3.50000E-08 M1
+sgr              47 113   1.542 M1
+egr              47 113   8.186 M1
+ggr              47 113   4.000 M1
+sgradjust        47 113   1.000 M1
+egradjust        47 113   1.000 M1
+ggradjust        47 113   1.000 M1
+etable           47 113   0.00000 E2
+ftable           47 113   1.00000 E2
+wtable           47 113   1.00000 E2
+etableadjust     47 113   0.00000 E2
+ftableadjust     47 113   1.00000 E2
+wtableadjust     47 113   1.00000 E2
+upbendc          47 113 0.00000E+00 M2
+sgr              47 113   0.001 M2
+egr              47 113   8.186 M2
+ggr              47 113   4.000 M2
+sgradjust        47 113   1.000 M2
+egradjust        47 113   1.000 M2
+ggradjust        47 113   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 113Pd
+##
+## Level density
+##
+a                46 113  18.95053
+aadjust          46 113   1.00000
+gammald          46 113   0.08958
+pair             46 113   1.12887
+Pshift           46 113   0.00000   0
+Pshiftadjust     46 113   0.00000   0
+deltaW           46 113   4.19193   0
+Ntop             46 113  10   0
+Nlow             46 113   2   0
+s2adjust         46 113   1.00000   0
+ctable           46 113   0.00000   0
+ptable           46 113   0.00000   0
+ctableadjust     46 113   0.00000   0
+ptableadjust     46 113   0.00000   0
+g                46 113   7.53333
+gp               46 113   3.06667
+gn               46 113   4.46667
+gnadjust         46 113   1.00000
+gpadjust         46 113   1.00000
+gadjust          46 113   1.00000
+##
+## Gamma-ray
+##
+gamgam           46 113   0.10850
+gamgamadjust     46 113   1.00000
+etable           46 113   0.00000 E1
+ftable           46 113   1.00000 E1
+wtable           46 113   0.91300 E1
+etableadjust     46 113   0.00000 E1
+ftableadjust     46 113   1.00000 E1
+wtableadjust     46 113   1.00000 E1
+upbendc          46 113 3.50000E-08 M1
+sgr              46 113   1.542 M1
+egr              46 113   8.186 M1
+ggr              46 113   4.000 M1
+sgradjust        46 113   1.000 M1
+egradjust        46 113   1.000 M1
+ggradjust        46 113   1.000 M1
+etable           46 113   0.00000 E2
+ftable           46 113   1.00000 E2
+wtable           46 113   1.00000 E2
+etableadjust     46 113   0.00000 E2
+ftableadjust     46 113   1.00000 E2
+wtableadjust     46 113   1.00000 E2
+upbendc          46 113 0.00000E+00 M2
+sgr              46 113   0.001 M2
+egr              46 113   8.186 M2
+ggr              46 113   4.000 M2
+sgradjust        46 113   1.000 M2
+egradjust        46 113   1.000 M2
+ggradjust        46 113   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 112Pd
+##
+## Level density
+##
+a                46 112  18.10792
+aadjust          46 112   1.00000
+gammald          46 112   0.08985
+pair             46 112   2.26779
+Pshift           46 112   0.00000   0
+Pshiftadjust     46 112   0.00000   0
+deltaW           46 112   3.82151   0
+Ntop             46 112  10   0
+Nlow             46 112   2   0
+s2adjust         46 112   1.00000   0
+ctable           46 112   0.00000   0
+ptable           46 112   0.00000   0
+ctableadjust     46 112   0.00000   0
+ptableadjust     46 112   0.00000   0
+g                46 112   7.46667
+gp               46 112   3.06667
+gn               46 112   4.40000
+gnadjust         46 112   1.00000
+gpadjust         46 112   1.00000
+gadjust          46 112   1.00000
+##
+## Gamma-ray
+##
+gamgam           46 112   0.10900
+gamgamadjust     46 112   1.00000
+etable           46 112   0.00000 E1
+ftable           46 112   1.00000 E1
+wtable           46 112   0.91300 E1
+etableadjust     46 112   0.00000 E1
+ftableadjust     46 112   1.00000 E1
+wtableadjust     46 112   1.00000 E1
+upbendc          46 112 3.50000E-08 M1
+sgr              46 112   1.530 M1
+egr              46 112   8.199 M1
+ggr              46 112   4.000 M1
+sgradjust        46 112   1.000 M1
+egradjust        46 112   1.000 M1
+ggradjust        46 112   1.000 M1
+etable           46 112   0.00000 E2
+ftable           46 112   1.00000 E2
+wtable           46 112   1.00000 E2
+etableadjust     46 112   0.00000 E2
+ftableadjust     46 112   1.00000 E2
+wtableadjust     46 112   1.00000 E2
+upbendc          46 112 0.00000E+00 M2
+sgr              46 112   0.001 M2
+egr              46 112   8.199 M2
+ggr              46 112   4.000 M2
+sgradjust        46 112   1.000 M2
+egradjust        46 112   1.000 M2
+ggradjust        46 112   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 118Sn
+##
+## Level density
+##
+a                50 118  16.13714
+aadjust          50 118   1.00000
+gammald          50 118   0.08830
+pair             50 118   2.20938
+Pshift           50 118   0.00000   0
+Pshiftadjust     50 118   0.00000   0
+deltaW           50 118   1.18382   0
+Ntop             50 118  15   0
+Nlow             50 118   2   0
+s2adjust         50 118   1.00000   0
+ctable           50 118  -0.02582   0
+ptable           50 118  -0.06549   0
+ctableadjust     50 118   0.00000   0
+ptableadjust     50 118   0.00000   0
+D0               50 118 5.50000E-02
+g                50 118   7.86667
+gp               50 118   3.33333
+gn               50 118   4.53333
+gnadjust         50 118   1.00000
+gpadjust         50 118   1.00000
+gadjust          50 118   1.00000
+##
+## Gamma-ray
+##
+gamgam           50 118   0.08000
+gamgamadjust     50 118   1.00000
+etable           50 118   0.00000 E1
+ftable           50 118   1.00000 E1
+wtable           50 118   0.91300 E1
+etableadjust     50 118   0.00000 E1
+ftableadjust     50 118   1.00000 E1
+wtableadjust     50 118   1.00000 E1
+upbendc          50 118 3.50000E-08 M1
+sgr              50 118   1.598 M1
+egr              50 118   8.128 M1
+ggr              50 118   4.000 M1
+sgradjust        50 118   1.000 M1
+egradjust        50 118   1.000 M1
+ggradjust        50 118   1.000 M1
+etable           50 118   0.00000 E2
+ftable           50 118   1.00000 E2
+wtable           50 118   1.00000 E2
+etableadjust     50 118   0.00000 E2
+ftableadjust     50 118   1.00000 E2
+wtableadjust     50 118   1.00000 E2
+upbendc          50 118 0.00000E+00 M2
+sgr              50 118   0.001 M2
+egr              50 118   8.128 M2
+ggr              50 118   4.000 M2
+sgradjust        50 118   1.000 M2
+egradjust        50 118   1.000 M2
+ggradjust        50 118   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 116In
+##
+## Level density
+##
+a                49 116  17.31316
+aadjust          49 116   1.00000
+gammald          49 116   0.08880
+pair             49 116   0.00000
+Pshift           49 116   0.00000   0
+Pshiftadjust     49 116   0.00000   0
+deltaW           49 116   2.59401   0
+Ntop             49 116  15   0
+Nlow             49 116   8   0
+s2adjust         49 116   1.00000   0
+ctable           49 116   0.00366   0
+ptable           49 116   0.01160   0
+ctableadjust     49 116   0.00000   0
+ptableadjust     49 116   0.00000   0
+D0               49 116 9.50000E-03
+g                49 116   7.73333
+gp               49 116   3.26667
+gn               49 116   4.46667
+gnadjust         49 116   1.00000
+gpadjust         49 116   1.00000
+gadjust          49 116   1.00000
+##
+## Gamma-ray
+##
+gamgam           49 116   0.07700
+gamgamadjust     49 116   1.00000
+etable           49 116   0.00000 E1
+ftable           49 116   1.00000 E1
+wtable           49 116   0.91300 E1
+etableadjust     49 116   0.00000 E1
+ftableadjust     49 116   1.00000 E1
+wtableadjust     49 116   1.00000 E1
+upbendc          49 116 3.50000E-08 M1
+sgr              49 116   1.576 M1
+egr              49 116   8.151 M1
+ggr              49 116   4.000 M1
+sgradjust        49 116   1.000 M1
+egradjust        49 116   1.000 M1
+ggradjust        49 116   1.000 M1
+etable           49 116   0.00000 E2
+ftable           49 116   1.00000 E2
+wtable           49 116   1.00000 E2
+etableadjust     49 116   0.00000 E2
+ftableadjust     49 116   1.00000 E2
+wtableadjust     49 116   1.00000 E2
+upbendc          49 116 0.00000E+00 M2
+sgr              49 116   0.001 M2
+egr              49 116   8.151 M2
+ggr              49 116   4.000 M2
+sgradjust        49 116   1.000 M2
+egradjust        49 116   1.000 M2
+ggradjust        49 116   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 118Cd
+##
+## Level density
+##
+a                48 118  17.36662
+aadjust          48 118   1.00000
+gammald          48 118   0.08830
+pair             48 118   2.20938
+Pshift           48 118   0.00000   0
+Pshiftadjust     48 118   0.00000   0
+deltaW           48 118   2.34364   0
+Ntop             48 118  16   0
+Nlow             48 118   5   0
+s2adjust         48 118   1.00000   0
+ctable           48 118   0.00000   0
+ptable           48 118   0.15064   0
+ctableadjust     48 118   0.00000   0
+ptableadjust     48 118   0.00000   0
+g                48 118   7.86667
+gp               48 118   3.20000
+gn               48 118   4.66667
+gnadjust         48 118   1.00000
+gpadjust         48 118   1.00000
+gadjust          48 118   1.00000
+##
+## Gamma-ray
+##
+gamgam           48 118   0.10600
+gamgamadjust     48 118   1.00000
+etable           48 118   0.00000 E1
+ftable           48 118   1.00000 E1
+wtable           48 118   0.91300 E1
+etableadjust     48 118   0.00000 E1
+ftableadjust     48 118   1.00000 E1
+wtableadjust     48 118   1.00000 E1
+upbendc          48 118 3.50000E-08 M1
+sgr              48 118   1.598 M1
+egr              48 118   8.128 M1
+ggr              48 118   4.000 M1
+sgradjust        48 118   1.000 M1
+egradjust        48 118   1.000 M1
+ggradjust        48 118   1.000 M1
+etable           48 118   0.00000 E2
+ftable           48 118   1.00000 E2
+wtable           48 118   1.00000 E2
+etableadjust     48 118   0.00000 E2
+ftableadjust     48 118   1.00000 E2
+wtableadjust     48 118   1.00000 E2
+upbendc          48 118 0.00000E+00 M2
+sgr              48 118   0.001 M2
+egr              48 118   8.128 M2
+ggr              48 118   4.000 M2
+sgradjust        48 118   1.000 M2
+egradjust        48 118   1.000 M2
+ggradjust        48 118   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 116Ag
+##
+## Level density
+##
+a                47 116  18.52252
+aadjust          47 116   1.00000
+gammald          47 116   0.08880
+pair             47 116   0.00000
+Pshift           47 116   0.00000   0
+Pshiftadjust     47 116   0.00000   0
+deltaW           47 116   3.64865   0
+Ntop             47 116  10   0
+Nlow             47 116   2   0
+s2adjust         47 116   1.00000   0
+ctable           47 116   0.00000   0
+ptable           47 116   0.00000   0
+ctableadjust     47 116   0.00000   0
+ptableadjust     47 116   0.00000   0
+g                47 116   7.73333
+gp               47 116   3.13333
+gn               47 116   4.60000
+gnadjust         47 116   1.00000
+gpadjust         47 116   1.00000
+gadjust          47 116   1.00000
+##
+## Gamma-ray
+##
+gamgam           47 116   0.10700
+gamgamadjust     47 116   1.00000
+etable           47 116   0.00000 E1
+ftable           47 116   1.00000 E1
+wtable           47 116   0.91300 E1
+etableadjust     47 116   0.00000 E1
+ftableadjust     47 116   1.00000 E1
+wtableadjust     47 116   1.00000 E1
+upbendc          47 116 3.50000E-08 M1
+sgr              47 116   1.576 M1
+egr              47 116   8.151 M1
+ggr              47 116   4.000 M1
+sgradjust        47 116   1.000 M1
+egradjust        47 116   1.000 M1
+ggradjust        47 116   1.000 M1
+etable           47 116   0.00000 E2
+ftable           47 116   1.00000 E2
+wtable           47 116   1.00000 E2
+etableadjust     47 116   0.00000 E2
+ftableadjust     47 116   1.00000 E2
+wtableadjust     47 116   1.00000 E2
+upbendc          47 116 0.00000E+00 M2
+sgr              47 116   0.001 M2
+egr              47 116   8.151 M2
+ggr              47 116   4.000 M2
+sgradjust        47 116   1.000 M2
+egradjust        47 116   1.000 M2
+ggradjust        47 116   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 117Sn
+##
+## Level density
+##
+a                50 117  16.35188
+aadjust          50 117   1.00000
+gammald          50 117   0.08855
+pair             50 117   1.10940
+Pshift           50 117   0.00000   0
+Pshiftadjust     50 117   0.00000   0
+deltaW           50 117   1.44398   0
+Ntop             50 117  15   0
+Nlow             50 117   7   0
+s2adjust         50 117   1.00000   0
+ctable           50 117   0.15129   0
+ptable           50 117   0.10709   0
+ctableadjust     50 117   0.00000   0
+ptableadjust     50 117   0.00000   0
+D0               50 117 3.80000E-01
+g                50 117   7.80000
+gp               50 117   3.33333
+gn               50 117   4.46667
+gnadjust         50 117   1.00000
+gpadjust         50 117   1.00000
+gadjust          50 117   1.00000
+##
+## Gamma-ray
+##
+gamgam           50 117   0.05200
+gamgamadjust     50 117   1.00000
+etable           50 117   0.00000 E1
+ftable           50 117   1.00000 E1
+wtable           50 117   0.91300 E1
+etableadjust     50 117   0.00000 E1
+ftableadjust     50 117   1.00000 E1
+wtableadjust     50 117   1.00000 E1
+upbendc          50 117 3.50000E-08 M1
+sgr              50 117   1.587 M1
+egr              50 117   8.139 M1
+ggr              50 117   4.000 M1
+sgradjust        50 117   1.000 M1
+egradjust        50 117   1.000 M1
+ggradjust        50 117   1.000 M1
+etable           50 117   0.00000 E2
+ftable           50 117   1.00000 E2
+wtable           50 117   1.00000 E2
+etableadjust     50 117   0.00000 E2
+ftableadjust     50 117   1.00000 E2
+wtableadjust     50 117   1.00000 E2
+upbendc          50 117 0.00000E+00 M2
+sgr              50 117   0.001 M2
+egr              50 117   8.139 M2
+ggr              50 117   4.000 M2
+sgradjust        50 117   1.000 M2
+egradjust        50 117   1.000 M2
+ggradjust        50 117   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 115In
+##
+## Level density
+##
+a                49 115  16.95698
+aadjust          49 115   1.00000
+gammald          49 115   0.08906
+pair             49 115   1.11901
+Pshift           49 115   0.00000   0
+Pshiftadjust     49 115   0.00000   0
+deltaW           49 115   2.46262   0
+Ntop             49 115  16   0
+Nlow             49 115   8   0
+s2adjust         49 115   1.00000   0
+ctable           49 115   0.00000   0
+ptable           49 115   0.15129   0
+ctableadjust     49 115   0.00000   0
+ptableadjust     49 115   0.00000   0
+g                49 115   7.66667
+gp               49 115   3.26667
+gn               49 115   4.40000
+gnadjust         49 115   1.00000
+gpadjust         49 115   1.00000
+gadjust          49 115   1.00000
+##
+## Gamma-ray
+##
+gamgam           49 115   0.10750
+gamgamadjust     49 115   1.00000
+etable           49 115   0.00000 E1
+ftable           49 115   1.00000 E1
+wtable           49 115   0.91300 E1
+etableadjust     49 115   0.00000 E1
+ftableadjust     49 115   1.00000 E1
+wtableadjust     49 115   1.00000 E1
+upbendc          49 115 3.50000E-08 M1
+sgr              49 115   1.564 M1
+egr              49 115   8.162 M1
+ggr              49 115   4.000 M1
+sgradjust        49 115   1.000 M1
+egradjust        49 115   1.000 M1
+ggradjust        49 115   1.000 M1
+etable           49 115   0.00000 E2
+ftable           49 115   1.00000 E2
+wtable           49 115   1.00000 E2
+etableadjust     49 115   0.00000 E2
+ftableadjust     49 115   1.00000 E2
+wtableadjust     49 115   1.00000 E2
+upbendc          49 115 0.00000E+00 M2
+sgr              49 115   0.001 M2
+egr              49 115   8.162 M2
+ggr              49 115   4.000 M2
+sgradjust        49 115   1.000 M2
+egradjust        49 115   1.000 M2
+ggradjust        49 115   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 114Cd
+##
+## Level density
+##
+a                48 114  17.21868
+aadjust          48 114   1.00000
+gammald          48 114   0.08932
+pair             48 114   2.24781
+Pshift           48 114   0.00000   0
+Pshiftadjust     48 114   0.00000   0
+deltaW           48 114   2.74739   0
+Ntop             48 114  23   0
+Nlow             48 114   6   0
+s2adjust         48 114   1.00000   0
+ctable           48 114   0.08320   0
+ptable           48 114   0.26672   0
+ctableadjust     48 114   0.00000   0
+ptableadjust     48 114   0.00000   0
+D0               48 114 2.48000E-02
+g                48 114   7.60000
+gp               48 114   3.20000
+gn               48 114   4.40000
+gnadjust         48 114   1.00000
+gpadjust         48 114   1.00000
+gadjust          48 114   1.00000
+##
+## Gamma-ray
+##
+gamgam           48 114   0.16000
+gamgamadjust     48 114   1.00000
+etable           48 114   0.00000 E1
+ftable           48 114   1.00000 E1
+wtable           48 114   0.91300 E1
+etableadjust     48 114   0.00000 E1
+ftableadjust     48 114   1.00000 E1
+wtableadjust     48 114   1.00000 E1
+upbendc          48 114 3.50000E-08 M1
+sgr              48 114   1.553 M1
+egr              48 114   8.174 M1
+ggr              48 114   4.000 M1
+sgradjust        48 114   1.000 M1
+egradjust        48 114   1.000 M1
+ggradjust        48 114   1.000 M1
+etable           48 114   0.00000 E2
+ftable           48 114   1.00000 E2
+wtable           48 114   1.00000 E2
+etableadjust     48 114   0.00000 E2
+ftableadjust     48 114   1.00000 E2
+wtableadjust     48 114   1.00000 E2
+upbendc          48 114 0.00000E+00 M2
+sgr              48 114   0.001 M2
+egr              48 114   8.174 M2
+ggr              48 114   4.000 M2
+sgradjust        48 114   1.000 M2
+egradjust        48 114   1.000 M2
+ggradjust        48 114   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 112Ag
+##
+## Level density
+##
+a                47 112  18.04082
+aadjust          47 112   1.00000
+gammald          47 112   0.08985
+pair             47 112   0.00000
+Pshift           47 112   0.00000   0
+Pshiftadjust     47 112   0.00000   0
+deltaW           47 112   3.79997   0
+Ntop             47 112  30   0
+Nlow             47 112   2   0
+s2adjust         47 112   1.00000   0
+ctable           47 112   0.00000   0
+ptable           47 112  -0.30562   0
+ctableadjust     47 112   0.00000   0
+ptableadjust     47 112   0.00000   0
+g                47 112   7.46667
+gp               47 112   3.13333
+gn               47 112   4.33333
+gnadjust         47 112   1.00000
+gpadjust         47 112   1.00000
+gadjust          47 112   1.00000
+##
+## Gamma-ray
+##
+gamgam           47 112   0.10900
+gamgamadjust     47 112   1.00000
+etable           47 112   0.00000 E1
+ftable           47 112   1.00000 E1
+wtable           47 112   0.91300 E1
+etableadjust     47 112   0.00000 E1
+ftableadjust     47 112   1.00000 E1
+wtableadjust     47 112   1.00000 E1
+upbendc          47 112 3.50000E-08 M1
+sgr              47 112   1.530 M1
+egr              47 112   8.199 M1
+ggr              47 112   4.000 M1
+sgradjust        47 112   1.000 M1
+egradjust        47 112   1.000 M1
+ggradjust        47 112   1.000 M1
+etable           47 112   0.00000 E2
+ftable           47 112   1.00000 E2
+wtable           47 112   1.00000 E2
+etableadjust     47 112   0.00000 E2
+ftableadjust     47 112   1.00000 E2
+wtableadjust     47 112   1.00000 E2
+upbendc          47 112 0.00000E+00 M2
+sgr              47 112   0.001 M2
+egr              47 112   8.199 M2
+ggr              47 112   4.000 M2
+sgradjust        47 112   1.000 M2
+egradjust        47 112   1.000 M2
+ggradjust        47 112   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 111Pd
+##
+## Level density
+##
+a                46 111  18.59422
+aadjust          46 111   1.00000
+gammald          46 111   0.09012
+pair             46 111   1.13899
+Pshift           46 111   0.00000   0
+Pshiftadjust     46 111   0.00000   0
+deltaW           46 111   4.16948   0
+Ntop             46 111  15   0
+Nlow             46 111   7   0
+s2adjust         46 111   1.00000   0
+ctable           46 111   0.06432   0
+ptable           46 111   0.14286   0
+ctableadjust     46 111   0.00000   0
+ptableadjust     46 111   0.00000   0
+D0               46 111 1.50000E-01
+g                46 111   7.40000
+gp               46 111   3.06667
+gn               46 111   4.33333
+gnadjust         46 111   1.00000
+gpadjust         46 111   1.00000
+gadjust          46 111   1.00000
+##
+## Gamma-ray
+##
+gamgam           46 111   0.06000
+gamgamadjust     46 111   1.00000
+etable           46 111   0.00000 E1
+ftable           46 111   1.00000 E1
+wtable           46 111   0.91300 E1
+etableadjust     46 111   0.00000 E1
+ftableadjust     46 111   1.00000 E1
+wtableadjust     46 111   1.00000 E1
+upbendc          46 111 3.50000E-08 M1
+sgr              46 111   1.519 M1
+egr              46 111   8.211 M1
+ggr              46 111   4.000 M1
+sgradjust        46 111   1.000 M1
+egradjust        46 111   1.000 M1
+ggradjust        46 111   1.000 M1
+etable           46 111   0.00000 E2
+ftable           46 111   1.00000 E2
+wtable           46 111   1.00000 E2
+etableadjust     46 111   0.00000 E2
+ftableadjust     46 111   1.00000 E2
+wtableadjust     46 111   1.00000 E2
+upbendc          46 111 0.00000E+00 M2
+sgr              46 111   0.001 M2
+egr              46 111   8.211 M2
+ggr              46 111   4.000 M2
+sgradjust        46 111   1.000 M2
+egradjust        46 111   1.000 M2
+ggradjust        46 111   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 111Rh
+##
+## Level density
+##
+a                45 111  18.51118
+aadjust          45 111   1.00000
+gammald          45 111   0.09012
+pair             45 111   1.13899
+Pshift           45 111   0.00000   0
+Pshiftadjust     45 111   0.00000   0
+deltaW           45 111   4.41012   0
+Ntop             45 111  15   0
+Nlow             45 111   2   0
+s2adjust         45 111   1.00000   0
+ctable           45 111   0.00000   0
+ptable           45 111  -0.81126   0
+ctableadjust     45 111   0.00000   0
+ptableadjust     45 111   0.00000   0
+g                45 111   7.40000
+gp               45 111   3.00000
+gn               45 111   4.40000
+gnadjust         45 111   1.00000
+gpadjust         45 111   1.00000
+gadjust          45 111   1.00000
+##
+## Gamma-ray
+##
+gamgam           45 111   0.11000
+gamgamadjust     45 111   1.00000
+etable           45 111   0.00000 E1
+ftable           45 111   1.00000 E1
+wtable           45 111   0.91300 E1
+etableadjust     45 111   0.00000 E1
+ftableadjust     45 111   1.00000 E1
+wtableadjust     45 111   1.00000 E1
+upbendc          45 111 3.50000E-08 M1
+sgr              45 111   1.519 M1
+egr              45 111   8.211 M1
+ggr              45 111   4.000 M1
+sgradjust        45 111   1.000 M1
+egradjust        45 111   1.000 M1
+ggradjust        45 111   1.000 M1
+etable           45 111   0.00000 E2
+ftable           45 111   1.00000 E2
+wtable           45 111   1.00000 E2
+etableadjust     45 111   0.00000 E2
+ftableadjust     45 111   1.00000 E2
+wtableadjust     45 111   1.00000 E2
+upbendc          45 111 0.00000E+00 M2
+sgr              45 111   0.001 M2
+egr              45 111   8.211 M2
+ggr              45 111   4.000 M2
+sgradjust        45 111   1.000 M2
+egradjust        45 111   1.000 M2
+ggradjust        45 111   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 110Rh
+##
+## Level density
+##
+a                45 110  18.35316
+aadjust          45 110   1.00000
+gammald          45 110   0.09039
+pair             45 110   0.00000
+Pshift           45 110   0.00000   0
+Pshiftadjust     45 110   0.00000   0
+deltaW           45 110   4.29287   0
+Ntop             45 110  30   0
+Nlow             45 110   2   0
+s2adjust         45 110   1.00000   0
+ctable           45 110   0.00000   0
+ptable           45 110  -0.08953   0
+ctableadjust     45 110   0.00000   0
+ptableadjust     45 110   0.00000   0
+g                45 110   7.33333
+gp               45 110   3.00000
+gn               45 110   4.33333
+gnadjust         45 110   1.00000
+gpadjust         45 110   1.00000
+gadjust          45 110   1.00000
+##
+## Gamma-ray
+##
+gamgam           45 110   0.11200
+gamgamadjust     45 110   1.00000
+etable           45 110   0.00000 E1
+ftable           45 110   1.00000 E1
+wtable           45 110   0.91300 E1
+etableadjust     45 110   0.00000 E1
+ftableadjust     45 110   1.00000 E1
+wtableadjust     45 110   1.00000 E1
+upbendc          45 110 3.50000E-08 M1
+sgr              45 110   1.508 M1
+egr              45 110   8.223 M1
+ggr              45 110   4.000 M1
+sgradjust        45 110   1.000 M1
+egradjust        45 110   1.000 M1
+ggradjust        45 110   1.000 M1
+etable           45 110   0.00000 E2
+ftable           45 110   1.00000 E2
+wtable           45 110   1.00000 E2
+etableadjust     45 110   0.00000 E2
+ftableadjust     45 110   1.00000 E2
+wtableadjust     45 110   1.00000 E2
+upbendc          45 110 0.00000E+00 M2
+sgr              45 110   0.001 M2
+egr              45 110   8.223 M2
+ggr              45 110   4.000 M2
+sgradjust        45 110   1.000 M2
+egradjust        45 110   1.000 M2
+ggradjust        45 110   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 109Rh
+##
+## Level density
+##
+a                45 109  18.11491
+aadjust          45 109   1.00000
+gammald          45 109   0.09066
+pair             45 109   1.14939
+Pshift           45 109   0.00000   0
+Pshiftadjust     45 109   0.00000   0
+deltaW           45 109   4.35752   0
+Ntop             45 109  24   0
+Nlow             45 109   8   0
+s2adjust         45 109   1.00000   0
+ctable           45 109   0.00000   0
+ptable           45 109   0.25967   0
+ctableadjust     45 109   0.00000   0
+ptableadjust     45 109   0.00000   0
+g                45 109   7.26667
+gp               45 109   3.00000
+gn               45 109   4.26667
+gnadjust         45 109   1.00000
+gpadjust         45 109   1.00000
+gadjust          45 109   1.00000
+##
+## Gamma-ray
+##
+gamgam           45 109   0.11400
+gamgamadjust     45 109   1.00000
+etable           45 109   0.00000 E1
+ftable           45 109   1.00000 E1
+wtable           45 109   0.91300 E1
+etableadjust     45 109   0.00000 E1
+ftableadjust     45 109   1.00000 E1
+wtableadjust     45 109   1.00000 E1
+upbendc          45 109 3.50000E-08 M1
+sgr              45 109   1.496 M1
+egr              45 109   8.236 M1
+ggr              45 109   4.000 M1
+sgradjust        45 109   1.000 M1
+egradjust        45 109   1.000 M1
+ggradjust        45 109   1.000 M1
+etable           45 109   0.00000 E2
+ftable           45 109   1.00000 E2
+wtable           45 109   1.00000 E2
+etableadjust     45 109   0.00000 E2
+ftableadjust     45 109   1.00000 E2
+wtableadjust     45 109   1.00000 E2
+upbendc          45 109 0.00000E+00 M2
+sgr              45 109   0.001 M2
+egr              45 109   8.236 M2
+ggr              45 109   4.000 M2
+sgradjust        45 109   1.000 M2
+egradjust        45 109   1.000 M2
+ggradjust        45 109   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 109Ru
+##
+## Level density
+##
+a                44 109  19.02058
+aadjust          44 109   1.00000
+gammald          44 109   0.09066
+pair             44 109   1.14939
+Pshift           44 109   0.00000   0
+Pshiftadjust     44 109   0.00000   0
+deltaW           44 109   4.71412   0
+Ntop             44 109  18   0
+Nlow             44 109   8   0
+s2adjust         44 109   1.00000   0
+ctable           44 109   0.00000   0
+ptable           44 109   0.33629   0
+ctableadjust     44 109   0.00000   0
+ptableadjust     44 109   0.00000   0
+g                44 109   7.26667
+gp               44 109   2.93333
+gn               44 109   4.33333
+gnadjust         44 109   1.00000
+gpadjust         44 109   1.00000
+gadjust          44 109   1.00000
+##
+## Gamma-ray
+##
+gamgam           44 109   0.11400
+gamgamadjust     44 109   1.00000
+etable           44 109   0.00000 E1
+ftable           44 109   1.00000 E1
+wtable           44 109   0.91300 E1
+etableadjust     44 109   0.00000 E1
+ftableadjust     44 109   1.00000 E1
+wtableadjust     44 109   1.00000 E1
+upbendc          44 109 3.50000E-08 M1
+sgr              44 109   1.496 M1
+egr              44 109   8.236 M1
+ggr              44 109   4.000 M1
+sgradjust        44 109   1.000 M1
+egradjust        44 109   1.000 M1
+ggradjust        44 109   1.000 M1
+etable           44 109   0.00000 E2
+ftable           44 109   1.00000 E2
+wtable           44 109   1.00000 E2
+etableadjust     44 109   0.00000 E2
+ftableadjust     44 109   1.00000 E2
+wtableadjust     44 109   1.00000 E2
+upbendc          44 109 0.00000E+00 M2
+sgr              44 109   0.001 M2
+egr              44 109   8.236 M2
+ggr              44 109   4.000 M2
+sgradjust        44 109   1.000 M2
+egradjust        44 109   1.000 M2
+ggradjust        44 109   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 108Ru
+##
+## Level density
+##
+a                44 108  18.29998
+aadjust          44 108   1.00000
+gammald          44 108   0.09094
+pair             44 108   2.30940
+Pshift           44 108   0.00000   0
+Pshiftadjust     44 108   0.00000   0
+deltaW           44 108   4.44471   0
+Ntop             44 108  15   0
+Nlow             44 108   8   0
+s2adjust         44 108   1.00000   0
+ctable           44 108   0.00000   0
+ptable           44 108   0.56466   0
+ctableadjust     44 108   0.00000   0
+ptableadjust     44 108   0.00000   0
+g                44 108   7.20000
+gp               44 108   2.93333
+gn               44 108   4.26667
+gnadjust         44 108   1.00000
+gpadjust         44 108   1.00000
+gadjust          44 108   1.00000
+##
+## Gamma-ray
+##
+gamgam           44 108   0.11600
+gamgamadjust     44 108   1.00000
+etable           44 108   0.00000 E1
+ftable           44 108   1.00000 E1
+wtable           44 108   0.91300 E1
+etableadjust     44 108   0.00000 E1
+ftableadjust     44 108   1.00000 E1
+wtableadjust     44 108   1.00000 E1
+upbendc          44 108 3.50000E-08 M1
+sgr              44 108   1.485 M1
+egr              44 108   8.248 M1
+ggr              44 108   4.000 M1
+sgradjust        44 108   1.000 M1
+egradjust        44 108   1.000 M1
+ggradjust        44 108   1.000 M1
+etable           44 108   0.00000 E2
+ftable           44 108   1.00000 E2
+wtable           44 108   1.00000 E2
+etableadjust     44 108   0.00000 E2
+ftableadjust     44 108   1.00000 E2
+wtableadjust     44 108   1.00000 E2
+upbendc          44 108 0.00000E+00 M2
+sgr              44 108   0.001 M2
+egr              44 108   8.248 M2
+ggr              44 108   4.000 M2
+sgradjust        44 108   1.000 M2
+egradjust        44 108   1.000 M2
+ggradjust        44 108   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 117Ag
+##
+## Level density
+##
+a                47 117  18.18702
+aadjust          47 117   1.00000
+gammald          47 117   0.08855
+pair             47 117   1.10940
+Pshift           47 117   0.00000   0
+Pshiftadjust     47 117   0.00000   0
+deltaW           47 117   3.33012   0
+Ntop             47 117  10   0
+Nlow             47 117   2   0
+s2adjust         47 117   1.00000   0
+ctable           47 117   0.00000   0
+ptable           47 117   0.00000   0
+ctableadjust     47 117   0.00000   0
+ptableadjust     47 117   0.00000   0
+g                47 117   7.80000
+gp               47 117   3.13333
+gn               47 117   4.66667
+gnadjust         47 117   1.00000
+gpadjust         47 117   1.00000
+gadjust          47 117   1.00000
+##
+## Gamma-ray
+##
+gamgam           47 117   0.10600
+gamgamadjust     47 117   1.00000
+etable           47 117   0.00000 E1
+ftable           47 117   1.00000 E1
+wtable           47 117   0.91300 E1
+etableadjust     47 117   0.00000 E1
+ftableadjust     47 117   1.00000 E1
+wtableadjust     47 117   1.00000 E1
+upbendc          47 117 3.50000E-08 M1
+sgr              47 117   1.587 M1
+egr              47 117   8.139 M1
+ggr              47 117   4.000 M1
+sgradjust        47 117   1.000 M1
+egradjust        47 117   1.000 M1
+ggradjust        47 117   1.000 M1
+etable           47 117   0.00000 E2
+ftable           47 117   1.00000 E2
+wtable           47 117   1.00000 E2
+etableadjust     47 117   0.00000 E2
+ftableadjust     47 117   1.00000 E2
+wtableadjust     47 117   1.00000 E2
+upbendc          47 117 0.00000E+00 M2
+sgr              47 117   0.001 M2
+egr              47 117   8.139 M2
+ggr              47 117   4.000 M2
+sgradjust        47 117   1.000 M2
+egradjust        47 117   1.000 M2
+ggradjust        47 117   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 115Pd
+##
+## Level density
+##
+a                46 115  18.99464
+aadjust          46 115   1.00000
+gammald          46 115   0.08906
+pair             46 115   1.11901
+Pshift           46 115   0.00000   0
+Pshiftadjust     46 115   0.00000   0
+deltaW           46 115   3.93797   0
+Ntop             46 115  10   0
+Nlow             46 115   2   0
+s2adjust         46 115   1.00000   0
+ctable           46 115   0.00000   0
+ptable           46 115   0.00000   0
+ctableadjust     46 115   0.00000   0
+ptableadjust     46 115   0.00000   0
+g                46 115   7.66667
+gp               46 115   3.06667
+gn               46 115   4.60000
+gnadjust         46 115   1.00000
+gpadjust         46 115   1.00000
+gadjust          46 115   1.00000
+##
+## Gamma-ray
+##
+gamgam           46 115   0.10750
+gamgamadjust     46 115   1.00000
+etable           46 115   0.00000 E1
+ftable           46 115   1.00000 E1
+wtable           46 115   0.91300 E1
+etableadjust     46 115   0.00000 E1
+ftableadjust     46 115   1.00000 E1
+wtableadjust     46 115   1.00000 E1
+upbendc          46 115 3.50000E-08 M1
+sgr              46 115   1.564 M1
+egr              46 115   8.162 M1
+ggr              46 115   4.000 M1
+sgradjust        46 115   1.000 M1
+egradjust        46 115   1.000 M1
+ggradjust        46 115   1.000 M1
+etable           46 115   0.00000 E2
+ftable           46 115   1.00000 E2
+wtable           46 115   1.00000 E2
+etableadjust     46 115   0.00000 E2
+ftableadjust     46 115   1.00000 E2
+wtableadjust     46 115   1.00000 E2
+upbendc          46 115 0.00000E+00 M2
+sgr              46 115   0.001 M2
+egr              46 115   8.162 M2
+ggr              46 115   4.000 M2
+sgradjust        46 115   1.000 M2
+egradjust        46 115   1.000 M2
+ggradjust        46 115   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 114Pd
+##
+## Level density
+##
+a                46 114  18.34719
+aadjust          46 114   1.00000
+gammald          46 114   0.08932
+pair             46 114   2.24781
+Pshift           46 114   0.00000   0
+Pshiftadjust     46 114   0.00000   0
+deltaW           46 114   3.74028   0
+Ntop             46 114  10   0
+Nlow             46 114   2   0
+s2adjust         46 114   1.00000   0
+ctable           46 114   0.00000   0
+ptable           46 114   0.00000   0
+ctableadjust     46 114   0.00000   0
+ptableadjust     46 114   0.00000   0
+g                46 114   7.60000
+gp               46 114   3.06667
+gn               46 114   4.53333
+gnadjust         46 114   1.00000
+gpadjust         46 114   1.00000
+gadjust          46 114   1.00000
+##
+## Gamma-ray
+##
+gamgam           46 114   0.10800
+gamgamadjust     46 114   1.00000
+etable           46 114   0.00000 E1
+ftable           46 114   1.00000 E1
+wtable           46 114   0.91300 E1
+etableadjust     46 114   0.00000 E1
+ftableadjust     46 114   1.00000 E1
+wtableadjust     46 114   1.00000 E1
+upbendc          46 114 3.50000E-08 M1
+sgr              46 114   1.553 M1
+egr              46 114   8.174 M1
+ggr              46 114   4.000 M1
+sgradjust        46 114   1.000 M1
+egradjust        46 114   1.000 M1
+ggradjust        46 114   1.000 M1
+etable           46 114   0.00000 E2
+ftable           46 114   1.00000 E2
+wtable           46 114   1.00000 E2
+etableadjust     46 114   0.00000 E2
+ftableadjust     46 114   1.00000 E2
+wtableadjust     46 114   1.00000 E2
+upbendc          46 114 0.00000E+00 M2
+sgr              46 114   0.001 M2
+egr              46 114   8.174 M2
+ggr              46 114   4.000 M2
+sgradjust        46 114   1.000 M2
+egradjust        46 114   1.000 M2
+ggradjust        46 114   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 113Cd
+##
+## Level density
+##
+a                48 113  17.44891
+aadjust          48 113   1.00000
+gammald          48 113   0.08958
+pair             48 113   1.12887
+Pshift           48 113   0.00000   0
+Pshiftadjust     48 113   0.00000   0
+deltaW           48 113   2.94090   0
+Ntop             48 113  15   0
+Nlow             48 113   6   0
+s2adjust         48 113   1.00000   0
+ctable           48 113  -0.00601   0
+ptable           48 113  -0.01421   0
+ctableadjust     48 113   0.00000   0
+ptableadjust     48 113   0.00000   0
+D0               48 113 1.90000E-01
+g                48 113   7.53333
+gp               48 113   3.20000
+gn               48 113   4.33333
+gnadjust         48 113   1.00000
+gpadjust         48 113   1.00000
+gadjust          48 113   1.00000
+##
+## Gamma-ray
+##
+gamgam           48 113   0.07700
+gamgamadjust     48 113   1.00000
+etable           48 113   0.00000 E1
+ftable           48 113   1.00000 E1
+wtable           48 113   0.91300 E1
+etableadjust     48 113   0.00000 E1
+ftableadjust     48 113   1.00000 E1
+wtableadjust     48 113   1.00000 E1
+upbendc          48 113 3.50000E-08 M1
+sgr              48 113   1.542 M1
+egr              48 113   8.186 M1
+ggr              48 113   4.000 M1
+sgradjust        48 113   1.000 M1
+egradjust        48 113   1.000 M1
+ggradjust        48 113   1.000 M1
+etable           48 113   0.00000 E2
+ftable           48 113   1.00000 E2
+wtable           48 113   1.00000 E2
+etableadjust     48 113   0.00000 E2
+ftableadjust     48 113   1.00000 E2
+wtableadjust     48 113   1.00000 E2
+upbendc          48 113 0.00000E+00 M2
+sgr              48 113   0.001 M2
+egr              48 113   8.186 M2
+ggr              48 113   4.000 M2
+sgradjust        48 113   1.000 M2
+egradjust        48 113   1.000 M2
+ggradjust        48 113   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 111Ag
+##
+## Level density
+##
+a                47 111  17.52854
+aadjust          47 111   1.00000
+gammald          47 111   0.09012
+pair             47 111   1.13899
+Pshift           47 111   0.00000   0
+Pshiftadjust     47 111   0.00000   0
+deltaW           47 111   3.58116   0
+Ntop             47 111  17   0
+Nlow             47 111   2   0
+s2adjust         47 111   1.00000   0
+ctable           47 111   0.00000   0
+ptable           47 111   0.06220   0
+ctableadjust     47 111   0.00000   0
+ptableadjust     47 111   0.00000   0
+g                47 111   7.40000
+gp               47 111   3.13333
+gn               47 111   4.26667
+gnadjust         47 111   1.00000
+gpadjust         47 111   1.00000
+gadjust          47 111   1.00000
+##
+## Gamma-ray
+##
+gamgam           47 111   0.11000
+gamgamadjust     47 111   1.00000
+etable           47 111   0.00000 E1
+ftable           47 111   1.00000 E1
+wtable           47 111   0.91300 E1
+etableadjust     47 111   0.00000 E1
+ftableadjust     47 111   1.00000 E1
+wtableadjust     47 111   1.00000 E1
+upbendc          47 111 3.50000E-08 M1
+sgr              47 111   1.519 M1
+egr              47 111   8.211 M1
+ggr              47 111   4.000 M1
+sgradjust        47 111   1.000 M1
+egradjust        47 111   1.000 M1
+ggradjust        47 111   1.000 M1
+etable           47 111   0.00000 E2
+ftable           47 111   1.00000 E2
+wtable           47 111   1.00000 E2
+etableadjust     47 111   0.00000 E2
+ftableadjust     47 111   1.00000 E2
+wtableadjust     47 111   1.00000 E2
+upbendc          47 111 0.00000E+00 M2
+sgr              47 111   0.001 M2
+egr              47 111   8.211 M2
+ggr              47 111   4.000 M2
+sgradjust        47 111   1.000 M2
+egradjust        47 111   1.000 M2
+ggradjust        47 111   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 110Pd
+##
+## Level density
+##
+a                46 110  17.63180
+aadjust          46 110   1.00000
+gammald          46 110   0.09039
+pair             46 110   2.28831
+Pshift           46 110   0.00000   0
+Pshiftadjust     46 110   0.00000   0
+deltaW           46 110   3.65280   0
+Ntop             46 110  28   0
+Nlow             46 110   7   0
+s2adjust         46 110   1.00000   0
+ctable           46 110   0.00000   0
+ptable           46 110   0.42018   0
+ctableadjust     46 110   0.00000   0
+ptableadjust     46 110   0.00000   0
+g                46 110   7.33333
+gp               46 110   3.06667
+gn               46 110   4.26667
+gnadjust         46 110   1.00000
+gpadjust         46 110   1.00000
+gadjust          46 110   1.00000
+##
+## Gamma-ray
+##
+gamgam           46 110   0.11200
+gamgamadjust     46 110   1.00000
+etable           46 110   0.00000 E1
+ftable           46 110   1.00000 E1
+wtable           46 110   0.91300 E1
+etableadjust     46 110   0.00000 E1
+ftableadjust     46 110   1.00000 E1
+wtableadjust     46 110   1.00000 E1
+upbendc          46 110 3.50000E-08 M1
+sgr              46 110   1.508 M1
+egr              46 110   8.223 M1
+ggr              46 110   4.000 M1
+sgradjust        46 110   1.000 M1
+egradjust        46 110   1.000 M1
+ggradjust        46 110   1.000 M1
+etable           46 110   0.00000 E2
+ftable           46 110   1.00000 E2
+wtable           46 110   1.00000 E2
+etableadjust     46 110   0.00000 E2
+ftableadjust     46 110   1.00000 E2
+wtableadjust     46 110   1.00000 E2
+upbendc          46 110 0.00000E+00 M2
+sgr              46 110   0.001 M2
+egr              46 110   8.223 M2
+ggr              46 110   4.000 M2
+sgradjust        46 110   1.000 M2
+egradjust        46 110   1.000 M2
+ggradjust        46 110   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 112Rh
+##
+## Level density
+##
+a                45 112  18.61755
+aadjust          45 112   1.00000
+gammald          45 112   0.08985
+pair             45 112   0.00000
+Pshift           45 112   0.00000   0
+Pshiftadjust     45 112   0.00000   0
+deltaW           45 112   4.22418   0
+Ntop             45 112  10   0
+Nlow             45 112   2   0
+s2adjust         45 112   1.00000   0
+ctable           45 112   0.00000   0
+ptable           45 112   0.00000   0
+ctableadjust     45 112   0.00000   0
+ptableadjust     45 112   0.00000   0
+g                45 112   7.46667
+gp               45 112   3.00000
+gn               45 112   4.46667
+gnadjust         45 112   1.00000
+gpadjust         45 112   1.00000
+gadjust          45 112   1.00000
+##
+## Gamma-ray
+##
+gamgam           45 112   0.10900
+gamgamadjust     45 112   1.00000
+etable           45 112   0.00000 E1
+ftable           45 112   1.00000 E1
+wtable           45 112   0.91300 E1
+etableadjust     45 112   0.00000 E1
+ftableadjust     45 112   1.00000 E1
+wtableadjust     45 112   1.00000 E1
+upbendc          45 112 3.50000E-08 M1
+sgr              45 112   1.530 M1
+egr              45 112   8.199 M1
+ggr              45 112   4.000 M1
+sgradjust        45 112   1.000 M1
+egradjust        45 112   1.000 M1
+ggradjust        45 112   1.000 M1
+etable           45 112   0.00000 E2
+ftable           45 112   1.00000 E2
+wtable           45 112   1.00000 E2
+etableadjust     45 112   0.00000 E2
+ftableadjust     45 112   1.00000 E2
+wtableadjust     45 112   1.00000 E2
+upbendc          45 112 0.00000E+00 M2
+sgr              45 112   0.001 M2
+egr              45 112   8.199 M2
+ggr              45 112   4.000 M2
+sgradjust        45 112   1.000 M2
+egradjust        45 112   1.000 M2
+ggradjust        45 112   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 116Sn
+##
+## Level density
+##
+a                50 116  15.79857
+aadjust          50 116   1.00000
+gammald          50 116   0.08880
+pair             50 116   2.22834
+Pshift           50 116   0.00000   0
+Pshiftadjust     50 116   0.00000   0
+deltaW           50 116   1.07894   0
+Ntop             50 116  24   0
+Nlow             50 116   8   0
+s2adjust         50 116   1.00000   0
+ctable           50 116   0.00000   0
+ptable           50 116   0.14628   0
+ctableadjust     50 116   0.00000   0
+ptableadjust     50 116   0.00000   0
+g                50 116   7.73333
+gp               50 116   3.33333
+gn               50 116   4.40000
+gnadjust         50 116   1.00000
+gpadjust         50 116   1.00000
+gadjust          50 116   1.00000
+##
+## Gamma-ray
+##
+gamgam           50 116   0.10700
+gamgamadjust     50 116   1.00000
+etable           50 116   0.00000 E1
+ftable           50 116   1.00000 E1
+wtable           50 116   0.91300 E1
+etableadjust     50 116   0.00000 E1
+ftableadjust     50 116   1.00000 E1
+wtableadjust     50 116   1.00000 E1
+upbendc          50 116 3.50000E-08 M1
+sgr              50 116   1.576 M1
+egr              50 116   8.151 M1
+ggr              50 116   4.000 M1
+sgradjust        50 116   1.000 M1
+egradjust        50 116   1.000 M1
+ggradjust        50 116   1.000 M1
+etable           50 116   0.00000 E2
+ftable           50 116   1.00000 E2
+wtable           50 116   1.00000 E2
+etableadjust     50 116   0.00000 E2
+ftableadjust     50 116   1.00000 E2
+wtableadjust     50 116   1.00000 E2
+upbendc          50 116 0.00000E+00 M2
+sgr              50 116   0.001 M2
+egr              50 116   8.151 M2
+ggr              50 116   4.000 M2
+sgradjust        50 116   1.000 M2
+egradjust        50 116   1.000 M2
+ggradjust        50 116   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 114In
+##
+## Level density
+##
+a                49 114  16.69553
+aadjust          49 114   1.00000
+gammald          49 114   0.08932
+pair             49 114   0.00000
+Pshift           49 114   0.00000   0
+Pshiftadjust     49 114   0.00000   0
+deltaW           49 114   2.25291   0
+Ntop             49 114  15   0
+Nlow             49 114   6   0
+s2adjust         49 114   1.00000   0
+ctable           49 114  -0.01558   0
+ptable           49 114  -0.31361   0
+ctableadjust     49 114   0.00000   0
+ptableadjust     49 114   0.00000   0
+D0               49 114 1.30000E-02
+g                49 114   7.60000
+gp               49 114   3.26667
+gn               49 114   4.33333
+gnadjust         49 114   1.00000
+gpadjust         49 114   1.00000
+gadjust          49 114   1.00000
+##
+## Gamma-ray
+##
+gamgam           49 114   0.07500
+gamgamadjust     49 114   1.00000
+etable           49 114   0.00000 E1
+ftable           49 114   1.00000 E1
+wtable           49 114   0.91300 E1
+etableadjust     49 114   0.00000 E1
+ftableadjust     49 114   1.00000 E1
+wtableadjust     49 114   1.00000 E1
+upbendc          49 114 3.50000E-08 M1
+sgr              49 114   1.553 M1
+egr              49 114   8.174 M1
+ggr              49 114   4.000 M1
+sgradjust        49 114   1.000 M1
+egradjust        49 114   1.000 M1
+ggradjust        49 114   1.000 M1
+etable           49 114   0.00000 E2
+ftable           49 114   1.00000 E2
+wtable           49 114   1.00000 E2
+etableadjust     49 114   0.00000 E2
+ftableadjust     49 114   1.00000 E2
+wtableadjust     49 114   1.00000 E2
+upbendc          49 114 0.00000E+00 M2
+sgr              49 114   0.001 M2
+egr              49 114   8.174 M2
+ggr              49 114   4.000 M2
+sgradjust        49 114   1.000 M2
+egradjust        49 114   1.000 M2
+ggradjust        49 114   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 108Rh
+##
+## Level density
+##
+a                45 108  17.91909
+aadjust          45 108   1.00000
+gammald          45 108   0.09094
+pair             45 108   0.00000
+Pshift           45 108   0.00000   0
+Pshiftadjust     45 108   0.00000   0
+deltaW           45 108   4.17627   0
+Ntop             45 108  30   0
+Nlow             45 108   2   0
+s2adjust         45 108   1.00000   0
+ctable           45 108   0.00000   0
+ptable           45 108  -0.17648   0
+ctableadjust     45 108   0.00000   0
+ptableadjust     45 108   0.00000   0
+g                45 108   7.20000
+gp               45 108   3.00000
+gn               45 108   4.20000
+gnadjust         45 108   1.00000
+gpadjust         45 108   1.00000
+gadjust          45 108   1.00000
+##
+## Gamma-ray
+##
+gamgam           45 108   0.11600
+gamgamadjust     45 108   1.00000
+etable           45 108   0.00000 E1
+ftable           45 108   1.00000 E1
+wtable           45 108   0.91300 E1
+etableadjust     45 108   0.00000 E1
+ftableadjust     45 108   1.00000 E1
+wtableadjust     45 108   1.00000 E1
+upbendc          45 108 3.50000E-08 M1
+sgr              45 108   1.485 M1
+egr              45 108   8.248 M1
+ggr              45 108   4.000 M1
+sgradjust        45 108   1.000 M1
+egradjust        45 108   1.000 M1
+ggradjust        45 108   1.000 M1
+etable           45 108   0.00000 E2
+ftable           45 108   1.00000 E2
+wtable           45 108   1.00000 E2
+etableadjust     45 108   0.00000 E2
+ftableadjust     45 108   1.00000 E2
+wtableadjust     45 108   1.00000 E2
+upbendc          45 108 0.00000E+00 M2
+sgr              45 108   0.001 M2
+egr              45 108   8.248 M2
+ggr              45 108   4.000 M2
+sgradjust        45 108   1.000 M2
+egradjust        45 108   1.000 M2
+ggradjust        45 108   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 107Ru
+##
+## Level density
+##
+a                44 107  18.44243
+aadjust          44 107   1.00000
+gammald          44 107   0.09123
+pair             44 107   1.16008
+Pshift           44 107   0.00000   0
+Pshiftadjust     44 107   0.00000   0
+deltaW           44 107   4.50806   0
+Ntop             44 107  17   0
+Nlow             44 107   5   0
+s2adjust         44 107   1.00000   0
+ctable           44 107   0.00000   0
+ptable           44 107   0.08508   0
+ctableadjust     44 107   0.00000   0
+ptableadjust     44 107   0.00000   0
+g                44 107   7.13333
+gp               44 107   2.93333
+gn               44 107   4.20000
+gnadjust         44 107   1.00000
+gpadjust         44 107   1.00000
+gadjust          44 107   1.00000
+##
+## Gamma-ray
+##
+gamgam           44 107   0.11650
+gamgamadjust     44 107   1.00000
+etable           44 107   0.00000 E1
+ftable           44 107   1.00000 E1
+wtable           44 107   0.91300 E1
+etableadjust     44 107   0.00000 E1
+ftableadjust     44 107   1.00000 E1
+wtableadjust     44 107   1.00000 E1
+upbendc          44 107 3.50000E-08 M1
+sgr              44 107   1.473 M1
+egr              44 107   8.261 M1
+ggr              44 107   4.000 M1
+sgradjust        44 107   1.000 M1
+egradjust        44 107   1.000 M1
+ggradjust        44 107   1.000 M1
+etable           44 107   0.00000 E2
+ftable           44 107   1.00000 E2
+wtable           44 107   1.00000 E2
+etableadjust     44 107   0.00000 E2
+ftableadjust     44 107   1.00000 E2
+wtableadjust     44 107   1.00000 E2
+upbendc          44 107 0.00000E+00 M2
+sgr              44 107   0.001 M2
+egr              44 107   8.261 M2
+ggr              44 107   4.000 M2
+sgradjust        44 107   1.000 M2
+egradjust        44 107   1.000 M2
+ggradjust        44 107   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 115Sn
+##
+## Level density
+##
+a                50 115  15.65362
+aadjust          50 115   1.00000
+gammald          50 115   0.08906
+pair             50 115   1.11901
+Pshift           50 115   0.00000   0
+Pshiftadjust     50 115   0.00000   0
+deltaW           50 115   1.00871   0
+Ntop             50 115  21   0
+Nlow             50 115   4   0
+s2adjust         50 115   1.00000   0
+ctable           50 115   0.26331   0
+ptable           50 115   0.17146   0
+ctableadjust     50 115   0.00000   0
+ptableadjust     50 115   0.00000   0
+D0               50 115 2.86000E-01
+g                50 115   7.66667
+gp               50 115   3.33333
+gn               50 115   4.33333
+gnadjust         50 115   1.00000
+gpadjust         50 115   1.00000
+gadjust          50 115   1.00000
+##
+## Gamma-ray
+##
+gamgam           50 115   0.09000
+gamgamadjust     50 115   1.00000
+etable           50 115   0.00000 E1
+ftable           50 115   1.00000 E1
+wtable           50 115   0.91300 E1
+etableadjust     50 115   0.00000 E1
+ftableadjust     50 115   1.00000 E1
+wtableadjust     50 115   1.00000 E1
+upbendc          50 115 3.50000E-08 M1
+sgr              50 115   1.564 M1
+egr              50 115   8.162 M1
+ggr              50 115   4.000 M1
+sgradjust        50 115   1.000 M1
+egradjust        50 115   1.000 M1
+ggradjust        50 115   1.000 M1
+etable           50 115   0.00000 E2
+ftable           50 115   1.00000 E2
+wtable           50 115   1.00000 E2
+etableadjust     50 115   0.00000 E2
+ftableadjust     50 115   1.00000 E2
+wtableadjust     50 115   1.00000 E2
+upbendc          50 115 0.00000E+00 M2
+sgr              50 115   0.001 M2
+egr              50 115   8.162 M2
+ggr              50 115   4.000 M2
+sgradjust        50 115   1.000 M2
+egradjust        50 115   1.000 M2
+ggradjust        50 115   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 113In
+##
+## Level density
+##
+a                49 113  16.30822
+aadjust          49 113   1.00000
+gammald          49 113   0.08958
+pair             49 113   1.12887
+Pshift           49 113   0.00000   0
+Pshiftadjust     49 113   0.00000   0
+deltaW           49 113   2.05468   0
+Ntop             49 113  15   0
+Nlow             49 113   8   0
+s2adjust         49 113   1.00000   0
+ctable           49 113   0.00000   0
+ptable           49 113   0.16588   0
+ctableadjust     49 113   0.00000   0
+ptableadjust     49 113   0.00000   0
+g                49 113   7.53333
+gp               49 113   3.26667
+gn               49 113   4.26667
+gnadjust         49 113   1.00000
+gpadjust         49 113   1.00000
+gadjust          49 113   1.00000
+##
+## Gamma-ray
+##
+gamgam           49 113   0.10850
+gamgamadjust     49 113   1.00000
+etable           49 113   0.00000 E1
+ftable           49 113   1.00000 E1
+wtable           49 113   0.91300 E1
+etableadjust     49 113   0.00000 E1
+ftableadjust     49 113   1.00000 E1
+wtableadjust     49 113   1.00000 E1
+upbendc          49 113 3.50000E-08 M1
+sgr              49 113   1.542 M1
+egr              49 113   8.186 M1
+ggr              49 113   4.000 M1
+sgradjust        49 113   1.000 M1
+egradjust        49 113   1.000 M1
+ggradjust        49 113   1.000 M1
+etable           49 113   0.00000 E2
+ftable           49 113   1.00000 E2
+wtable           49 113   1.00000 E2
+etableadjust     49 113   0.00000 E2
+ftableadjust     49 113   1.00000 E2
+wtableadjust     49 113   1.00000 E2
+upbendc          49 113 0.00000E+00 M2
+sgr              49 113   0.001 M2
+egr              49 113   8.186 M2
+ggr              49 113   4.000 M2
+sgradjust        49 113   1.000 M2
+egradjust        49 113   1.000 M2
+ggradjust        49 113   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 112Cd
+##
+## Level density
+##
+a                48 112  16.62671
+aadjust          48 112   1.00000
+gammald          48 112   0.08985
+pair             48 112   2.26779
+Pshift           48 112   0.00000   0
+Pshiftadjust     48 112   0.00000   0
+deltaW           48 112   2.41928   0
+Ntop             48 112  27   0
+Nlow             48 112   6   0
+s2adjust         48 112   1.00000   0
+ctable           48 112   0.05190   0
+ptable           48 112   0.30771   0
+ctableadjust     48 112   0.00000   0
+ptableadjust     48 112   0.00000   0
+D0               48 112 2.00000E-02
+g                48 112   7.46667
+gp               48 112   3.20000
+gn               48 112   4.26667
+gnadjust         48 112   1.00000
+gpadjust         48 112   1.00000
+gadjust          48 112   1.00000
+##
+## Gamma-ray
+##
+gamgam           48 112   0.09600
+gamgamadjust     48 112   1.00000
+etable           48 112   0.00000 E1
+ftable           48 112   1.00000 E1
+wtable           48 112   0.91300 E1
+etableadjust     48 112   0.00000 E1
+ftableadjust     48 112   1.00000 E1
+wtableadjust     48 112   1.00000 E1
+upbendc          48 112 3.50000E-08 M1
+sgr              48 112   1.530 M1
+egr              48 112   8.199 M1
+ggr              48 112   4.000 M1
+sgradjust        48 112   1.000 M1
+egradjust        48 112   1.000 M1
+ggradjust        48 112   1.000 M1
+etable           48 112   0.00000 E2
+ftable           48 112   1.00000 E2
+wtable           48 112   1.00000 E2
+etableadjust     48 112   0.00000 E2
+ftableadjust     48 112   1.00000 E2
+wtableadjust     48 112   1.00000 E2
+upbendc          48 112 0.00000E+00 M2
+sgr              48 112   0.001 M2
+egr              48 112   8.199 M2
+ggr              48 112   4.000 M2
+sgradjust        48 112   1.000 M2
+egradjust        48 112   1.000 M2
+ggradjust        48 112   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 110Ag
+##
+## Level density
+##
+a                47 110  17.32874
+aadjust          47 110   1.00000
+gammald          47 110   0.09039
+pair             47 110   0.00000
+Pshift           47 110   0.00000   0
+Pshiftadjust     47 110   0.00000   0
+deltaW           47 110   3.37972   0
+Ntop             47 110  18   0
+Nlow             47 110   6   0
+s2adjust         47 110   1.00000   0
+ctable           47 110  -0.02514   0
+ptable           47 110  -0.07754   0
+ctableadjust     47 110   0.00000   0
+ptableadjust     47 110   0.00000   0
+D0               47 110 1.51000E-02
+g                47 110   7.33333
+gp               47 110   3.13333
+gn               47 110   4.20000
+gnadjust         47 110   1.00000
+gpadjust         47 110   1.00000
+gadjust          47 110   1.00000
+##
+## Gamma-ray
+##
+gamgam           47 110   0.13000
+gamgamadjust     47 110   1.00000
+etable           47 110   0.00000 E1
+ftable           47 110   1.00000 E1
+wtable           47 110   0.91300 E1
+etableadjust     47 110   0.00000 E1
+ftableadjust     47 110   1.00000 E1
+wtableadjust     47 110   1.00000 E1
+upbendc          47 110 3.50000E-08 M1
+sgr              47 110   1.508 M1
+egr              47 110   8.223 M1
+ggr              47 110   4.000 M1
+sgradjust        47 110   1.000 M1
+egradjust        47 110   1.000 M1
+ggradjust        47 110   1.000 M1
+etable           47 110   0.00000 E2
+ftable           47 110   1.00000 E2
+wtable           47 110   1.00000 E2
+etableadjust     47 110   0.00000 E2
+ftableadjust     47 110   1.00000 E2
+wtableadjust     47 110   1.00000 E2
+upbendc          47 110 0.00000E+00 M2
+sgr              47 110   0.001 M2
+egr              47 110   8.223 M2
+ggr              47 110   4.000 M2
+sgradjust        47 110   1.000 M2
+egradjust        47 110   1.000 M2
+ggradjust        47 110   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 109Pd
+##
+## Level density
+##
+a                46 109  17.90677
+aadjust          46 109   1.00000
+gammald          46 109   0.09066
+pair             46 109   1.14939
+Pshift           46 109   0.00000   0
+Pshiftadjust     46 109   0.00000   0
+deltaW           46 109   3.82721   0
+Ntop             46 109  16   0
+Nlow             46 109   8   0
+s2adjust         46 109   1.00000   0
+ctable           46 109  -0.37014   0
+ptable           46 109  -0.28124   0
+ctableadjust     46 109   0.00000   0
+ptableadjust     46 109   0.00000   0
+D0               46 109 1.82000E-01
+g                46 109   7.26667
+gp               46 109   3.06667
+gn               46 109   4.20000
+gnadjust         46 109   1.00000
+gpadjust         46 109   1.00000
+gadjust          46 109   1.00000
+##
+## Gamma-ray
+##
+gamgam           46 109   0.11400
+gamgamadjust     46 109   1.00000
+etable           46 109   0.00000 E1
+ftable           46 109   1.00000 E1
+wtable           46 109   0.91300 E1
+etableadjust     46 109   0.00000 E1
+ftableadjust     46 109   1.00000 E1
+wtableadjust     46 109   1.00000 E1
+upbendc          46 109 3.50000E-08 M1
+sgr              46 109   1.496 M1
+egr              46 109   8.236 M1
+ggr              46 109   4.000 M1
+sgradjust        46 109   1.000 M1
+egradjust        46 109   1.000 M1
+ggradjust        46 109   1.000 M1
+etable           46 109   0.00000 E2
+ftable           46 109   1.00000 E2
+wtable           46 109   1.00000 E2
+etableadjust     46 109   0.00000 E2
+ftableadjust     46 109   1.00000 E2
+wtableadjust     46 109   1.00000 E2
+upbendc          46 109 0.00000E+00 M2
+sgr              46 109   0.001 M2
+egr              46 109   8.236 M2
+ggr              46 109   4.000 M2
+sgradjust        46 109   1.000 M2
+egradjust        46 109   1.000 M2
+ggradjust        46 109   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 107Rh
+##
+## Level density
+##
+a                45 107  17.46562
+aadjust          45 107   1.00000
+gammald          45 107   0.09123
+pair             45 107   1.16008
+Pshift           45 107   0.00000   0
+Pshiftadjust     45 107   0.00000   0
+deltaW           45 107   4.02909   0
+Ntop             45 107  15   0
+Nlow             45 107   2   0
+s2adjust         45 107   1.00000   0
+ctable           45 107   0.00000   0
+ptable           45 107  -0.02959   0
+ctableadjust     45 107   0.00000   0
+ptableadjust     45 107   0.00000   0
+g                45 107   7.13333
+gp               45 107   3.00000
+gn               45 107   4.13333
+gnadjust         45 107   1.00000
+gpadjust         45 107   1.00000
+gadjust          45 107   1.00000
+##
+## Gamma-ray
+##
+gamgam           45 107   0.11650
+gamgamadjust     45 107   1.00000
+etable           45 107   0.00000 E1
+ftable           45 107   1.00000 E1
+wtable           45 107   0.91300 E1
+etableadjust     45 107   0.00000 E1
+ftableadjust     45 107   1.00000 E1
+wtableadjust     45 107   1.00000 E1
+upbendc          45 107 3.50000E-08 M1
+sgr              45 107   1.473 M1
+egr              45 107   8.261 M1
+ggr              45 107   4.000 M1
+sgradjust        45 107   1.000 M1
+egradjust        45 107   1.000 M1
+ggradjust        45 107   1.000 M1
+etable           45 107   0.00000 E2
+ftable           45 107   1.00000 E2
+wtable           45 107   1.00000 E2
+etableadjust     45 107   0.00000 E2
+ftableadjust     45 107   1.00000 E2
+wtableadjust     45 107   1.00000 E2
+upbendc          45 107 0.00000E+00 M2
+sgr              45 107   0.001 M2
+egr              45 107   8.261 M2
+ggr              45 107   4.000 M2
+sgradjust        45 107   1.000 M2
+egradjust        45 107   1.000 M2
+ggradjust        45 107   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 106Ru
+##
+## Level density
+##
+a                44 106  17.65854
+aadjust          44 106   1.00000
+gammald          44 106   0.09151
+pair             44 106   2.33109
+Pshift           44 106   0.00000   0
+Pshiftadjust     44 106   0.00000   0
+deltaW           44 106   4.15957   0
+Ntop             44 106  15   0
+Nlow             44 106   7   0
+s2adjust         44 106   1.00000   0
+ctable           44 106   0.00000   0
+ptable           44 106   0.79841   0
+ctableadjust     44 106   0.00000   0
+ptableadjust     44 106   0.00000   0
+g                44 106   7.06667
+gp               44 106   2.93333
+gn               44 106   4.13333
+gnadjust         44 106   1.00000
+gpadjust         44 106   1.00000
+gadjust          44 106   1.00000
+##
+## Gamma-ray
+##
+gamgam           44 106   0.11700
+gamgamadjust     44 106   1.00000
+etable           44 106   0.00000 E1
+ftable           44 106   1.00000 E1
+wtable           44 106   0.91300 E1
+etableadjust     44 106   0.00000 E1
+ftableadjust     44 106   1.00000 E1
+wtableadjust     44 106   1.00000 E1
+upbendc          44 106 3.50000E-08 M1
+sgr              44 106   1.462 M1
+egr              44 106   8.274 M1
+ggr              44 106   4.000 M1
+sgradjust        44 106   1.000 M1
+egradjust        44 106   1.000 M1
+ggradjust        44 106   1.000 M1
+etable           44 106   0.00000 E2
+ftable           44 106   1.00000 E2
+wtable           44 106   1.00000 E2
+etableadjust     44 106   0.00000 E2
+ftableadjust     44 106   1.00000 E2
+wtableadjust     44 106   1.00000 E2
+upbendc          44 106 0.00000E+00 M2
+sgr              44 106   0.001 M2
+egr              44 106   8.274 M2
+ggr              44 106   4.000 M2
+sgradjust        44 106   1.000 M2
+egradjust        44 106   1.000 M2
+ggradjust        44 106   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 111Cd
+##
+## Level density
+##
+a                48 111  16.59418
+aadjust          48 111   1.00000
+gammald          48 111   0.09012
+pair             48 111   1.13899
+Pshift           48 111   0.00000   0
+Pshiftadjust     48 111   0.00000   0
+deltaW           48 111   2.38434   0
+Ntop             48 111  27   0
+Nlow             48 111   4   0
+s2adjust         48 111   1.00000   0
+ctable           48 111   0.14855   0
+ptable           48 111   0.04659   0
+ctableadjust     48 111   0.00000   0
+ptableadjust     48 111   0.00000   0
+D0               48 111 1.55000E-01
+g                48 111   7.40000
+gp               48 111   3.20000
+gn               48 111   4.20000
+gnadjust         48 111   1.00000
+gpadjust         48 111   1.00000
+gadjust          48 111   1.00000
+##
+## Gamma-ray
+##
+gamgam           48 111   0.07100
+gamgamadjust     48 111   1.00000
+etable           48 111   0.00000 E1
+ftable           48 111   1.00000 E1
+wtable           48 111   0.91300 E1
+etableadjust     48 111   0.00000 E1
+ftableadjust     48 111   1.00000 E1
+wtableadjust     48 111   1.00000 E1
+upbendc          48 111 3.50000E-08 M1
+sgr              48 111   1.519 M1
+egr              48 111   8.211 M1
+ggr              48 111   4.000 M1
+sgradjust        48 111   1.000 M1
+egradjust        48 111   1.000 M1
+ggradjust        48 111   1.000 M1
+etable           48 111   0.00000 E2
+ftable           48 111   1.00000 E2
+wtable           48 111   1.00000 E2
+etableadjust     48 111   0.00000 E2
+ftableadjust     48 111   1.00000 E2
+wtableadjust     48 111   1.00000 E2
+upbendc          48 111 0.00000E+00 M2
+sgr              48 111   0.001 M2
+egr              48 111   8.211 M2
+ggr              48 111   4.000 M2
+sgradjust        48 111   1.000 M2
+egradjust        48 111   1.000 M2
+ggradjust        48 111   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 109Ag
+##
+## Level density
+##
+a                47 109  16.67328
+aadjust          47 109   1.00000
+gammald          47 109   0.09066
+pair             47 109   1.14939
+Pshift           47 109   0.00000   0
+Pshiftadjust     47 109   0.00000   0
+deltaW           47 109   2.96391   0
+Ntop             47 109  19   0
+Nlow             47 109   8   0
+s2adjust         47 109   1.00000   0
+ctable           47 109   0.00000   0
+ptable           47 109  -0.14914   0
+ctableadjust     47 109   0.00000   0
+ptableadjust     47 109   0.00000   0
+g                47 109   7.26667
+gp               47 109   3.13333
+gn               47 109   4.13333
+gnadjust         47 109   1.00000
+gpadjust         47 109   1.00000
+gadjust          47 109   1.00000
+##
+## Gamma-ray
+##
+gamgam           47 109   0.11400
+gamgamadjust     47 109   1.00000
+etable           47 109   0.00000 E1
+ftable           47 109   1.00000 E1
+wtable           47 109   0.91300 E1
+etableadjust     47 109   0.00000 E1
+ftableadjust     47 109   1.00000 E1
+wtableadjust     47 109   1.00000 E1
+upbendc          47 109 3.50000E-08 M1
+sgr              47 109   1.496 M1
+egr              47 109   8.236 M1
+ggr              47 109   4.000 M1
+sgradjust        47 109   1.000 M1
+egradjust        47 109   1.000 M1
+ggradjust        47 109   1.000 M1
+etable           47 109   0.00000 E2
+ftable           47 109   1.00000 E2
+wtable           47 109   1.00000 E2
+etableadjust     47 109   0.00000 E2
+ftableadjust     47 109   1.00000 E2
+wtableadjust     47 109   1.00000 E2
+upbendc          47 109 0.00000E+00 M2
+sgr              47 109   0.001 M2
+egr              47 109   8.236 M2
+ggr              47 109   4.000 M2
+sgradjust        47 109   1.000 M2
+egradjust        47 109   1.000 M2
+ggradjust        47 109   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 108Pd
+##
+## Level density
+##
+a                46 108  16.87378
+aadjust          46 108   1.00000
+gammald          46 108   0.09094
+pair             46 108   2.30940
+Pshift           46 108   0.00000   0
+Pshiftadjust     46 108   0.00000   0
+deltaW           46 108   3.17879   0
+Ntop             46 108  22   0
+Nlow             46 108   8   0
+s2adjust         46 108   1.00000   0
+ctable           46 108   0.16787   0
+ptable           46 108   0.56244   0
+ctableadjust     46 108   0.00000   0
+ptableadjust     46 108   0.00000   0
+D0               46 108 1.10000E-02
+g                46 108   7.20000
+gp               46 108   3.06667
+gn               46 108   4.13333
+gnadjust         46 108   1.00000
+gpadjust         46 108   1.00000
+gadjust          46 108   1.00000
+##
+## Gamma-ray
+##
+gamgam           46 108   0.12500
+gamgamadjust     46 108   1.00000
+etable           46 108   0.00000 E1
+ftable           46 108   1.00000 E1
+wtable           46 108   0.91300 E1
+etableadjust     46 108   0.00000 E1
+ftableadjust     46 108   1.00000 E1
+wtableadjust     46 108   1.00000 E1
+upbendc          46 108 3.50000E-08 M1
+sgr              46 108   1.485 M1
+egr              46 108   8.248 M1
+ggr              46 108   4.000 M1
+sgradjust        46 108   1.000 M1
+egradjust        46 108   1.000 M1
+ggradjust        46 108   1.000 M1
+etable           46 108   0.00000 E2
+ftable           46 108   1.00000 E2
+wtable           46 108   1.00000 E2
+etableadjust     46 108   0.00000 E2
+ftableadjust     46 108   1.00000 E2
+wtableadjust     46 108   1.00000 E2
+upbendc          46 108 0.00000E+00 M2
+sgr              46 108   0.001 M2
+egr              46 108   8.248 M2
+ggr              46 108   4.000 M2
+sgradjust        46 108   1.000 M2
+egradjust        46 108   1.000 M2
+ggradjust        46 108   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 116Pd
+##
+## Level density
+##
+a                46 116  18.39323
+aadjust          46 116   1.00000
+gammald          46 116   0.08880
+pair             46 116   2.22834
+Pshift           46 116   0.00000   0
+Pshiftadjust     46 116   0.00000   0
+deltaW           46 116   3.46858   0
+Ntop             46 116  10   0
+Nlow             46 116   2   0
+s2adjust         46 116   1.00000   0
+ctable           46 116   0.00000   0
+ptable           46 116   0.00000   0
+ctableadjust     46 116   0.00000   0
+ptableadjust     46 116   0.00000   0
+g                46 116   7.73333
+gp               46 116   3.06667
+gn               46 116   4.66667
+gnadjust         46 116   1.00000
+gpadjust         46 116   1.00000
+gadjust          46 116   1.00000
+##
+## Gamma-ray
+##
+gamgam           46 116   0.10700
+gamgamadjust     46 116   1.00000
+etable           46 116   0.00000 E1
+ftable           46 116   1.00000 E1
+wtable           46 116   0.91300 E1
+etableadjust     46 116   0.00000 E1
+ftableadjust     46 116   1.00000 E1
+wtableadjust     46 116   1.00000 E1
+upbendc          46 116 3.50000E-08 M1
+sgr              46 116   1.576 M1
+egr              46 116   8.151 M1
+ggr              46 116   4.000 M1
+sgradjust        46 116   1.000 M1
+egradjust        46 116   1.000 M1
+ggradjust        46 116   1.000 M1
+etable           46 116   0.00000 E2
+ftable           46 116   1.00000 E2
+wtable           46 116   1.00000 E2
+etableadjust     46 116   0.00000 E2
+ftableadjust     46 116   1.00000 E2
+wtableadjust     46 116   1.00000 E2
+upbendc          46 116 0.00000E+00 M2
+sgr              46 116   0.001 M2
+egr              46 116   8.151 M2
+ggr              46 116   4.000 M2
+sgradjust        46 116   1.000 M2
+egradjust        46 116   1.000 M2
+ggradjust        46 116   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 114Rh
+##
+## Level density
+##
+a                45 114  18.78447
+aadjust          45 114   1.00000
+gammald          45 114   0.08932
+pair             45 114   0.00000
+Pshift           45 114   0.00000   0
+Pshiftadjust     45 114   0.00000   0
+deltaW           45 114   4.05053   0
+Ntop             45 114  10   0
+Nlow             45 114   2   0
+s2adjust         45 114   1.00000   0
+ctable           45 114   0.00000   0
+ptable           45 114   0.00000   0
+ctableadjust     45 114   0.00000   0
+ptableadjust     45 114   0.00000   0
+g                45 114   7.60000
+gp               45 114   3.00000
+gn               45 114   4.60000
+gnadjust         45 114   1.00000
+gpadjust         45 114   1.00000
+gadjust          45 114   1.00000
+##
+## Gamma-ray
+##
+gamgam           45 114   0.10800
+gamgamadjust     45 114   1.00000
+etable           45 114   0.00000 E1
+ftable           45 114   1.00000 E1
+wtable           45 114   0.91300 E1
+etableadjust     45 114   0.00000 E1
+ftableadjust     45 114   1.00000 E1
+wtableadjust     45 114   1.00000 E1
+upbendc          45 114 3.50000E-08 M1
+sgr              45 114   1.553 M1
+egr              45 114   8.174 M1
+ggr              45 114   4.000 M1
+sgradjust        45 114   1.000 M1
+egradjust        45 114   1.000 M1
+ggradjust        45 114   1.000 M1
+etable           45 114   0.00000 E2
+ftable           45 114   1.00000 E2
+wtable           45 114   1.00000 E2
+etableadjust     45 114   0.00000 E2
+ftableadjust     45 114   1.00000 E2
+wtableadjust     45 114   1.00000 E2
+upbendc          45 114 0.00000E+00 M2
+sgr              45 114   0.001 M2
+egr              45 114   8.174 M2
+ggr              45 114   4.000 M2
+sgradjust        45 114   1.000 M2
+egradjust        45 114   1.000 M2
+ggradjust        45 114   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 113Rh
+##
+## Level density
+##
+a                45 113  18.69149
+aadjust          45 113   1.00000
+gammald          45 113   0.08958
+pair             45 113   1.12887
+Pshift           45 113   0.00000   0
+Pshiftadjust     45 113   0.00000   0
+deltaW           45 113   4.25121   0
+Ntop             45 113  10   0
+Nlow             45 113   2   0
+s2adjust         45 113   1.00000   0
+ctable           45 113   0.00000   0
+ptable           45 113   0.00000   0
+ctableadjust     45 113   0.00000   0
+ptableadjust     45 113   0.00000   0
+g                45 113   7.53333
+gp               45 113   3.00000
+gn               45 113   4.53333
+gnadjust         45 113   1.00000
+gpadjust         45 113   1.00000
+gadjust          45 113   1.00000
+##
+## Gamma-ray
+##
+gamgam           45 113   0.10850
+gamgamadjust     45 113   1.00000
+etable           45 113   0.00000 E1
+ftable           45 113   1.00000 E1
+wtable           45 113   0.91300 E1
+etableadjust     45 113   0.00000 E1
+ftableadjust     45 113   1.00000 E1
+wtableadjust     45 113   1.00000 E1
+upbendc          45 113 3.50000E-08 M1
+sgr              45 113   1.542 M1
+egr              45 113   8.186 M1
+ggr              45 113   4.000 M1
+sgradjust        45 113   1.000 M1
+egradjust        45 113   1.000 M1
+ggradjust        45 113   1.000 M1
+etable           45 113   0.00000 E2
+ftable           45 113   1.00000 E2
+wtable           45 113   1.00000 E2
+etableadjust     45 113   0.00000 E2
+ftableadjust     45 113   1.00000 E2
+wtableadjust     45 113   1.00000 E2
+upbendc          45 113 0.00000E+00 M2
+sgr              45 113   0.001 M2
+egr              45 113   8.186 M2
+ggr              45 113   4.000 M2
+sgradjust        45 113   1.000 M2
+egradjust        45 113   1.000 M2
+ggradjust        45 113   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 111Ru
+##
+## Level density
+##
+a                44 111  19.33712
+aadjust          44 111   1.00000
+gammald          44 111   0.09012
+pair             44 111   1.13899
+Pshift           44 111   0.00000   0
+Pshiftadjust     44 111   0.00000   0
+deltaW           44 111   4.68686   0
+Ntop             44 111  18   0
+Nlow             44 111   8   0
+s2adjust         44 111   1.00000   0
+ctable           44 111   0.00000   0
+ptable           44 111  -0.92327   0
+ctableadjust     44 111   0.00000   0
+ptableadjust     44 111   0.00000   0
+g                44 111   7.40000
+gp               44 111   2.93333
+gn               44 111   4.46667
+gnadjust         44 111   1.00000
+gpadjust         44 111   1.00000
+gadjust          44 111   1.00000
+##
+## Gamma-ray
+##
+gamgam           44 111   0.11000
+gamgamadjust     44 111   1.00000
+etable           44 111   0.00000 E1
+ftable           44 111   1.00000 E1
+wtable           44 111   0.91300 E1
+etableadjust     44 111   0.00000 E1
+ftableadjust     44 111   1.00000 E1
+wtableadjust     44 111   1.00000 E1
+upbendc          44 111 3.50000E-08 M1
+sgr              44 111   1.519 M1
+egr              44 111   8.211 M1
+ggr              44 111   4.000 M1
+sgradjust        44 111   1.000 M1
+egradjust        44 111   1.000 M1
+ggradjust        44 111   1.000 M1
+etable           44 111   0.00000 E2
+ftable           44 111   1.00000 E2
+wtable           44 111   1.00000 E2
+etableadjust     44 111   0.00000 E2
+ftableadjust     44 111   1.00000 E2
+wtableadjust     44 111   1.00000 E2
+upbendc          44 111 0.00000E+00 M2
+sgr              44 111   0.001 M2
+egr              44 111   8.211 M2
+ggr              44 111   4.000 M2
+sgradjust        44 111   1.000 M2
+egradjust        44 111   1.000 M2
+ggradjust        44 111   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 110Ru
+##
+## Level density
+##
+a                44 110  18.77449
+aadjust          44 110   1.00000
+gammald          44 110   0.09039
+pair             44 110   2.28831
+Pshift           44 110   0.00000   0
+Pshiftadjust     44 110   0.00000   0
+deltaW           44 110   4.56828   0
+Ntop             44 110  15   0
+Nlow             44 110   8   0
+s2adjust         44 110   1.00000   0
+ctable           44 110   0.00000   0
+ptable           44 110   0.42675   0
+ctableadjust     44 110   0.00000   0
+ptableadjust     44 110   0.00000   0
+g                44 110   7.33333
+gp               44 110   2.93333
+gn               44 110   4.40000
+gnadjust         44 110   1.00000
+gpadjust         44 110   1.00000
+gadjust          44 110   1.00000
+##
+## Gamma-ray
+##
+gamgam           44 110   0.11200
+gamgamadjust     44 110   1.00000
+etable           44 110   0.00000 E1
+ftable           44 110   1.00000 E1
+wtable           44 110   0.91300 E1
+etableadjust     44 110   0.00000 E1
+ftableadjust     44 110   1.00000 E1
+wtableadjust     44 110   1.00000 E1
+upbendc          44 110 3.50000E-08 M1
+sgr              44 110   1.508 M1
+egr              44 110   8.223 M1
+ggr              44 110   4.000 M1
+sgradjust        44 110   1.000 M1
+egradjust        44 110   1.000 M1
+ggradjust        44 110   1.000 M1
+etable           44 110   0.00000 E2
+ftable           44 110   1.00000 E2
+wtable           44 110   1.00000 E2
+etableadjust     44 110   0.00000 E2
+ftableadjust     44 110   1.00000 E2
+wtableadjust     44 110   1.00000 E2
+upbendc          44 110 0.00000E+00 M2
+sgr              44 110   0.001 M2
+egr              44 110   8.223 M2
+ggr              44 110   4.000 M2
+sgradjust        44 110   1.000 M2
+egradjust        44 110   1.000 M2
+ggradjust        44 110   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 108Tc
+##
+## Level density
+##
+a                43 108  18.92299
+aadjust          43 108   1.00000
+gammald          43 108   0.09094
+pair             43 108   0.00000
+Pshift           43 108   0.00000   0
+Pshiftadjust     43 108   0.00000   0
+deltaW           43 108   5.00636   0
+Ntop             43 108  10   0
+Nlow             43 108   2   0
+s2adjust         43 108   1.00000   0
+ctable           43 108   0.00000   0
+ptable           43 108   0.00000   0
+ctableadjust     43 108   0.00000   0
+ptableadjust     43 108   0.00000   0
+g                43 108   7.20000
+gp               43 108   2.86667
+gn               43 108   4.33333
+gnadjust         43 108   1.00000
+gpadjust         43 108   1.00000
+gadjust          43 108   1.00000
+##
+## Gamma-ray
+##
+gamgam           43 108   0.11600
+gamgamadjust     43 108   1.00000
+etable           43 108   0.00000 E1
+ftable           43 108   1.00000 E1
+wtable           43 108   0.91300 E1
+etableadjust     43 108   0.00000 E1
+ftableadjust     43 108   1.00000 E1
+wtableadjust     43 108   1.00000 E1
+upbendc          43 108 3.50000E-08 M1
+sgr              43 108   1.485 M1
+egr              43 108   8.248 M1
+ggr              43 108   4.000 M1
+sgradjust        43 108   1.000 M1
+egradjust        43 108   1.000 M1
+ggradjust        43 108   1.000 M1
+etable           43 108   0.00000 E2
+ftable           43 108   1.00000 E2
+wtable           43 108   1.00000 E2
+etableadjust     43 108   0.00000 E2
+ftableadjust     43 108   1.00000 E2
+wtableadjust     43 108   1.00000 E2
+upbendc          43 108 0.00000E+00 M2
+sgr              43 108   0.001 M2
+egr              43 108   8.248 M2
+ggr              43 108   4.000 M2
+sgradjust        43 108   1.000 M2
+egradjust        43 108   1.000 M2
+ggradjust        43 108   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 107Tc
+##
+## Level density
+##
+a                43 107  18.88535
+aadjust          43 107   1.00000
+gammald          43 107   0.09123
+pair             43 107   1.16008
+Pshift           43 107   0.00000   0
+Pshiftadjust     43 107   0.00000   0
+deltaW           43 107   5.24351   0
+Ntop             43 107  10   0
+Nlow             43 107   2   0
+s2adjust         43 107   1.00000   0
+ctable           43 107   0.00000   0
+ptable           43 107   0.00000   0
+ctableadjust     43 107   0.00000   0
+ptableadjust     43 107   0.00000   0
+g                43 107   7.13333
+gp               43 107   2.86667
+gn               43 107   4.26667
+gnadjust         43 107   1.00000
+gpadjust         43 107   1.00000
+gadjust          43 107   1.00000
+##
+## Gamma-ray
+##
+gamgam           43 107   0.11650
+gamgamadjust     43 107   1.00000
+etable           43 107   0.00000 E1
+ftable           43 107   1.00000 E1
+wtable           43 107   0.91300 E1
+etableadjust     43 107   0.00000 E1
+ftableadjust     43 107   1.00000 E1
+wtableadjust     43 107   1.00000 E1
+upbendc          43 107 3.50000E-08 M1
+sgr              43 107   1.473 M1
+egr              43 107   8.261 M1
+ggr              43 107   4.000 M1
+sgradjust        43 107   1.000 M1
+egradjust        43 107   1.000 M1
+ggradjust        43 107   1.000 M1
+etable           43 107   0.00000 E2
+ftable           43 107   1.00000 E2
+wtable           43 107   1.00000 E2
+etableadjust     43 107   0.00000 E2
+ftableadjust     43 107   1.00000 E2
+wtableadjust     43 107   1.00000 E2
+upbendc          43 107 0.00000E+00 M2
+sgr              43 107   0.001 M2
+egr              43 107   8.261 M2
+ggr              43 107   4.000 M2
+sgradjust        43 107   1.000 M2
+egradjust        43 107   1.000 M2
+ggradjust        43 107   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 106Tc
+##
+## Level density
+##
+a                43 106  18.46791
+aadjust          43 106   1.00000
+gammald          43 106   0.09151
+pair             43 106   0.00000
+Pshift           43 106   0.00000   0
+Pshiftadjust     43 106   0.00000   0
+deltaW           43 106   4.88754   0
+Ntop             43 106  10   0
+Nlow             43 106   2   0
+s2adjust         43 106   1.00000   0
+ctable           43 106   0.00000   0
+ptable           43 106   0.00000   0
+ctableadjust     43 106   0.00000   0
+ptableadjust     43 106   0.00000   0
+g                43 106   7.06667
+gp               43 106   2.86667
+gn               43 106   4.20000
+gnadjust         43 106   1.00000
+gpadjust         43 106   1.00000
+gadjust          43 106   1.00000
+##
+## Gamma-ray
+##
+gamgam           43 106   0.11700
+gamgamadjust     43 106   1.00000
+etable           43 106   0.00000 E1
+ftable           43 106   1.00000 E1
+wtable           43 106   0.91300 E1
+etableadjust     43 106   0.00000 E1
+ftableadjust     43 106   1.00000 E1
+wtableadjust     43 106   1.00000 E1
+upbendc          43 106 3.50000E-08 M1
+sgr              43 106   1.462 M1
+egr              43 106   8.274 M1
+ggr              43 106   4.000 M1
+sgradjust        43 106   1.000 M1
+egradjust        43 106   1.000 M1
+ggradjust        43 106   1.000 M1
+etable           43 106   0.00000 E2
+ftable           43 106   1.00000 E2
+wtable           43 106   1.00000 E2
+etableadjust     43 106   0.00000 E2
+ftableadjust     43 106   1.00000 E2
+wtableadjust     43 106   1.00000 E2
+upbendc          43 106 0.00000E+00 M2
+sgr              43 106   0.001 M2
+egr              43 106   8.274 M2
+ggr              43 106   4.000 M2
+sgradjust        43 106   1.000 M2
+egradjust        43 106   1.000 M2
+ggradjust        43 106   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 105Tc
+##
+## Level density
+##
+a                43 105  18.13380
+aadjust          43 105   1.00000
+gammald          43 105   0.09180
+pair             43 105   1.17108
+Pshift           43 105   0.00000   0
+Pshiftadjust     43 105   0.00000   0
+deltaW           43 105   4.90911   0
+Ntop             43 105  17   0
+Nlow             43 105   4   0
+s2adjust         43 105   1.00000   0
+ctable           43 105   0.00000   0
+ptable           43 105   0.12067   0
+ctableadjust     43 105   0.00000   0
+ptableadjust     43 105   0.00000   0
+g                43 105   7.00000
+gp               43 105   2.86667
+gn               43 105   4.13333
+gnadjust         43 105   1.00000
+gpadjust         43 105   1.00000
+gadjust          43 105   1.00000
+##
+## Gamma-ray
+##
+gamgam           43 105   0.11750
+gamgamadjust     43 105   1.00000
+etable           43 105   0.00000 E1
+ftable           43 105   1.00000 E1
+wtable           43 105   0.91300 E1
+etableadjust     43 105   0.00000 E1
+ftableadjust     43 105   1.00000 E1
+wtableadjust     43 105   1.00000 E1
+upbendc          43 105 3.50000E-08 M1
+sgr              43 105   1.450 M1
+egr              43 105   8.287 M1
+ggr              43 105   4.000 M1
+sgradjust        43 105   1.000 M1
+egradjust        43 105   1.000 M1
+ggradjust        43 105   1.000 M1
+etable           43 105   0.00000 E2
+ftable           43 105   1.00000 E2
+wtable           43 105   1.00000 E2
+etableadjust     43 105   0.00000 E2
+ftableadjust     43 105   1.00000 E2
+wtableadjust     43 105   1.00000 E2
+upbendc          43 105 0.00000E+00 M2
+sgr              43 105   0.001 M2
+egr              43 105   8.287 M2
+ggr              43 105   4.000 M2
+sgradjust        43 105   1.000 M2
+egradjust        43 105   1.000 M2
+ggradjust        43 105   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 105Mo
+##
+## Level density
+##
+a                42 105  18.80731
+aadjust          42 105   1.00000
+gammald          42 105   0.09180
+pair             42 105   1.17108
+Pshift           42 105   0.00000   0
+Pshiftadjust     42 105   0.00000   0
+deltaW           42 105   5.00498   0
+Ntop             42 105  15   0
+Nlow             42 105   8   0
+s2adjust         42 105   1.00000   0
+ctable           42 105   0.00000   0
+ptable           42 105  -0.67547   0
+ctableadjust     42 105   0.00000   0
+ptableadjust     42 105   0.00000   0
+g                42 105   7.00000
+gp               42 105   2.80000
+gn               42 105   4.20000
+gnadjust         42 105   1.00000
+gpadjust         42 105   1.00000
+gadjust          42 105   1.00000
+##
+## Gamma-ray
+##
+gamgam           42 105   0.11750
+gamgamadjust     42 105   1.00000
+etable           42 105   0.00000 E1
+ftable           42 105   1.00000 E1
+wtable           42 105   0.91300 E1
+etableadjust     42 105   0.00000 E1
+ftableadjust     42 105   1.00000 E1
+wtableadjust     42 105   1.00000 E1
+upbendc          42 105 3.50000E-08 M1
+sgr              42 105   1.450 M1
+egr              42 105   8.287 M1
+ggr              42 105   4.000 M1
+sgradjust        42 105   1.000 M1
+egradjust        42 105   1.000 M1
+ggradjust        42 105   1.000 M1
+etable           42 105   0.00000 E2
+ftable           42 105   1.00000 E2
+wtable           42 105   1.00000 E2
+etableadjust     42 105   0.00000 E2
+ftableadjust     42 105   1.00000 E2
+wtableadjust     42 105   1.00000 E2
+upbendc          42 105 0.00000E+00 M2
+sgr              42 105   0.001 M2
+egr              42 105   8.287 M2
+ggr              42 105   4.000 M2
+sgradjust        42 105   1.000 M2
+egradjust        42 105   1.000 M2
+ggradjust        42 105   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 104Mo
+##
+## Level density
+##
+a                42 104  18.35451
+aadjust          42 104   1.00000
+gammald          42 104   0.09209
+pair             42 104   2.35339
+Pshift           42 104   0.00000   0
+Pshiftadjust     42 104   0.00000   0
+deltaW           42 104   4.95503   0
+Ntop             42 104  17   0
+Nlow             42 104   2   0
+s2adjust         42 104   1.00000   0
+ctable           42 104   0.00000   0
+ptable           42 104   0.23722   0
+ctableadjust     42 104   0.00000   0
+ptableadjust     42 104   0.00000   0
+g                42 104   6.93333
+gp               42 104   2.80000
+gn               42 104   4.13333
+gnadjust         42 104   1.00000
+gpadjust         42 104   1.00000
+gadjust          42 104   1.00000
+##
+## Gamma-ray
+##
+gamgam           42 104   0.11800
+gamgamadjust     42 104   1.00000
+etable           42 104   0.00000 E1
+ftable           42 104   1.00000 E1
+wtable           42 104   0.91300 E1
+etableadjust     42 104   0.00000 E1
+ftableadjust     42 104   1.00000 E1
+wtableadjust     42 104   1.00000 E1
+upbendc          42 104 3.50000E-08 M1
+sgr              42 104   1.439 M1
+egr              42 104   8.300 M1
+ggr              42 104   4.000 M1
+sgradjust        42 104   1.000 M1
+egradjust        42 104   1.000 M1
+ggradjust        42 104   1.000 M1
+etable           42 104   0.00000 E2
+ftable           42 104   1.00000 E2
+wtable           42 104   1.00000 E2
+etableadjust     42 104   0.00000 E2
+ftableadjust     42 104   1.00000 E2
+wtableadjust     42 104   1.00000 E2
+upbendc          42 104 0.00000E+00 M2
+sgr              42 104   0.001 M2
+egr              42 104   8.300 M2
+ggr              42 104   4.000 M2
+sgradjust        42 104   1.000 M2
+egradjust        42 104   1.000 M2
+ggradjust        42 104   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 114Sn
+##
+## Level density
+##
+a                50 114  15.17506
+aadjust          50 114   1.00000
+gammald          50 114   0.08932
+pair             50 114   2.24781
+Pshift           50 114   0.00000   0
+Pshiftadjust     50 114   0.00000   0
+deltaW           50 114   0.68207   0
+Ntop             50 114  19   0
+Nlow             50 114   6   0
+s2adjust         50 114   1.00000   0
+ctable           50 114   0.00000   0
+ptable           50 114   0.07640   0
+ctableadjust     50 114   0.00000   0
+ptableadjust     50 114   0.00000   0
+g                50 114   7.60000
+gp               50 114   3.33333
+gn               50 114   4.26667
+gnadjust         50 114   1.00000
+gpadjust         50 114   1.00000
+gadjust          50 114   1.00000
+##
+## Gamma-ray
+##
+gamgam           50 114   0.10800
+gamgamadjust     50 114   1.00000
+etable           50 114   0.00000 E1
+ftable           50 114   1.00000 E1
+wtable           50 114   0.91300 E1
+etableadjust     50 114   0.00000 E1
+ftableadjust     50 114   1.00000 E1
+wtableadjust     50 114   1.00000 E1
+upbendc          50 114 3.50000E-08 M1
+sgr              50 114   1.553 M1
+egr              50 114   8.174 M1
+ggr              50 114   4.000 M1
+sgradjust        50 114   1.000 M1
+egradjust        50 114   1.000 M1
+ggradjust        50 114   1.000 M1
+etable           50 114   0.00000 E2
+ftable           50 114   1.00000 E2
+wtable           50 114   1.00000 E2
+etableadjust     50 114   0.00000 E2
+ftableadjust     50 114   1.00000 E2
+wtableadjust     50 114   1.00000 E2
+upbendc          50 114 0.00000E+00 M2
+sgr              50 114   0.001 M2
+egr              50 114   8.174 M2
+ggr              50 114   4.000 M2
+sgradjust        50 114   1.000 M2
+egradjust        50 114   1.000 M2
+ggradjust        50 114   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 112In
+##
+## Level density
+##
+a                49 112  15.87970
+aadjust          49 112   1.00000
+gammald          49 112   0.08985
+pair             49 112   0.00000
+Pshift           49 112   0.00000   0
+Pshiftadjust     49 112   0.00000   0
+deltaW           49 112   1.66935   0
+Ntop             49 112  24   0
+Nlow             49 112   4   0
+s2adjust         49 112   1.00000   0
+ctable           49 112   0.00000   0
+ptable           49 112  -0.12336   0
+ctableadjust     49 112   0.00000   0
+ptableadjust     49 112   0.00000   0
+g                49 112   7.46667
+gp               49 112   3.26667
+gn               49 112   4.20000
+gnadjust         49 112   1.00000
+gpadjust         49 112   1.00000
+gadjust          49 112   1.00000
+##
+## Gamma-ray
+##
+gamgam           49 112   0.10900
+gamgamadjust     49 112   1.00000
+etable           49 112   0.00000 E1
+ftable           49 112   1.00000 E1
+wtable           49 112   0.91300 E1
+etableadjust     49 112   0.00000 E1
+ftableadjust     49 112   1.00000 E1
+wtableadjust     49 112   1.00000 E1
+upbendc          49 112 3.50000E-08 M1
+sgr              49 112   1.530 M1
+egr              49 112   8.199 M1
+ggr              49 112   4.000 M1
+sgradjust        49 112   1.000 M1
+egradjust        49 112   1.000 M1
+ggradjust        49 112   1.000 M1
+etable           49 112   0.00000 E2
+ftable           49 112   1.00000 E2
+wtable           49 112   1.00000 E2
+etableadjust     49 112   0.00000 E2
+ftableadjust     49 112   1.00000 E2
+wtableadjust     49 112   1.00000 E2
+upbendc          49 112 0.00000E+00 M2
+sgr              49 112   0.001 M2
+egr              49 112   8.199 M2
+ggr              49 112   4.000 M2
+sgradjust        49 112   1.000 M2
+egradjust        49 112   1.000 M2
+ggradjust        49 112   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 106Rh
+##
+## Level density
+##
+a                45 106  17.24468
+aadjust          45 106   1.00000
+gammald          45 106   0.09151
+pair             45 106   0.00000
+Pshift           45 106   0.00000   0
+Pshiftadjust     45 106   0.00000   0
+deltaW           45 106   3.79807   0
+Ntop             45 106  30   0
+Nlow             45 106   2   0
+s2adjust         45 106   1.00000   0
+ctable           45 106   0.00000   0
+ptable           45 106  -2.62522   0
+ctableadjust     45 106   0.00000   0
+ptableadjust     45 106   0.00000   0
+g                45 106   7.06667
+gp               45 106   3.00000
+gn               45 106   4.06667
+gnadjust         45 106   1.00000
+gpadjust         45 106   1.00000
+gadjust          45 106   1.00000
+##
+## Gamma-ray
+##
+gamgam           45 106   0.11700
+gamgamadjust     45 106   1.00000
+etable           45 106   0.00000 E1
+ftable           45 106   1.00000 E1
+wtable           45 106   0.91300 E1
+etableadjust     45 106   0.00000 E1
+ftableadjust     45 106   1.00000 E1
+wtableadjust     45 106   1.00000 E1
+upbendc          45 106 3.50000E-08 M1
+sgr              45 106   1.462 M1
+egr              45 106   8.274 M1
+ggr              45 106   4.000 M1
+sgradjust        45 106   1.000 M1
+egradjust        45 106   1.000 M1
+ggradjust        45 106   1.000 M1
+etable           45 106   0.00000 E2
+ftable           45 106   1.00000 E2
+wtable           45 106   1.00000 E2
+etableadjust     45 106   0.00000 E2
+ftableadjust     45 106   1.00000 E2
+wtableadjust     45 106   1.00000 E2
+upbendc          45 106 0.00000E+00 M2
+sgr              45 106   0.001 M2
+egr              45 106   8.274 M2
+ggr              45 106   4.000 M2
+sgradjust        45 106   1.000 M2
+egradjust        45 106   1.000 M2
+ggradjust        45 106   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 105Ru
+##
+## Level density
+##
+a                44 105  17.84455
+aadjust          44 105   1.00000
+gammald          44 105   0.09180
+pair             44 105   1.17108
+Pshift           44 105   0.00000   0
+Pshiftadjust     44 105   0.00000   0
+deltaW           44 105   4.23772   0
+Ntop             44 105  21   0
+Nlow             44 105   8   0
+s2adjust         44 105   1.00000   0
+ctable           44 105   0.04083   0
+ptable           44 105   0.24299   0
+ctableadjust     44 105   0.00000   0
+ptableadjust     44 105   0.00000   0
+D0               44 105 3.00000E-01
+g                44 105   7.00000
+gp               44 105   2.93333
+gn               44 105   4.06667
+gnadjust         44 105   1.00000
+gpadjust         44 105   1.00000
+gadjust          44 105   1.00000
+##
+## Gamma-ray
+##
+gamgam           44 105   0.08500
+gamgamadjust     44 105   1.00000
+etable           44 105   0.00000 E1
+ftable           44 105   1.00000 E1
+wtable           44 105   0.91300 E1
+etableadjust     44 105   0.00000 E1
+ftableadjust     44 105   1.00000 E1
+wtableadjust     44 105   1.00000 E1
+upbendc          44 105 3.50000E-08 M1
+sgr              44 105   1.450 M1
+egr              44 105   8.287 M1
+ggr              44 105   4.000 M1
+sgradjust        44 105   1.000 M1
+egradjust        44 105   1.000 M1
+ggradjust        44 105   1.000 M1
+etable           44 105   0.00000 E2
+ftable           44 105   1.00000 E2
+wtable           44 105   1.00000 E2
+etableadjust     44 105   0.00000 E2
+ftableadjust     44 105   1.00000 E2
+wtableadjust     44 105   1.00000 E2
+upbendc          44 105 0.00000E+00 M2
+sgr              44 105   0.001 M2
+egr              44 105   8.287 M2
+ggr              44 105   4.000 M2
+sgradjust        44 105   1.000 M2
+egradjust        44 105   1.000 M2
+ggradjust        44 105   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 104Tc
+##
+## Level density
+##
+a                43 104  18.03264
+aadjust          43 104   1.00000
+gammald          43 104   0.09209
+pair             43 104   0.00000
+Pshift           43 104   0.00000   0
+Pshiftadjust     43 104   0.00000   0
+deltaW           43 104   4.80013   0
+Ntop             43 104  16   0
+Nlow             43 104   8   0
+s2adjust         43 104   1.00000   0
+ctable           43 104   0.00000   0
+ptable           43 104   0.37919   0
+ctableadjust     43 104   0.00000   0
+ptableadjust     43 104   0.00000   0
+g                43 104   6.93333
+gp               43 104   2.86667
+gn               43 104   4.06667
+gnadjust         43 104   1.00000
+gpadjust         43 104   1.00000
+gadjust          43 104   1.00000
+##
+## Gamma-ray
+##
+gamgam           43 104   0.11800
+gamgamadjust     43 104   1.00000
+etable           43 104   0.00000 E1
+ftable           43 104   1.00000 E1
+wtable           43 104   0.91300 E1
+etableadjust     43 104   0.00000 E1
+ftableadjust     43 104   1.00000 E1
+wtableadjust     43 104   1.00000 E1
+upbendc          43 104 3.50000E-08 M1
+sgr              43 104   1.439 M1
+egr              43 104   8.300 M1
+ggr              43 104   4.000 M1
+sgradjust        43 104   1.000 M1
+egradjust        43 104   1.000 M1
+ggradjust        43 104   1.000 M1
+etable           43 104   0.00000 E2
+ftable           43 104   1.00000 E2
+wtable           43 104   1.00000 E2
+etableadjust     43 104   0.00000 E2
+ftableadjust     43 104   1.00000 E2
+wtableadjust     43 104   1.00000 E2
+upbendc          43 104 0.00000E+00 M2
+sgr              43 104   0.001 M2
+egr              43 104   8.300 M2
+ggr              43 104   4.000 M2
+sgradjust        43 104   1.000 M2
+egradjust        43 104   1.000 M2
+ggradjust        43 104   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 103Mo
+##
+## Level density
+##
+a                42 103  18.31053
+aadjust          42 103   1.00000
+gammald          42 103   0.09239
+pair             42 103   1.18240
+Pshift           42 103   0.00000   0
+Pshiftadjust     42 103   0.00000   0
+deltaW           42 103   4.87417   0
+Ntop             42 103  15   0
+Nlow             42 103   8   0
+s2adjust         42 103   1.00000   0
+ctable           42 103   0.00000   0
+ptable           42 103   0.12574   0
+ctableadjust     42 103   0.00000   0
+ptableadjust     42 103   0.00000   0
+g                42 103   6.86667
+gp               42 103   2.80000
+gn               42 103   4.06667
+gnadjust         42 103   1.00000
+gpadjust         42 103   1.00000
+gadjust          42 103   1.00000
+##
+## Gamma-ray
+##
+gamgam           42 103   0.11850
+gamgamadjust     42 103   1.00000
+etable           42 103   0.00000 E1
+ftable           42 103   1.00000 E1
+wtable           42 103   0.91300 E1
+etableadjust     42 103   0.00000 E1
+ftableadjust     42 103   1.00000 E1
+wtableadjust     42 103   1.00000 E1
+upbendc          42 103 3.50000E-08 M1
+sgr              42 103   1.427 M1
+egr              42 103   8.314 M1
+ggr              42 103   4.000 M1
+sgradjust        42 103   1.000 M1
+egradjust        42 103   1.000 M1
+ggradjust        42 103   1.000 M1
+etable           42 103   0.00000 E2
+ftable           42 103   1.00000 E2
+wtable           42 103   1.00000 E2
+etableadjust     42 103   0.00000 E2
+ftableadjust     42 103   1.00000 E2
+wtableadjust     42 103   1.00000 E2
+upbendc          42 103 0.00000E+00 M2
+sgr              42 103   0.001 M2
+egr              42 103   8.314 M2
+ggr              42 103   4.000 M2
+sgradjust        42 103   1.000 M2
+egradjust        42 103   1.000 M2
+ggradjust        42 103   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 113Sn
+##
+## Level density
+##
+a                50 113  15.17352
+aadjust          50 113   1.00000
+gammald          50 113   0.08958
+pair             50 113   1.12887
+Pshift           50 113   0.00000   0
+Pshiftadjust     50 113   0.00000   0
+deltaW           50 113   0.75682   0
+Ntop             50 113  17   0
+Nlow             50 113   4   0
+s2adjust         50 113   1.00000   0
+ctable           50 113   0.03525   0
+ptable           50 113   0.03511   0
+ctableadjust     50 113   0.00000   0
+ptableadjust     50 113   0.00000   0
+D0               50 113 1.57000E-01
+g                50 113   7.53333
+gp               50 113   3.33333
+gn               50 113   4.20000
+gnadjust         50 113   1.00000
+gpadjust         50 113   1.00000
+gadjust          50 113   1.00000
+##
+## Gamma-ray
+##
+gamgam           50 113   0.11000
+gamgamadjust     50 113   1.00000
+etable           50 113   0.00000 E1
+ftable           50 113   1.00000 E1
+wtable           50 113   0.91300 E1
+etableadjust     50 113   0.00000 E1
+ftableadjust     50 113   1.00000 E1
+wtableadjust     50 113   1.00000 E1
+upbendc          50 113 3.50000E-08 M1
+sgr              50 113   1.542 M1
+egr              50 113   8.186 M1
+ggr              50 113   4.000 M1
+sgradjust        50 113   1.000 M1
+egradjust        50 113   1.000 M1
+ggradjust        50 113   1.000 M1
+etable           50 113   0.00000 E2
+ftable           50 113   1.00000 E2
+wtable           50 113   1.00000 E2
+etableadjust     50 113   0.00000 E2
+ftableadjust     50 113   1.00000 E2
+wtableadjust     50 113   1.00000 E2
+upbendc          50 113 0.00000E+00 M2
+sgr              50 113   0.001 M2
+egr              50 113   8.186 M2
+ggr              50 113   4.000 M2
+sgradjust        50 113   1.000 M2
+egradjust        50 113   1.000 M2
+ggradjust        50 113   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 111In
+##
+## Level density
+##
+a                49 111  15.35122
+aadjust          49 111   1.00000
+gammald          49 111   0.09012
+pair             49 111   1.13899
+Pshift           49 111   0.00000   0
+Pshiftadjust     49 111   0.00000   0
+deltaW           49 111   1.28323   0
+Ntop             49 111  15   0
+Nlow             49 111   2   0
+s2adjust         49 111   1.00000   0
+ctable           49 111   0.00000   0
+ptable           49 111   0.03317   0
+ctableadjust     49 111   0.00000   0
+ptableadjust     49 111   0.00000   0
+g                49 111   7.40000
+gp               49 111   3.26667
+gn               49 111   4.13333
+gnadjust         49 111   1.00000
+gpadjust         49 111   1.00000
+gadjust          49 111   1.00000
+##
+## Gamma-ray
+##
+gamgam           49 111   0.11000
+gamgamadjust     49 111   1.00000
+etable           49 111   0.00000 E1
+ftable           49 111   1.00000 E1
+wtable           49 111   0.91300 E1
+etableadjust     49 111   0.00000 E1
+ftableadjust     49 111   1.00000 E1
+wtableadjust     49 111   1.00000 E1
+upbendc          49 111 3.50000E-08 M1
+sgr              49 111   1.519 M1
+egr              49 111   8.211 M1
+ggr              49 111   4.000 M1
+sgradjust        49 111   1.000 M1
+egradjust        49 111   1.000 M1
+ggradjust        49 111   1.000 M1
+etable           49 111   0.00000 E2
+ftable           49 111   1.00000 E2
+wtable           49 111   1.00000 E2
+etableadjust     49 111   0.00000 E2
+ftableadjust     49 111   1.00000 E2
+wtableadjust     49 111   1.00000 E2
+upbendc          49 111 0.00000E+00 M2
+sgr              49 111   0.001 M2
+egr              49 111   8.211 M2
+ggr              49 111   4.000 M2
+sgradjust        49 111   1.000 M2
+egradjust        49 111   1.000 M2
+ggradjust        49 111   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 110Cd
+##
+## Level density
+##
+a                48 110  15.69761
+aadjust          48 110   1.00000
+gammald          48 110   0.09039
+pair             48 110   2.28831
+Pshift           48 110   0.00000   0
+Pshiftadjust     48 110   0.00000   0
+deltaW           48 110   1.72293   0
+Ntop             48 110  19   0
+Nlow             48 110   8   0
+s2adjust         48 110   1.00000   0
+ctable           48 110   0.00000   0
+ptable           48 110  -0.16420   0
+ctableadjust     48 110   0.00000   0
+ptableadjust     48 110   0.00000   0
+g                48 110   7.33333
+gp               48 110   3.20000
+gn               48 110   4.13333
+gnadjust         48 110   1.00000
+gpadjust         48 110   1.00000
+gadjust          48 110   1.00000
+##
+## Gamma-ray
+##
+gamgam           48 110   0.11200
+gamgamadjust     48 110   1.00000
+etable           48 110   0.00000 E1
+ftable           48 110   1.00000 E1
+wtable           48 110   0.91300 E1
+etableadjust     48 110   0.00000 E1
+ftableadjust     48 110   1.00000 E1
+wtableadjust     48 110   1.00000 E1
+upbendc          48 110 3.50000E-08 M1
+sgr              48 110   1.508 M1
+egr              48 110   8.223 M1
+ggr              48 110   4.000 M1
+sgradjust        48 110   1.000 M1
+egradjust        48 110   1.000 M1
+ggradjust        48 110   1.000 M1
+etable           48 110   0.00000 E2
+ftable           48 110   1.00000 E2
+wtable           48 110   1.00000 E2
+etableadjust     48 110   0.00000 E2
+ftableadjust     48 110   1.00000 E2
+wtableadjust     48 110   1.00000 E2
+upbendc          48 110 0.00000E+00 M2
+sgr              48 110   0.001 M2
+egr              48 110   8.223 M2
+ggr              48 110   4.000 M2
+sgradjust        48 110   1.000 M2
+egradjust        48 110   1.000 M2
+ggradjust        48 110   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 108Ag
+##
+## Level density
+##
+a                47 108  16.21850
+aadjust          47 108   1.00000
+gammald          47 108   0.09094
+pair             47 108   0.00000
+Pshift           47 108   0.00000   0
+Pshiftadjust     47 108   0.00000   0
+deltaW           47 108   2.51643   0
+Ntop             47 108  28   0
+Nlow             47 108   3   0
+s2adjust         47 108   1.00000   0
+ctable           47 108  -0.02637   0
+ptable           47 108  -0.07610   0
+ctableadjust     47 108   0.00000   0
+ptableadjust     47 108   0.00000   0
+D0               47 108 2.20000E-02
+g                47 108   7.20000
+gp               47 108   3.13333
+gn               47 108   4.06667
+gnadjust         47 108   1.00000
+gpadjust         47 108   1.00000
+gadjust          47 108   1.00000
+##
+## Gamma-ray
+##
+gamgam           47 108   0.14000
+gamgamadjust     47 108   1.00000
+etable           47 108   0.00000 E1
+ftable           47 108   1.00000 E1
+wtable           47 108   0.91300 E1
+etableadjust     47 108   0.00000 E1
+ftableadjust     47 108   1.00000 E1
+wtableadjust     47 108   1.00000 E1
+upbendc          47 108 3.50000E-08 M1
+sgr              47 108   1.485 M1
+egr              47 108   8.248 M1
+ggr              47 108   4.000 M1
+sgradjust        47 108   1.000 M1
+egradjust        47 108   1.000 M1
+ggradjust        47 108   1.000 M1
+etable           47 108   0.00000 E2
+ftable           47 108   1.00000 E2
+wtable           47 108   1.00000 E2
+etableadjust     47 108   0.00000 E2
+ftableadjust     47 108   1.00000 E2
+wtableadjust     47 108   1.00000 E2
+upbendc          47 108 0.00000E+00 M2
+sgr              47 108   0.001 M2
+egr              47 108   8.248 M2
+ggr              47 108   4.000 M2
+sgradjust        47 108   1.000 M2
+egradjust        47 108   1.000 M2
+ggradjust        47 108   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 107Pd
+##
+## Level density
+##
+a                46 107  16.95201
+aadjust          46 107   1.00000
+gammald          46 107   0.09123
+pair             46 107   1.16008
+Pshift           46 107   0.00000   0
+Pshiftadjust     46 107   0.00000   0
+deltaW           46 107   3.18809   0
+Ntop             46 107  19   0
+Nlow             46 107   8   0
+s2adjust         46 107   1.00000   0
+ctable           46 107   0.09655   0
+ptable           46 107   0.27372   0
+ctableadjust     46 107   0.00000   0
+ptableadjust     46 107   0.00000   0
+D0               46 107 2.70000E-01
+g                46 107   7.13333
+gp               46 107   3.06667
+gn               46 107   4.06667
+gnadjust         46 107   1.00000
+gpadjust         46 107   1.00000
+gadjust          46 107   1.00000
+##
+## Gamma-ray
+##
+gamgam           46 107   0.11650
+gamgamadjust     46 107   1.00000
+etable           46 107   0.00000 E1
+ftable           46 107   1.00000 E1
+wtable           46 107   0.91300 E1
+etableadjust     46 107   0.00000 E1
+ftableadjust     46 107   1.00000 E1
+wtableadjust     46 107   1.00000 E1
+upbendc          46 107 3.50000E-08 M1
+sgr              46 107   1.473 M1
+egr              46 107   8.261 M1
+ggr              46 107   4.000 M1
+sgradjust        46 107   1.000 M1
+egradjust        46 107   1.000 M1
+ggradjust        46 107   1.000 M1
+etable           46 107   0.00000 E2
+ftable           46 107   1.00000 E2
+wtable           46 107   1.00000 E2
+etableadjust     46 107   0.00000 E2
+ftableadjust     46 107   1.00000 E2
+wtableadjust     46 107   1.00000 E2
+upbendc          46 107 0.00000E+00 M2
+sgr              46 107   0.001 M2
+egr              46 107   8.261 M2
+ggr              46 107   4.000 M2
+sgradjust        46 107   1.000 M2
+egradjust        46 107   1.000 M2
+ggradjust        46 107   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 105Rh
+##
+## Level density
+##
+a                45 105  16.60451
+aadjust          45 105   1.00000
+gammald          45 105   0.09180
+pair             45 105   1.17108
+Pshift           45 105   0.00000   0
+Pshiftadjust     45 105   0.00000   0
+deltaW           45 105   3.41653   0
+Ntop             45 105  24   0
+Nlow             45 105   6   0
+s2adjust         45 105   1.00000   0
+ctable           45 105   0.00000   0
+ptable           45 105  -0.04091   0
+ctableadjust     45 105   0.00000   0
+ptableadjust     45 105   0.00000   0
+g                45 105   7.00000
+gp               45 105   3.00000
+gn               45 105   4.00000
+gnadjust         45 105   1.00000
+gpadjust         45 105   1.00000
+gadjust          45 105   1.00000
+##
+## Gamma-ray
+##
+gamgam           45 105   0.11750
+gamgamadjust     45 105   1.00000
+etable           45 105   0.00000 E1
+ftable           45 105   1.00000 E1
+wtable           45 105   0.91300 E1
+etableadjust     45 105   0.00000 E1
+ftableadjust     45 105   1.00000 E1
+wtableadjust     45 105   1.00000 E1
+upbendc          45 105 3.50000E-08 M1
+sgr              45 105   1.450 M1
+egr              45 105   8.287 M1
+ggr              45 105   4.000 M1
+sgradjust        45 105   1.000 M1
+egradjust        45 105   1.000 M1
+ggradjust        45 105   1.000 M1
+etable           45 105   0.00000 E2
+ftable           45 105   1.00000 E2
+wtable           45 105   1.00000 E2
+etableadjust     45 105   0.00000 E2
+ftableadjust     45 105   1.00000 E2
+wtableadjust     45 105   1.00000 E2
+upbendc          45 105 0.00000E+00 M2
+sgr              45 105   0.001 M2
+egr              45 105   8.287 M2
+ggr              45 105   4.000 M2
+sgradjust        45 105   1.000 M2
+egradjust        45 105   1.000 M2
+ggradjust        45 105   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 104Ru
+##
+## Level density
+##
+a                44 104  16.82524
+aadjust          44 104   1.00000
+gammald          44 104   0.09209
+pair             44 104   2.35339
+Pshift           44 104   0.00000   0
+Pshiftadjust     44 104   0.00000   0
+deltaW           44 104   3.62018   0
+Ntop             44 104  19   0
+Nlow             44 104   8   0
+s2adjust         44 104   1.00000   0
+ctable           44 104   0.00000   0
+ptable           44 104   0.55797   0
+ctableadjust     44 104   0.00000   0
+ptableadjust     44 104   0.00000   0
+g                44 104   6.93333
+gp               44 104   2.93333
+gn               44 104   4.00000
+gnadjust         44 104   1.00000
+gpadjust         44 104   1.00000
+gadjust          44 104   1.00000
+##
+## Gamma-ray
+##
+gamgam           44 104   0.11800
+gamgamadjust     44 104   1.00000
+etable           44 104   0.00000 E1
+ftable           44 104   1.00000 E1
+wtable           44 104   0.91300 E1
+etableadjust     44 104   0.00000 E1
+ftableadjust     44 104   1.00000 E1
+wtableadjust     44 104   1.00000 E1
+upbendc          44 104 3.50000E-08 M1
+sgr              44 104   1.439 M1
+egr              44 104   8.300 M1
+ggr              44 104   4.000 M1
+sgradjust        44 104   1.000 M1
+egradjust        44 104   1.000 M1
+ggradjust        44 104   1.000 M1
+etable           44 104   0.00000 E2
+ftable           44 104   1.00000 E2
+wtable           44 104   1.00000 E2
+etableadjust     44 104   0.00000 E2
+ftableadjust     44 104   1.00000 E2
+wtableadjust     44 104   1.00000 E2
+upbendc          44 104 0.00000E+00 M2
+sgr              44 104   0.001 M2
+egr              44 104   8.300 M2
+ggr              44 104   4.000 M2
+sgradjust        44 104   1.000 M2
+egradjust        44 104   1.000 M2
+ggradjust        44 104   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 103Tc
+##
+## Level density
+##
+a                43 103  17.59851
+aadjust          43 103   1.00000
+gammald          43 103   0.09239
+pair             43 103   1.18240
+Pshift           43 103   0.00000   0
+Pshiftadjust     43 103   0.00000   0
+deltaW           43 103   4.66692   0
+Ntop             43 103  15   0
+Nlow             43 103   7   0
+s2adjust         43 103   1.00000   0
+ctable           43 103   0.00000   0
+ptable           43 103   0.12679   0
+ctableadjust     43 103   0.00000   0
+ptableadjust     43 103   0.00000   0
+g                43 103   6.86667
+gp               43 103   2.86667
+gn               43 103   4.00000
+gnadjust         43 103   1.00000
+gpadjust         43 103   1.00000
+gadjust          43 103   1.00000
+##
+## Gamma-ray
+##
+gamgam           43 103   0.11850
+gamgamadjust     43 103   1.00000
+etable           43 103   0.00000 E1
+ftable           43 103   1.00000 E1
+wtable           43 103   0.91300 E1
+etableadjust     43 103   0.00000 E1
+ftableadjust     43 103   1.00000 E1
+wtableadjust     43 103   1.00000 E1
+upbendc          43 103 3.50000E-08 M1
+sgr              43 103   1.427 M1
+egr              43 103   8.314 M1
+ggr              43 103   4.000 M1
+sgradjust        43 103   1.000 M1
+egradjust        43 103   1.000 M1
+ggradjust        43 103   1.000 M1
+etable           43 103   0.00000 E2
+ftable           43 103   1.00000 E2
+wtable           43 103   1.00000 E2
+etableadjust     43 103   0.00000 E2
+ftableadjust     43 103   1.00000 E2
+wtableadjust     43 103   1.00000 E2
+upbendc          43 103 0.00000E+00 M2
+sgr              43 103   0.001 M2
+egr              43 103   8.314 M2
+ggr              43 103   4.000 M2
+sgradjust        43 103   1.000 M2
+egradjust        43 103   1.000 M2
+ggradjust        43 103   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 102Mo
+##
+## Level density
+##
+a                42 102  17.69180
+aadjust          42 102   1.00000
+gammald          42 102   0.09269
+pair             42 102   2.37635
+Pshift           42 102   0.00000   0
+Pshiftadjust     42 102   0.00000   0
+deltaW           42 102   4.68085   0
+Ntop             42 102  23   0
+Nlow             42 102   8   0
+s2adjust         42 102   1.00000   0
+ctable           42 102   0.00000   0
+ptable           42 102   0.19474   0
+ctableadjust     42 102   0.00000   0
+ptableadjust     42 102   0.00000   0
+g                42 102   6.80000
+gp               42 102   2.80000
+gn               42 102   4.00000
+gnadjust         42 102   1.00000
+gpadjust         42 102   1.00000
+gadjust          42 102   1.00000
+##
+## Gamma-ray
+##
+gamgam           42 102   0.11900
+gamgamadjust     42 102   1.00000
+etable           42 102   0.00000 E1
+ftable           42 102   1.00000 E1
+wtable           42 102   0.91300 E1
+etableadjust     42 102   0.00000 E1
+ftableadjust     42 102   1.00000 E1
+wtableadjust     42 102   1.00000 E1
+upbendc          42 102 3.50000E-08 M1
+sgr              42 102   1.416 M1
+egr              42 102   8.327 M1
+ggr              42 102   4.000 M1
+sgradjust        42 102   1.000 M1
+egradjust        42 102   1.000 M1
+ggradjust        42 102   1.000 M1
+etable           42 102   0.00000 E2
+ftable           42 102   1.00000 E2
+wtable           42 102   1.00000 E2
+etableadjust     42 102   0.00000 E2
+ftableadjust     42 102   1.00000 E2
+wtableadjust     42 102   1.00000 E2
+upbendc          42 102 0.00000E+00 M2
+sgr              42 102   0.001 M2
+egr              42 102   8.327 M2
+ggr              42 102   4.000 M2
+sgradjust        42 102   1.000 M2
+egradjust        42 102   1.000 M2
+ggradjust        42 102   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 109Cd
+##
+## Level density
+##
+a                48 109  15.55833
+aadjust          48 109   1.00000
+gammald          48 109   0.09066
+pair             48 109   1.14939
+Pshift           48 109   0.00000   0
+Pshiftadjust     48 109   0.00000   0
+deltaW           48 109   1.60181   0
+Ntop             48 109  17   0
+Nlow             48 109   5   0
+s2adjust         48 109   1.00000   0
+ctable           48 109   0.11652   0
+ptable           48 109   0.14654   0
+ctableadjust     48 109   0.00000   0
+ptableadjust     48 109   0.00000   0
+D0               48 109 1.20000E-01
+g                48 109   7.26667
+gp               48 109   3.20000
+gn               48 109   4.06667
+gnadjust         48 109   1.00000
+gpadjust         48 109   1.00000
+gadjust          48 109   1.00000
+##
+## Gamma-ray
+##
+gamgam           48 109   0.10500
+gamgamadjust     48 109   1.00000
+etable           48 109   0.00000 E1
+ftable           48 109   1.00000 E1
+wtable           48 109   0.91300 E1
+etableadjust     48 109   0.00000 E1
+ftableadjust     48 109   1.00000 E1
+wtableadjust     48 109   1.00000 E1
+upbendc          48 109 3.50000E-08 M1
+sgr              48 109   1.496 M1
+egr              48 109   8.236 M1
+ggr              48 109   4.000 M1
+sgradjust        48 109   1.000 M1
+egradjust        48 109   1.000 M1
+ggradjust        48 109   1.000 M1
+etable           48 109   0.00000 E2
+ftable           48 109   1.00000 E2
+wtable           48 109   1.00000 E2
+etableadjust     48 109   0.00000 E2
+ftableadjust     48 109   1.00000 E2
+wtableadjust     48 109   1.00000 E2
+upbendc          48 109 0.00000E+00 M2
+sgr              48 109   0.001 M2
+egr              48 109   8.236 M2
+ggr              48 109   4.000 M2
+sgradjust        48 109   1.000 M2
+egradjust        48 109   1.000 M2
+ggradjust        48 109   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 107Ag
+##
+## Level density
+##
+a                47 107  15.51401
+aadjust          47 107   1.00000
+gammald          47 107   0.09123
+pair             47 107   1.16008
+Pshift           47 107   0.00000   0
+Pshiftadjust     47 107   0.00000   0
+deltaW           47 107   1.96828   0
+Ntop             47 107  17   0
+Nlow             47 107   6   0
+s2adjust         47 107   1.00000   0
+ctable           47 107   0.00000   0
+ptable           47 107   0.05915   0
+ctableadjust     47 107   0.00000   0
+ptableadjust     47 107   0.00000   0
+g                47 107   7.13333
+gp               47 107   3.13333
+gn               47 107   4.00000
+gnadjust         47 107   1.00000
+gpadjust         47 107   1.00000
+gadjust          47 107   1.00000
+##
+## Gamma-ray
+##
+gamgam           47 107   0.11650
+gamgamadjust     47 107   1.00000
+etable           47 107   0.00000 E1
+ftable           47 107   1.00000 E1
+wtable           47 107   0.91300 E1
+etableadjust     47 107   0.00000 E1
+ftableadjust     47 107   1.00000 E1
+wtableadjust     47 107   1.00000 E1
+upbendc          47 107 3.50000E-08 M1
+sgr              47 107   1.473 M1
+egr              47 107   8.261 M1
+ggr              47 107   4.000 M1
+sgradjust        47 107   1.000 M1
+egradjust        47 107   1.000 M1
+ggradjust        47 107   1.000 M1
+etable           47 107   0.00000 E2
+ftable           47 107   1.00000 E2
+wtable           47 107   1.00000 E2
+etableadjust     47 107   0.00000 E2
+ftableadjust     47 107   1.00000 E2
+wtableadjust     47 107   1.00000 E2
+upbendc          47 107 0.00000E+00 M2
+sgr              47 107   0.001 M2
+egr              47 107   8.261 M2
+ggr              47 107   4.000 M2
+sgradjust        47 107   1.000 M2
+egradjust        47 107   1.000 M2
+ggradjust        47 107   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 106Pd
+##
+## Level density
+##
+a                46 106  15.81276
+aadjust          46 106   1.00000
+gammald          46 106   0.09151
+pair             46 106   2.33109
+Pshift           46 106   0.00000   0
+Pshiftadjust     46 106   0.00000   0
+deltaW           46 106   2.33586   0
+Ntop             46 106  28   0
+Nlow             46 106   6   0
+s2adjust         46 106   1.00000   0
+ctable           46 106   0.03422   0
+ptable           46 106   0.13471   0
+ctableadjust     46 106   0.00000   0
+ptableadjust     46 106   0.00000   0
+D0               46 106 1.03000E-02
+g                46 106   7.06667
+gp               46 106   3.06667
+gn               46 106   4.00000
+gnadjust         46 106   1.00000
+gpadjust         46 106   1.00000
+gadjust          46 106   1.00000
+##
+## Gamma-ray
+##
+gamgam           46 106   0.15000
+gamgamadjust     46 106   1.00000
+etable           46 106   0.00000 E1
+ftable           46 106   1.00000 E1
+wtable           46 106   0.91300 E1
+etableadjust     46 106   0.00000 E1
+ftableadjust     46 106   1.00000 E1
+wtableadjust     46 106   1.00000 E1
+upbendc          46 106 3.50000E-08 M1
+sgr              46 106   1.462 M1
+egr              46 106   8.274 M1
+ggr              46 106   4.000 M1
+sgradjust        46 106   1.000 M1
+egradjust        46 106   1.000 M1
+ggradjust        46 106   1.000 M1
+etable           46 106   0.00000 E2
+ftable           46 106   1.00000 E2
+wtable           46 106   1.00000 E2
+etableadjust     46 106   0.00000 E2
+ftableadjust     46 106   1.00000 E2
+wtableadjust     46 106   1.00000 E2
+upbendc          46 106 0.00000E+00 M2
+sgr              46 106   0.001 M2
+egr              46 106   8.274 M2
+ggr              46 106   4.000 M2
+sgradjust        46 106   1.000 M2
+egradjust        46 106   1.000 M2
+ggradjust        46 106   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 115Rh
+##
+## Level density
+##
+a                45 115  18.87467
+aadjust          45 115   1.00000
+gammald          45 115   0.08906
+pair             45 115   1.11901
+Pshift           45 115   0.00000   0
+Pshiftadjust     45 115   0.00000   0
+deltaW           45 115   4.08893   0
+Ntop             45 115  10   0
+Nlow             45 115   2   0
+s2adjust         45 115   1.00000   0
+ctable           45 115   0.00000   0
+ptable           45 115   0.00000   0
+ctableadjust     45 115   0.00000   0
+ptableadjust     45 115   0.00000   0
+g                45 115   7.66667
+gp               45 115   3.00000
+gn               45 115   4.66667
+gnadjust         45 115   1.00000
+gpadjust         45 115   1.00000
+gadjust          45 115   1.00000
+##
+## Gamma-ray
+##
+gamgam           45 115   0.10750
+gamgamadjust     45 115   1.00000
+etable           45 115   0.00000 E1
+ftable           45 115   1.00000 E1
+wtable           45 115   0.91300 E1
+etableadjust     45 115   0.00000 E1
+ftableadjust     45 115   1.00000 E1
+wtableadjust     45 115   1.00000 E1
+upbendc          45 115 3.50000E-08 M1
+sgr              45 115   1.564 M1
+egr              45 115   8.162 M1
+ggr              45 115   4.000 M1
+sgradjust        45 115   1.000 M1
+egradjust        45 115   1.000 M1
+ggradjust        45 115   1.000 M1
+etable           45 115   0.00000 E2
+ftable           45 115   1.00000 E2
+wtable           45 115   1.00000 E2
+etableadjust     45 115   0.00000 E2
+ftableadjust     45 115   1.00000 E2
+wtableadjust     45 115   1.00000 E2
+upbendc          45 115 0.00000E+00 M2
+sgr              45 115   0.001 M2
+egr              45 115   8.162 M2
+ggr              45 115   4.000 M2
+sgradjust        45 115   1.000 M2
+egradjust        45 115   1.000 M2
+ggradjust        45 115   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 113Ru
+##
+## Level density
+##
+a                44 113  19.62429
+aadjust          44 113   1.00000
+gammald          44 113   0.08958
+pair             44 113   1.12887
+Pshift           44 113   0.00000   0
+Pshiftadjust     44 113   0.00000   0
+deltaW           44 113   4.61144   0
+Ntop             44 113  10   0
+Nlow             44 113   2   0
+s2adjust         44 113   1.00000   0
+ctable           44 113   0.00000   0
+ptable           44 113   0.00000   0
+ctableadjust     44 113   0.00000   0
+ptableadjust     44 113   0.00000   0
+g                44 113   7.53333
+gp               44 113   2.93333
+gn               44 113   4.60000
+gnadjust         44 113   1.00000
+gpadjust         44 113   1.00000
+gadjust          44 113   1.00000
+##
+## Gamma-ray
+##
+gamgam           44 113   0.10850
+gamgamadjust     44 113   1.00000
+etable           44 113   0.00000 E1
+ftable           44 113   1.00000 E1
+wtable           44 113   0.91300 E1
+etableadjust     44 113   0.00000 E1
+ftableadjust     44 113   1.00000 E1
+wtableadjust     44 113   1.00000 E1
+upbendc          44 113 3.50000E-08 M1
+sgr              44 113   1.542 M1
+egr              44 113   8.186 M1
+ggr              44 113   4.000 M1
+sgradjust        44 113   1.000 M1
+egradjust        44 113   1.000 M1
+ggradjust        44 113   1.000 M1
+etable           44 113   0.00000 E2
+ftable           44 113   1.00000 E2
+wtable           44 113   1.00000 E2
+etableadjust     44 113   0.00000 E2
+ftableadjust     44 113   1.00000 E2
+wtableadjust     44 113   1.00000 E2
+upbendc          44 113 0.00000E+00 M2
+sgr              44 113   0.001 M2
+egr              44 113   8.186 M2
+ggr              44 113   4.000 M2
+sgradjust        44 113   1.000 M2
+egradjust        44 113   1.000 M2
+ggradjust        44 113   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 112Ru
+##
+## Level density
+##
+a                44 112  19.06973
+aadjust          44 112   1.00000
+gammald          44 112   0.08985
+pair             44 112   2.26779
+Pshift           44 112   0.00000   0
+Pshiftadjust     44 112   0.00000   0
+deltaW           44 112   4.50752   0
+Ntop             44 112  10   0
+Nlow             44 112   2   0
+s2adjust         44 112   1.00000   0
+ctable           44 112   0.00000   0
+ptable           44 112   0.00000   0
+ctableadjust     44 112   0.00000   0
+ptableadjust     44 112   0.00000   0
+g                44 112   7.46667
+gp               44 112   2.93333
+gn               44 112   4.53333
+gnadjust         44 112   1.00000
+gpadjust         44 112   1.00000
+gadjust          44 112   1.00000
+##
+## Gamma-ray
+##
+gamgam           44 112   0.10900
+gamgamadjust     44 112   1.00000
+etable           44 112   0.00000 E1
+ftable           44 112   1.00000 E1
+wtable           44 112   0.91300 E1
+etableadjust     44 112   0.00000 E1
+ftableadjust     44 112   1.00000 E1
+wtableadjust     44 112   1.00000 E1
+upbendc          44 112 3.50000E-08 M1
+sgr              44 112   1.530 M1
+egr              44 112   8.199 M1
+ggr              44 112   4.000 M1
+sgradjust        44 112   1.000 M1
+egradjust        44 112   1.000 M1
+ggradjust        44 112   1.000 M1
+etable           44 112   0.00000 E2
+ftable           44 112   1.00000 E2
+wtable           44 112   1.00000 E2
+etableadjust     44 112   0.00000 E2
+ftableadjust     44 112   1.00000 E2
+wtableadjust     44 112   1.00000 E2
+upbendc          44 112 0.00000E+00 M2
+sgr              44 112   0.001 M2
+egr              44 112   8.199 M2
+ggr              44 112   4.000 M2
+sgradjust        44 112   1.000 M2
+egradjust        44 112   1.000 M2
+ggradjust        44 112   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 110Tc
+##
+## Level density
+##
+a                43 110  19.39807
+aadjust          43 110   1.00000
+gammald          43 110   0.09039
+pair             43 110   0.00000
+Pshift           43 110   0.00000   0
+Pshiftadjust     43 110   0.00000   0
+deltaW           43 110   5.11566   0
+Ntop             43 110  10   0
+Nlow             43 110   2   0
+s2adjust         43 110   1.00000   0
+ctable           43 110   0.00000   0
+ptable           43 110   0.00000   0
+ctableadjust     43 110   0.00000   0
+ptableadjust     43 110   0.00000   0
+g                43 110   7.33333
+gp               43 110   2.86667
+gn               43 110   4.46667
+gnadjust         43 110   1.00000
+gpadjust         43 110   1.00000
+gadjust          43 110   1.00000
+##
+## Gamma-ray
+##
+gamgam           43 110   0.11200
+gamgamadjust     43 110   1.00000
+etable           43 110   0.00000 E1
+ftable           43 110   1.00000 E1
+wtable           43 110   0.91300 E1
+etableadjust     43 110   0.00000 E1
+ftableadjust     43 110   1.00000 E1
+wtableadjust     43 110   1.00000 E1
+upbendc          43 110 3.50000E-08 M1
+sgr              43 110   1.508 M1
+egr              43 110   8.223 M1
+ggr              43 110   4.000 M1
+sgradjust        43 110   1.000 M1
+egradjust        43 110   1.000 M1
+ggradjust        43 110   1.000 M1
+etable           43 110   0.00000 E2
+ftable           43 110   1.00000 E2
+wtable           43 110   1.00000 E2
+etableadjust     43 110   0.00000 E2
+ftableadjust     43 110   1.00000 E2
+wtableadjust     43 110   1.00000 E2
+upbendc          43 110 0.00000E+00 M2
+sgr              43 110   0.001 M2
+egr              43 110   8.223 M2
+ggr              43 110   4.000 M2
+sgradjust        43 110   1.000 M2
+egradjust        43 110   1.000 M2
+ggradjust        43 110   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 109Tc
+##
+## Level density
+##
+a                43 109  19.48667
+aadjust          43 109   1.00000
+gammald          43 109   0.09066
+pair             43 109   1.14939
+Pshift           43 109   0.00000   0
+Pshiftadjust     43 109   0.00000   0
+deltaW           43 109   5.43822   0
+Ntop             43 109  10   0
+Nlow             43 109   2   0
+s2adjust         43 109   1.00000   0
+ctable           43 109   0.00000   0
+ptable           43 109   0.00000   0
+ctableadjust     43 109   0.00000   0
+ptableadjust     43 109   0.00000   0
+g                43 109   7.26667
+gp               43 109   2.86667
+gn               43 109   4.40000
+gnadjust         43 109   1.00000
+gpadjust         43 109   1.00000
+gadjust          43 109   1.00000
+##
+## Gamma-ray
+##
+gamgam           43 109   0.11400
+gamgamadjust     43 109   1.00000
+etable           43 109   0.00000 E1
+ftable           43 109   1.00000 E1
+wtable           43 109   0.91300 E1
+etableadjust     43 109   0.00000 E1
+ftableadjust     43 109   1.00000 E1
+wtableadjust     43 109   1.00000 E1
+upbendc          43 109 3.50000E-08 M1
+sgr              43 109   1.496 M1
+egr              43 109   8.236 M1
+ggr              43 109   4.000 M1
+sgradjust        43 109   1.000 M1
+egradjust        43 109   1.000 M1
+ggradjust        43 109   1.000 M1
+etable           43 109   0.00000 E2
+ftable           43 109   1.00000 E2
+wtable           43 109   1.00000 E2
+etableadjust     43 109   0.00000 E2
+ftableadjust     43 109   1.00000 E2
+wtableadjust     43 109   1.00000 E2
+upbendc          43 109 0.00000E+00 M2
+sgr              43 109   0.001 M2
+egr              43 109   8.236 M2
+ggr              43 109   4.000 M2
+sgradjust        43 109   1.000 M2
+egradjust        43 109   1.000 M2
+ggradjust        43 109   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 107Mo
+##
+## Level density
+##
+a                42 107  19.44252
+aadjust          42 107   1.00000
+gammald          42 107   0.09123
+pair             42 107   1.16008
+Pshift           42 107   0.00000   0
+Pshiftadjust     42 107   0.00000   0
+deltaW           42 107   5.21824   0
+Ntop             42 107  10   0
+Nlow             42 107   2   0
+s2adjust         42 107   1.00000   0
+ctable           42 107   0.00000   0
+ptable           42 107   0.00000   0
+ctableadjust     42 107   0.00000   0
+ptableadjust     42 107   0.00000   0
+g                42 107   7.13333
+gp               42 107   2.80000
+gn               42 107   4.33333
+gnadjust         42 107   1.00000
+gpadjust         42 107   1.00000
+gadjust          42 107   1.00000
+##
+## Gamma-ray
+##
+gamgam           42 107   0.11650
+gamgamadjust     42 107   1.00000
+etable           42 107   0.00000 E1
+ftable           42 107   1.00000 E1
+wtable           42 107   0.91300 E1
+etableadjust     42 107   0.00000 E1
+ftableadjust     42 107   1.00000 E1
+wtableadjust     42 107   1.00000 E1
+upbendc          42 107 3.50000E-08 M1
+sgr              42 107   1.473 M1
+egr              42 107   8.261 M1
+ggr              42 107   4.000 M1
+sgradjust        42 107   1.000 M1
+egradjust        42 107   1.000 M1
+ggradjust        42 107   1.000 M1
+etable           42 107   0.00000 E2
+ftable           42 107   1.00000 E2
+wtable           42 107   1.00000 E2
+etableadjust     42 107   0.00000 E2
+ftableadjust     42 107   1.00000 E2
+wtableadjust     42 107   1.00000 E2
+upbendc          42 107 0.00000E+00 M2
+sgr              42 107   0.001 M2
+egr              42 107   8.261 M2
+ggr              42 107   4.000 M2
+sgradjust        42 107   1.000 M2
+egradjust        42 107   1.000 M2
+ggradjust        42 107   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 106Mo
+##
+## Level density
+##
+a                42 106  18.91908
+aadjust          42 106   1.00000
+gammald          42 106   0.09151
+pair             42 106   2.33109
+Pshift           42 106   0.00000   0
+Pshiftadjust     42 106   0.00000   0
+deltaW           42 106   5.12120   0
+Ntop             42 106  10   0
+Nlow             42 106   2   0
+s2adjust         42 106   1.00000   0
+ctable           42 106   0.00000   0
+ptable           42 106   0.00000   0
+ctableadjust     42 106   0.00000   0
+ptableadjust     42 106   0.00000   0
+g                42 106   7.06667
+gp               42 106   2.80000
+gn               42 106   4.26667
+gnadjust         42 106   1.00000
+gpadjust         42 106   1.00000
+gadjust          42 106   1.00000
+##
+## Gamma-ray
+##
+gamgam           42 106   0.11700
+gamgamadjust     42 106   1.00000
+etable           42 106   0.00000 E1
+ftable           42 106   1.00000 E1
+wtable           42 106   0.91300 E1
+etableadjust     42 106   0.00000 E1
+ftableadjust     42 106   1.00000 E1
+wtableadjust     42 106   1.00000 E1
+upbendc          42 106 3.50000E-08 M1
+sgr              42 106   1.462 M1
+egr              42 106   8.274 M1
+ggr              42 106   4.000 M1
+sgradjust        42 106   1.000 M1
+egradjust        42 106   1.000 M1
+ggradjust        42 106   1.000 M1
+etable           42 106   0.00000 E2
+ftable           42 106   1.00000 E2
+wtable           42 106   1.00000 E2
+etableadjust     42 106   0.00000 E2
+ftableadjust     42 106   1.00000 E2
+wtableadjust     42 106   1.00000 E2
+upbendc          42 106 0.00000E+00 M2
+sgr              42 106   0.001 M2
+egr              42 106   8.274 M2
+ggr              42 106   4.000 M2
+sgradjust        42 106   1.000 M2
+egradjust        42 106   1.000 M2
+ggradjust        42 106   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 102Tc
+##
+## Level density
+##
+a                43 102  17.14574
+aadjust          43 102   1.00000
+gammald          43 102   0.09269
+pair             43 102   0.00000
+Pshift           43 102   0.00000   0
+Pshiftadjust     43 102   0.00000   0
+deltaW           43 102   4.20561   0
+Ntop             43 102  15   0
+Nlow             43 102   8   0
+s2adjust         43 102   1.00000   0
+ctable           43 102   0.00000   0
+ptable           43 102  -0.29114   0
+ctableadjust     43 102   0.00000   0
+ptableadjust     43 102   0.00000   0
+g                43 102   6.80000
+gp               43 102   2.86667
+gn               43 102   3.93333
+gnadjust         43 102   1.00000
+gpadjust         43 102   1.00000
+gadjust          43 102   1.00000
+##
+## Gamma-ray
+##
+gamgam           43 102   0.11900
+gamgamadjust     43 102   1.00000
+etable           43 102   0.00000 E1
+ftable           43 102   1.00000 E1
+wtable           43 102   0.91300 E1
+etableadjust     43 102   0.00000 E1
+ftableadjust     43 102   1.00000 E1
+wtableadjust     43 102   1.00000 E1
+upbendc          43 102 3.50000E-08 M1
+sgr              43 102   1.416 M1
+egr              43 102   8.327 M1
+ggr              43 102   4.000 M1
+sgradjust        43 102   1.000 M1
+egradjust        43 102   1.000 M1
+ggradjust        43 102   1.000 M1
+etable           43 102   0.00000 E2
+ftable           43 102   1.00000 E2
+wtable           43 102   1.00000 E2
+etableadjust     43 102   0.00000 E2
+ftableadjust     43 102   1.00000 E2
+wtableadjust     43 102   1.00000 E2
+upbendc          43 102 0.00000E+00 M2
+sgr              43 102   0.001 M2
+egr              43 102   8.327 M2
+ggr              43 102   4.000 M2
+sgradjust        43 102   1.000 M2
+egradjust        43 102   1.000 M2
+ggradjust        43 102   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 101Mo
+##
+## Level density
+##
+a                42 101  17.84121
+aadjust          42 101   1.00000
+gammald          42 101   0.09300
+pair             42 101   1.19404
+Pshift           42 101   0.00000   0
+Pshiftadjust     42 101   0.00000   0
+deltaW           42 101   4.66500   0
+Ntop             42 101  22   0
+Nlow             42 101   2   0
+s2adjust         42 101   1.00000   0
+ctable           42 101   0.31711   0
+ptable           42 101   0.08771   0
+ctableadjust     42 101   0.00000   0
+ptableadjust     42 101   0.00000   0
+D0               42 101 8.00000E-01
+g                42 101   6.73333
+gp               42 101   2.80000
+gn               42 101   3.93333
+gnadjust         42 101   1.00000
+gpadjust         42 101   1.00000
+gadjust          42 101   1.00000
+##
+## Gamma-ray
+##
+gamgam           42 101   0.09000
+gamgamadjust     42 101   1.00000
+etable           42 101   0.00000 E1
+ftable           42 101   1.00000 E1
+wtable           42 101   0.91300 E1
+etableadjust     42 101   0.00000 E1
+ftableadjust     42 101   1.00000 E1
+wtableadjust     42 101   1.00000 E1
+upbendc          42 101 3.50000E-08 M1
+sgr              42 101   1.404 M1
+egr              42 101   8.341 M1
+ggr              42 101   4.000 M1
+sgradjust        42 101   1.000 M1
+egradjust        42 101   1.000 M1
+ggradjust        42 101   1.000 M1
+etable           42 101   0.00000 E2
+ftable           42 101   1.00000 E2
+wtable           42 101   1.00000 E2
+etableadjust     42 101   0.00000 E2
+ftableadjust     42 101   1.00000 E2
+wtableadjust     42 101   1.00000 E2
+upbendc          42 101 0.00000E+00 M2
+sgr              42 101   0.001 M2
+egr              42 101   8.341 M2
+ggr              42 101   4.000 M2
+sgradjust        42 101   1.000 M2
+egradjust        42 101   1.000 M2
+ggradjust        42 101   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 104Nb
+##
+## Level density
+##
+a                41 104  18.72984
+aadjust          41 104   1.00000
+gammald          41 104   0.09209
+pair             41 104   0.00000
+Pshift           41 104   0.00000   0
+Pshiftadjust     41 104   0.00000   0
+deltaW           41 104   5.27743   0
+Ntop             41 104  10   0
+Nlow             41 104   2   0
+s2adjust         41 104   1.00000   0
+ctable           41 104   0.00000   0
+ptable           41 104   0.00000   0
+ctableadjust     41 104   0.00000   0
+ptableadjust     41 104   0.00000   0
+g                41 104   6.93333
+gp               41 104   2.73333
+gn               41 104   4.20000
+gnadjust         41 104   1.00000
+gpadjust         41 104   1.00000
+gadjust          41 104   1.00000
+##
+## Gamma-ray
+##
+gamgam           41 104   0.11800
+gamgamadjust     41 104   1.00000
+etable           41 104   0.00000 E1
+ftable           41 104   1.00000 E1
+wtable           41 104   0.91300 E1
+etableadjust     41 104   0.00000 E1
+ftableadjust     41 104   1.00000 E1
+wtableadjust     41 104   1.00000 E1
+upbendc          41 104 3.50000E-08 M1
+sgr              41 104   1.439 M1
+egr              41 104   8.300 M1
+ggr              41 104   4.000 M1
+sgradjust        41 104   1.000 M1
+egradjust        41 104   1.000 M1
+ggradjust        41 104   1.000 M1
+etable           41 104   0.00000 E2
+ftable           41 104   1.00000 E2
+wtable           41 104   1.00000 E2
+etableadjust     41 104   0.00000 E2
+ftableadjust     41 104   1.00000 E2
+wtableadjust     41 104   1.00000 E2
+upbendc          41 104 0.00000E+00 M2
+sgr              41 104   0.001 M2
+egr              41 104   8.300 M2
+ggr              41 104   4.000 M2
+sgradjust        41 104   1.000 M2
+egradjust        41 104   1.000 M2
+ggradjust        41 104   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 103Nb
+##
+## Level density
+##
+a                41 103  18.58481
+aadjust          41 103   1.00000
+gammald          41 103   0.09239
+pair             41 103   1.18240
+Pshift           41 103   0.00000   0
+Pshiftadjust     41 103   0.00000   0
+deltaW           41 103   5.44557   0
+Ntop             41 103  15   0
+Nlow             41 103   6   0
+s2adjust         41 103   1.00000   0
+ctable           41 103   0.00000   0
+ptable           41 103   0.20133   0
+ctableadjust     41 103   0.00000   0
+ptableadjust     41 103   0.00000   0
+g                41 103   6.86667
+gp               41 103   2.73333
+gn               41 103   4.13333
+gnadjust         41 103   1.00000
+gpadjust         41 103   1.00000
+gadjust          41 103   1.00000
+##
+## Gamma-ray
+##
+gamgam           41 103   0.11850
+gamgamadjust     41 103   1.00000
+etable           41 103   0.00000 E1
+ftable           41 103   1.00000 E1
+wtable           41 103   0.91300 E1
+etableadjust     41 103   0.00000 E1
+ftableadjust     41 103   1.00000 E1
+wtableadjust     41 103   1.00000 E1
+upbendc          41 103 3.50000E-08 M1
+sgr              41 103   1.427 M1
+egr              41 103   8.314 M1
+ggr              41 103   4.000 M1
+sgradjust        41 103   1.000 M1
+egradjust        41 103   1.000 M1
+ggradjust        41 103   1.000 M1
+etable           41 103   0.00000 E2
+ftable           41 103   1.00000 E2
+wtable           41 103   1.00000 E2
+etableadjust     41 103   0.00000 E2
+ftableadjust     41 103   1.00000 E2
+wtableadjust     41 103   1.00000 E2
+upbendc          41 103 0.00000E+00 M2
+sgr              41 103   0.001 M2
+egr              41 103   8.314 M2
+ggr              41 103   4.000 M2
+sgradjust        41 103   1.000 M2
+egradjust        41 103   1.000 M2
+ggradjust        41 103   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 102Nb
+##
+## Level density
+##
+a                41 102  18.16554
+aadjust          41 102   1.00000
+gammald          41 102   0.09269
+pair             41 102   0.00000
+Pshift           41 102   0.00000   0
+Pshiftadjust     41 102   0.00000   0
+deltaW           41 102   5.12242   0
+Ntop             41 102  30   0
+Nlow             41 102   2   0
+s2adjust         41 102   1.00000   0
+ctable           41 102   0.00000   0
+ptable           41 102  -0.38475   0
+ctableadjust     41 102   0.00000   0
+ptableadjust     41 102   0.00000   0
+g                41 102   6.80000
+gp               41 102   2.73333
+gn               41 102   4.06667
+gnadjust         41 102   1.00000
+gpadjust         41 102   1.00000
+gadjust          41 102   1.00000
+##
+## Gamma-ray
+##
+gamgam           41 102   0.11900
+gamgamadjust     41 102   1.00000
+etable           41 102   0.00000 E1
+ftable           41 102   1.00000 E1
+wtable           41 102   0.91300 E1
+etableadjust     41 102   0.00000 E1
+ftableadjust     41 102   1.00000 E1
+wtableadjust     41 102   1.00000 E1
+upbendc          41 102 3.50000E-08 M1
+sgr              41 102   1.416 M1
+egr              41 102   8.327 M1
+ggr              41 102   4.000 M1
+sgradjust        41 102   1.000 M1
+egradjust        41 102   1.000 M1
+ggradjust        41 102   1.000 M1
+etable           41 102   0.00000 E2
+ftable           41 102   1.00000 E2
+wtable           41 102   1.00000 E2
+etableadjust     41 102   0.00000 E2
+ftableadjust     41 102   1.00000 E2
+wtableadjust     41 102   1.00000 E2
+upbendc          41 102 0.00000E+00 M2
+sgr              41 102   0.001 M2
+egr              41 102   8.327 M2
+ggr              41 102   4.000 M2
+sgradjust        41 102   1.000 M2
+egradjust        41 102   1.000 M2
+ggradjust        41 102   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 101Nb
+##
+## Level density
+##
+a                41 101  18.16181
+aadjust          41 101   1.00000
+gammald          41 101   0.09300
+pair             41 101   1.19404
+Pshift           41 101   0.00000   0
+Pshiftadjust     41 101   0.00000   0
+deltaW           41 101   5.37557   0
+Ntop             41 101  16   0
+Nlow             41 101   8   0
+s2adjust         41 101   1.00000   0
+ctable           41 101   0.00000   0
+ptable           41 101  -0.08815   0
+ctableadjust     41 101   0.00000   0
+ptableadjust     41 101   0.00000   0
+g                41 101   6.73333
+gp               41 101   2.73333
+gn               41 101   4.00000
+gnadjust         41 101   1.00000
+gpadjust         41 101   1.00000
+gadjust          41 101   1.00000
+##
+## Gamma-ray
+##
+gamgam           41 101   0.11950
+gamgamadjust     41 101   1.00000
+etable           41 101   0.00000 E1
+ftable           41 101   1.00000 E1
+wtable           41 101   0.91300 E1
+etableadjust     41 101   0.00000 E1
+ftableadjust     41 101   1.00000 E1
+wtableadjust     41 101   1.00000 E1
+upbendc          41 101 3.50000E-08 M1
+sgr              41 101   1.404 M1
+egr              41 101   8.341 M1
+ggr              41 101   4.000 M1
+sgradjust        41 101   1.000 M1
+egradjust        41 101   1.000 M1
+ggradjust        41 101   1.000 M1
+etable           41 101   0.00000 E2
+ftable           41 101   1.00000 E2
+wtable           41 101   1.00000 E2
+etableadjust     41 101   0.00000 E2
+ftableadjust     41 101   1.00000 E2
+wtableadjust     41 101   1.00000 E2
+upbendc          41 101 0.00000E+00 M2
+sgr              41 101   0.001 M2
+egr              41 101   8.341 M2
+ggr              41 101   4.000 M2
+sgradjust        41 101   1.000 M2
+egradjust        41 101   1.000 M2
+ggradjust        41 101   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 101Zr
+##
+## Level density
+##
+a                40 101  18.55400
+aadjust          40 101   1.00000
+gammald          40 101   0.09300
+pair             40 101   1.19404
+Pshift           40 101   0.00000   0
+Pshiftadjust     40 101   0.00000   0
+deltaW           40 101   5.24557   0
+Ntop             40 101  15   0
+Nlow             40 101   8   0
+s2adjust         40 101   1.00000   0
+ctable           40 101   0.00000   0
+ptable           40 101  -0.53553   0
+ctableadjust     40 101   0.00000   0
+ptableadjust     40 101   0.00000   0
+g                40 101   6.73333
+gp               40 101   2.66667
+gn               40 101   4.06667
+gnadjust         40 101   1.00000
+gpadjust         40 101   1.00000
+gadjust          40 101   1.00000
+##
+## Gamma-ray
+##
+gamgam           40 101   0.11950
+gamgamadjust     40 101   1.00000
+etable           40 101   0.00000 E1
+ftable           40 101   1.00000 E1
+wtable           40 101   0.91300 E1
+etableadjust     40 101   0.00000 E1
+ftableadjust     40 101   1.00000 E1
+wtableadjust     40 101   1.00000 E1
+upbendc          40 101 3.50000E-08 M1
+sgr              40 101   1.404 M1
+egr              40 101   8.341 M1
+ggr              40 101   4.000 M1
+sgradjust        40 101   1.000 M1
+egradjust        40 101   1.000 M1
+ggradjust        40 101   1.000 M1
+etable           40 101   0.00000 E2
+ftable           40 101   1.00000 E2
+wtable           40 101   1.00000 E2
+etableadjust     40 101   0.00000 E2
+ftableadjust     40 101   1.00000 E2
+wtableadjust     40 101   1.00000 E2
+upbendc          40 101 0.00000E+00 M2
+sgr              40 101   0.001 M2
+egr              40 101   8.341 M2
+ggr              40 101   4.000 M2
+sgradjust        40 101   1.000 M2
+egradjust        40 101   1.000 M2
+ggradjust        40 101   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 100Zr
+##
+## Level density
+##
+a                40 100  18.31557
+aadjust          40 100   1.00000
+gammald          40 100   0.09331
+pair             40 100   2.40000
+Pshift           40 100   0.00000   0
+Pshiftadjust     40 100   0.00000   0
+deltaW           40 100   5.32452   0
+Ntop             40 100  17   0
+Nlow             40 100   8   0
+s2adjust         40 100   1.00000   0
+ctable           40 100   0.00000   0
+ptable           40 100   0.72809   0
+ctableadjust     40 100   0.00000   0
+ptableadjust     40 100   0.00000   0
+g                40 100   6.66667
+gp               40 100   2.66667
+gn               40 100   4.00000
+gnadjust         40 100   1.00000
+gpadjust         40 100   1.00000
+gadjust          40 100   1.00000
+##
+## Gamma-ray
+##
+gamgam           40 100   0.12000
+gamgamadjust     40 100   1.00000
+etable           40 100   0.00000 E1
+ftable           40 100   1.00000 E1
+wtable           40 100   0.91300 E1
+etableadjust     40 100   0.00000 E1
+ftableadjust     40 100   1.00000 E1
+wtableadjust     40 100   1.00000 E1
+upbendc          40 100 3.50000E-08 M1
+sgr              40 100   1.392 M1
+egr              40 100   8.355 M1
+ggr              40 100   4.000 M1
+sgradjust        40 100   1.000 M1
+egradjust        40 100   1.000 M1
+ggradjust        40 100   1.000 M1
+etable           40 100   0.00000 E2
+ftable           40 100   1.00000 E2
+wtable           40 100   1.00000 E2
+etableadjust     40 100   0.00000 E2
+ftableadjust     40 100   1.00000 E2
+wtableadjust     40 100   1.00000 E2
+upbendc          40 100 0.00000E+00 M2
+sgr              40 100   0.001 M2
+egr              40 100   8.355 M2
+ggr              40 100   4.000 M2
+sgradjust        40 100   1.000 M2
+egradjust        40 100   1.000 M2
+ggradjust        40 100   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 104Rh
+##
+## Level density
+##
+a                45 104  16.16225
+aadjust          45 104   1.00000
+gammald          45 104   0.09209
+pair             45 104   0.00000
+Pshift           45 104   0.00000   0
+Pshiftadjust     45 104   0.00000   0
+deltaW           45 104   2.96263   0
+Ntop             45 104  15   0
+Nlow             45 104   8   0
+s2adjust         45 104   1.00000   0
+ctable           45 104   0.01667   0
+ptable           45 104   0.03781   0
+ctableadjust     45 104   0.00000   0
+ptableadjust     45 104   0.00000   0
+D0               45 104 3.20000E-02
+g                45 104   6.93333
+gp               45 104   3.00000
+gn               45 104   3.93333
+gnadjust         45 104   1.00000
+gpadjust         45 104   1.00000
+gadjust          45 104   1.00000
+##
+## Gamma-ray
+##
+gamgam           45 104   0.16000
+gamgamadjust     45 104   1.00000
+etable           45 104   0.00000 E1
+ftable           45 104   1.00000 E1
+wtable           45 104   0.91300 E1
+etableadjust     45 104   0.00000 E1
+ftableadjust     45 104   1.00000 E1
+wtableadjust     45 104   1.00000 E1
+upbendc          45 104 3.50000E-08 M1
+sgr              45 104   1.439 M1
+egr              45 104   8.300 M1
+ggr              45 104   4.000 M1
+sgradjust        45 104   1.000 M1
+egradjust        45 104   1.000 M1
+ggradjust        45 104   1.000 M1
+etable           45 104   0.00000 E2
+ftable           45 104   1.00000 E2
+wtable           45 104   1.00000 E2
+etableadjust     45 104   0.00000 E2
+ftableadjust     45 104   1.00000 E2
+wtableadjust     45 104   1.00000 E2
+upbendc          45 104 0.00000E+00 M2
+sgr              45 104   0.001 M2
+egr              45 104   8.300 M2
+ggr              45 104   4.000 M2
+sgradjust        45 104   1.000 M2
+egradjust        45 104   1.000 M2
+ggradjust        45 104   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 103Ru
+##
+## Level density
+##
+a                44 103  16.82984
+aadjust          44 103   1.00000
+gammald          44 103   0.09239
+pair             44 103   1.18240
+Pshift           44 103   0.00000   0
+Pshiftadjust     44 103   0.00000   0
+deltaW           44 103   3.53465   0
+Ntop             44 103  16   0
+Nlow             44 103   7   0
+s2adjust         44 103   1.00000   0
+ctable           44 103  -0.04159   0
+ptable           44 103   0.16898   0
+ctableadjust     44 103   0.00000   0
+ptableadjust     44 103   0.00000   0
+D0               44 103 5.50000E-01
+g                44 103   6.86667
+gp               44 103   2.93333
+gn               44 103   3.93333
+gnadjust         44 103   1.00000
+gpadjust         44 103   1.00000
+gadjust          44 103   1.00000
+##
+## Gamma-ray
+##
+gamgam           44 103   0.09000
+gamgamadjust     44 103   1.00000
+etable           44 103   0.00000 E1
+ftable           44 103   1.00000 E1
+wtable           44 103   0.91300 E1
+etableadjust     44 103   0.00000 E1
+ftableadjust     44 103   1.00000 E1
+wtableadjust     44 103   1.00000 E1
+upbendc          44 103 3.50000E-08 M1
+sgr              44 103   1.427 M1
+egr              44 103   8.314 M1
+ggr              44 103   4.000 M1
+sgradjust        44 103   1.000 M1
+egradjust        44 103   1.000 M1
+ggradjust        44 103   1.000 M1
+etable           44 103   0.00000 E2
+ftable           44 103   1.00000 E2
+wtable           44 103   1.00000 E2
+etableadjust     44 103   0.00000 E2
+ftableadjust     44 103   1.00000 E2
+wtableadjust     44 103   1.00000 E2
+upbendc          44 103 0.00000E+00 M2
+sgr              44 103   0.001 M2
+egr              44 103   8.314 M2
+ggr              44 103   4.000 M2
+sgradjust        44 103   1.000 M2
+egradjust        44 103   1.000 M2
+ggradjust        44 103   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 101Tc
+##
+## Level density
+##
+a                43 101  16.52334
+aadjust          43 101   1.00000
+gammald          43 101   0.09300
+pair             43 101   1.19404
+Pshift           43 101   0.00000   0
+Pshiftadjust     43 101   0.00000   0
+deltaW           43 101   3.81620   0
+Ntop             43 101  17   0
+Nlow             43 101   8   0
+s2adjust         43 101   1.00000   0
+ctable           43 101   0.00000   0
+ptable           43 101  -0.10596   0
+ctableadjust     43 101   0.00000   0
+ptableadjust     43 101   0.00000   0
+g                43 101   6.73333
+gp               43 101   2.86667
+gn               43 101   3.86667
+gnadjust         43 101   1.00000
+gpadjust         43 101   1.00000
+gadjust          43 101   1.00000
+##
+## Gamma-ray
+##
+gamgam           43 101   0.11950
+gamgamadjust     43 101   1.00000
+etable           43 101   0.00000 E1
+ftable           43 101   1.00000 E1
+wtable           43 101   0.91300 E1
+etableadjust     43 101   0.00000 E1
+ftableadjust     43 101   1.00000 E1
+wtableadjust     43 101   1.00000 E1
+upbendc          43 101 3.50000E-08 M1
+sgr              43 101   1.404 M1
+egr              43 101   8.341 M1
+ggr              43 101   4.000 M1
+sgradjust        43 101   1.000 M1
+egradjust        43 101   1.000 M1
+ggradjust        43 101   1.000 M1
+etable           43 101   0.00000 E2
+ftable           43 101   1.00000 E2
+wtable           43 101   1.00000 E2
+etableadjust     43 101   0.00000 E2
+ftableadjust     43 101   1.00000 E2
+wtableadjust     43 101   1.00000 E2
+upbendc          43 101 0.00000E+00 M2
+sgr              43 101   0.001 M2
+egr              43 101   8.341 M2
+ggr              43 101   4.000 M2
+sgradjust        43 101   1.000 M2
+egradjust        43 101   1.000 M2
+ggradjust        43 101   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 100Mo
+##
+## Level density
+##
+a                42 100  16.59105
+aadjust          42 100   1.00000
+gammald          42 100   0.09331
+pair             42 100   2.40000
+Pshift           42 100   0.00000   0
+Pshiftadjust     42 100   0.00000   0
+deltaW           42 100   3.82472   0
+Ntop             42 100  15   0
+Nlow             42 100   7   0
+s2adjust         42 100   1.00000   0
+ctable           42 100   0.00000   0
+ptable           42 100   0.23546   0
+ctableadjust     42 100   0.00000   0
+ptableadjust     42 100   0.00000   0
+g                42 100   6.66667
+gp               42 100   2.80000
+gn               42 100   3.86667
+gnadjust         42 100   1.00000
+gpadjust         42 100   1.00000
+gadjust          42 100   1.00000
+##
+## Gamma-ray
+##
+gamgam           42 100   0.12000
+gamgamadjust     42 100   1.00000
+etable           42 100   0.00000 E1
+ftable           42 100   1.00000 E1
+wtable           42 100   0.91300 E1
+etableadjust     42 100   0.00000 E1
+ftableadjust     42 100   1.00000 E1
+wtableadjust     42 100   1.00000 E1
+upbendc          42 100 3.50000E-08 M1
+sgr              42 100   1.392 M1
+egr              42 100   8.355 M1
+ggr              42 100   4.000 M1
+sgradjust        42 100   1.000 M1
+egradjust        42 100   1.000 M1
+ggradjust        42 100   1.000 M1
+etable           42 100   0.00000 E2
+ftable           42 100   1.00000 E2
+wtable           42 100   1.00000 E2
+etableadjust     42 100   0.00000 E2
+ftableadjust     42 100   1.00000 E2
+wtableadjust     42 100   1.00000 E2
+upbendc          42 100 0.00000E+00 M2
+sgr              42 100   0.001 M2
+egr              42 100   8.355 M2
+ggr              42 100   4.000 M2
+sgradjust        42 100   1.000 M2
+egradjust        42 100   1.000 M2
+ggradjust        42 100   1.000 M2
+##--------------------------------------------
+##
+## Parameters for 100Nb
+##
+## Level density
+##
+a                41 100  17.61587
+aadjust          41 100   1.00000
+gammald          41 100   0.09331
+pair             41 100   0.00000
+Pshift           41 100   0.00000   0
+Pshiftadjust     41 100   0.00000   0
+deltaW           41 100   4.84540   0
+Ntop             41 100  30   0
+Nlow             41 100   2   0
+s2adjust         41 100   1.00000   0
+ctable           41 100   0.00000   0
+ptable           41 100  -0.06691   0
+ctableadjust     41 100   0.00000   0
+ptableadjust     41 100   0.00000   0
+g                41 100   6.66667
+gp               41 100   2.73333
+gn               41 100   3.93333
+gnadjust         41 100   1.00000
+gpadjust         41 100   1.00000
+gadjust          41 100   1.00000
+##
+## Gamma-ray
+##
+gamgam           41 100   0.12000
+gamgamadjust     41 100   1.00000
+etable           41 100   0.00000 E1
+ftable           41 100   1.00000 E1
+wtable           41 100   0.91300 E1
+etableadjust     41 100   0.00000 E1
+ftableadjust     41 100   1.00000 E1
+wtableadjust     41 100   1.00000 E1
+upbendc          41 100 3.50000E-08 M1
+sgr              41 100   1.392 M1
+egr              41 100   8.355 M1
+ggr              41 100   4.000 M1
+sgradjust        41 100   1.000 M1
+egradjust        41 100   1.000 M1
+ggradjust        41 100   1.000 M1
+etable           41 100   0.00000 E2
+ftable           41 100   1.00000 E2
+wtable           41 100   1.00000 E2
+etableadjust     41 100   0.00000 E2
+ftableadjust     41 100   1.00000 E2
+wtableadjust     41 100   1.00000 E2
+upbendc          41 100 0.00000E+00 M2
+sgr              41 100   0.001 M2
+egr              41 100   8.355 M2
+ggr              41 100   4.000 M2
+sgradjust        41 100   1.000 M2
+egradjust        41 100   1.000 M2
+ggradjust        41 100   1.000 M2
+##--------------------------------------------
+##
+## Parameters for  99Zr
+##
+## Level density
+##
+a                40  99  18.01383
+aadjust          40  99   1.00000
+gammald          40  99   0.09362
+pair             40  99   1.20605
+Pshift           40  99   0.00000   0
+Pshiftadjust     40  99   0.00000   0
+deltaW           40  99   4.88999   0
+Ntop             40  99  21   0
+Nlow             40  99   2   0
+s2adjust         40  99   1.00000   0
+ctable           40  99   0.00000   0
+ptable           40  99   0.01641   0
+ctableadjust     40  99   0.00000   0
+ptableadjust     40  99   0.00000   0
+g                40  99   6.60000
+gp               40  99   2.66667
+gn               40  99   3.93333
+gnadjust         40  99   1.00000
+gpadjust         40  99   1.00000
+gadjust          40  99   1.00000
+##
+## Gamma-ray
+##
+gamgam           40  99   0.12500
+gamgamadjust     40  99   1.00000
+etable           40  99   0.00000 E1
+ftable           40  99   1.00000 E1
+wtable           40  99   0.91300 E1
+etableadjust     40  99   0.00000 E1
+ftableadjust     40  99   1.00000 E1
+wtableadjust     40  99   1.00000 E1
+upbendc          40  99 3.50000E-08 M1
+sgr              40  99   1.381 M1
+egr              40  99   8.369 M1
+ggr              40  99   4.000 M1
+sgradjust        40  99   1.000 M1
+egradjust        40  99   1.000 M1
+ggradjust        40  99   1.000 M1
+etable           40  99   0.00000 E2
+ftable           40  99   1.00000 E2
+wtable           40  99   1.00000 E2
+etableadjust     40  99   0.00000 E2
+ftableadjust     40  99   1.00000 E2
+wtableadjust     40  99   1.00000 E2
+upbendc          40  99 0.00000E+00 M2
+sgr              40  99   0.001 M2
+egr              40  99   8.369 M2
+ggr              40  99   4.000 M2
+sgradjust        40  99   1.000 M2
+egradjust        40  99   1.000 M2
+ggradjust        40  99   1.000 M2
+##--------------------------------------------

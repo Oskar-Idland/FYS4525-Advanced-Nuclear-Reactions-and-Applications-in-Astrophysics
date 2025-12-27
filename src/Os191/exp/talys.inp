@@ -1,0 +1,32 @@
+element Os
+mass 191
+projectile n
+energy n0-30.grid
+
+ldmodel 4
+# densfile 76 192 /home/oskar/repos/TALYS_summer_school/talys_exercises/Os191_varying_models/E1/nld_talys.txt
+M1file 76 192 gsfE1.dat
+E1file 76 192 gsfM1.dat
+
+gnorm 1
+
+ptable 76 192 0
+ctable 76 192 0
+
+
+ggr 76 192 2.8 E1
+ggr 76 192 4.0 M1
+
+sgr 76 192 615.0 E1 
+sgr 76 192   2.1 M1 
+
+egr 76 192 13.2 E1
+egr 76 192  7.1 M1
+
+
+outgamma     y
+filetotal    y 
+outdensity   y
+outdiscrete  y 
+fileresidual y
+filechannels y
