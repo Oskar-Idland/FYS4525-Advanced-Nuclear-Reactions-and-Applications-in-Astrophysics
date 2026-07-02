@@ -1,15 +1,24 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'out/main.blg'
-[82] biber:342> INFO - === Wed Dec 17, 2025, 15:12:19
-[104] Biber.pm:421> INFO - Reading 'out/main.bcf'
-[206] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
-[237] Biber.pm:4487> INFO - Processing section 0
-[261] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
-[263] bibtex.pm:1713> INFO - LaTeX decoding ...
-[275] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[390] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[390] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[390] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[390] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[398] bbl.pm:676> INFO - Writing 'out/main.bbl' with encoding 'UTF-8'
-[401] bbl.pm:779> INFO - Output to out/main.bbl
+[54] biber:342> INFO - === Sun Jan 18, 2026, 19:05:01
+[67] Biber.pm:421> INFO - Reading 'out/main.bcf'
+[124] Biber.pm:1002> INFO - Found 12 citekeys in bib section 0
+[137] Biber.pm:4487> INFO - Processing section 0
+[145] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
+[145] bibtex.pm:1713> INFO - LaTeX decoding ...
+[155] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[293] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[293] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[293] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[293] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[305] bbl.pm:676> INFO - Writing 'out/main.bbl' with encoding 'UTF-8'
+[311] bbl.pm:779> INFO - Output to out/main.bbl
+[311] Biber.pm:132> WARN - legacy year field 'n.d.' in entry 'nasa:universe-overview' is not an integer - this will probably not sort properly.
+[311] Biber.pm:132> WARN - legacy year field 'n.d.' in entry 'gorgen:presentations' is not an integer - this will probably not sort properly.
+[311] Biber.pm:132> WARN - legacy month field 'Jul' in entry 'PhysRev.87.366' is not an integer - this will probably not sort properly.
+[312] Biber.pm:132> WARN - legacy year field 'n.d.' in entry 'sunniva:presentations' is not an integer - this will probably not sort properly.
+[312] Biber.pm:132> WARN - legacy year field 'n.d.' in entry 'EXFOR' is not an integer - this will probably not sort properly.
+[312] Biber.pm:132> WARN - legacy month field 'Jun' in entry 'PhysRevC.99.065806' is not an integer - this will probably not sort properly.
+[312] Biber.pm:132> WARN - legacy year field 'n.d.' in entry 'nndc:nudat3' is not an integer - this will probably not sort properly.
+[312] Biber.pm:132> WARN - legacy year field 'n.d.' in entry 'reaclib:jina' is not an integer - this will probably not sort properly.
+[312] Biber.pm:134> INFO - WARNINGS: 8

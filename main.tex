@@ -12,14 +12,12 @@
 %7. TALYS exercises and discussion of the results
 %8. Conclusion and outlook 
 %9. Bibliography
-
-
 \documentclass[english, notitlepage]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{unicode-math}
+\usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{babel}
-\usepackage[version=4]{mhchem} 
 \usepackage[a4paper, top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry}
 \usepackage{float}
 \usepackage[format=plain,
@@ -31,11 +29,11 @@
  left=25mm,
  top=25mm,} % Formats the paper size, orientation, and margins
 \linespread{1.25} % about 1.5 spacing in Word
-\usepackage{mhchem}
 \setlength{\parindent}{0pt} % no paragraph indents
 \setlength{\parskip}{1em}
 \usepackage[backend=biber,citestyle=numeric-comp,sorting=none,sortcites,hyperref=true]{biblatex}
 \usepackage[colorlinks=true]{hyperref} % For hyperlinks in the document
+\usepackage{mhchem}
 % Allows you to do citations - does Harvard style and compatible with Zotero
 % Ensures the names of the authors after the first author are in the correct order in the bibliography% Corrects punctuation for authors with just a first initial. 
 %When you are citing in text you use the \cite{keyword}.
@@ -45,158 +43,424 @@
 \geometry{letterpaper, portrait, margin=1in}
 \usepackage[format=plain,
             font=it]{caption} % Italicizes figure captions
+
+\usepackage{cleveref} % For referencing figures, tables, sections etc.
+
 \setlength{\headheight}{14.49998pt}
 
 \title{INTPART summer school, 2025}
 
-\author{Your name goes here}
+\author{Oskar Ekeid Idland}
 
 \begin{document}
 \maketitle
 \begin{abstract}
-A short overview of what your report is about.
+This report gives an overview of the course content from the TALYS school held in November 2025. It covers the necessary nuclear physics and astrophysics theory needed to understand the processes behind nucleosynthesis in stars, how we model these processes through level densities and gamma-ray strength functions, and how we can use nuclear reaction codes like TALYS to simulate these processes. The report also includes the results from the TALYS exercises performed during the course, in which we see how impactful the choice of models used in TALYS can be for the resulting cross sections, and the importance of experimental data to confirm these models. 
 \end{abstract}
 
 % Here you can introduce what a 
 \section{Introduction}
-
+Seconds to minutes after the Big Bang, the universe created the first nuclei~\cite{nasa:universe-overview}. These were primarily Hydrogen and Helium, with trace amounts of heavier elements~\cite{gorgen:presentations}. It was only a few hundred million years later that the first stars formed~\cite{nasa:universe-overview}, creating the heat and pressure necessary for nuclear fusion to occur. At this point, we know how stars produced elements up to iron through the fusion processes. The creation of heavier elements, however, is not sufficiently understood. The two leading theories for the production of these heavy elements are the slow neutron capture process (s-process) and the rapid neutron capture process (r-process). We also have intermediate process, and the proton capture process (p-process). All these processes play a part in the distribution of elements in the universe we see today. They all form a complex network of nuclear reactions, in which advanced nuclear reaction codes like TALYS \cite{TALYS} is essential to reproduce and understand astronomical observations.
+ 
 \section{Nuclear physics and nuclear astrophysics}
-
-%If you want to bullet things you can use enumerate: This gives the number list. If you want unnumbered you can use: \begin{itemize} and then \end{itemize}
-\begin{enumerate}
-    \item How you add bullets
-    \item Add a new bullet
-\end{enumerate}
-
+Using astrophysical observations of absorption and emission spectra, we can determine the elemental composition of stars. This gives us insight into their abundance leading to necessary constraints in our modeling of their reaction rates. To understand this process we must learn how the elements are created in stars through nucleosynthesis, how this process changes over the lifetime of a star and how this leads to the production of the heavier elements.  
 
 
 \subsection{Elements and their production in the Solar System}
-\subsection{Nuclear Burning stages of stars}
-\subsection{The production of heavy nuclei}
+Our previous model of how the sun emitted light was based chemical reactions, as we were used to seeing on earth, like the burning of coal. This model was not sufficient as it would not be possible for the sun to burn longer than approximately a few thousand years~\cite{gorgen:presentations}.
 
-%How to insert a figure
-\begin{figure}
+Jean Perrin realized in 1919 that the mass of the Helium atom was less then that of four Hydrogen atoms~\cite{gorgen:presentations}. Using Einstein's mass-energy equivalence, he proposed that the fusion of Hydrogen into Helium could provide enough energy to power the sun for billions of years. This set the stage for our modern understanding of stellar nucleosynthesis. 
+
+
+
+\subsection{Nuclear Burning stages of stars}
+\subsubsection{Hydrogen Burning}
+The first stage of nuclear burning in stars is naturally Hydrogen burning, creating Helium-4. This is at first done through the \textit{pp-chain}~\cite{gorgen:presentations}. 
+
+\paragraph{pp-chain:}\mbox{}\\
+Writing out the full set of reactions in the ppI-chain:
+\begin{align}
+    {}^{1}\text{H} + {}^{1}\text{H} &\to {}^{2}\text{H} + e^{+} + \nu_{e},\\
+    {}^{2}\text{H} + {}^{1}\text{H} &\to {}^{3}\text{He} + \gamma.
+\end{align}
+The reaction is then repeated and we get:
+\begin{equation}
+    {}^{3}\text{He} + {}^{3}\text{He} \to {}^{4}\text{He} + 2\,{}^{1}\text{H}.
+\end{equation}
+In total we can write the entire pp-chain as one reaction:
+\begin{equation}\label{eq: pp-chain}
+  4\,{}^{1}\text{H} \to {}^{4}\text{He} + 2e^{+} + 2\nu_{e} + 2\gamma.
+\end{equation}
+The creation of Helium-4 releases 26.7 MeV of energy, which is what powers the star. This is the first step in the pp-chain and we see Helium-4 as the most abundant Helium isotope in the universe. There is also the ppII and ppIII chains, producing Beryllium-8 and more $α$-particles. 
+
+\paragraph{CNO cycle:}\mbox{}\\
+With high enough temperatures we can also produce Helium-4 with the \textit{CNO cycle}. This dominates at temperatures of approximately 16 million Kelvin, just above the core temperature of the sun. This is due to triple-$α$ reactions needing high energies to overcome the Coulomb barrier of three $α$-particles. Through the Hoyle state in Carbon-12, which luckily corresponds to the excess energy from combining Beryllium-8 and Helium-4, we can briefly create Carbon-12 which then might de-excites to its ground, creating the Carbon we need.  
+
+For this cycle Carbon and Nitrogen acts as catalysts to produce Helium-4 from Hydrogen. The Carbon is made from triple-$α$ reactions, which uses the Beryllium-8 created in the ppII and ppIII-chains, together with Helium-4 to create Carbon-12. The Carbon absorbs a proton, creating Nitrogen-13~\cref{CNO_1}. Nitrogen-13 goes through $\beta^{+}$ decay, creating Carbon-13~\cref{CNO_2}. The Carbon-13 then absorbs another proton, creating Nitrogen-14~\cref{CNO_3}. Nitrogen-14 absorbs another proton, creating Oxygen-15~\cref{CNO_4}. Oxygen-15 goes through $\beta^{+}$ decay, creating Nitrogen-15~\cref{CNO_5}. Finally, Nitrogen-15 absorbs another proton, creating back Carbon-12 and Helium-4~\cref{CNO_6} leaving us back at~\cref{CNO_1}. 
+
+\begin{align}
+    {}^{12}\text{C} + {}^{1}\text{H} &→ {}^{13}\text{N} + γ,\label{CNO_1}\\ 
+    {}^{13}\text{N} &→ {}^{13}\text{C} + e{}^{+} + \nu_{e},\label{CNO_2} \\
+    {}^{13}\text{C} + {}^{1}\text{H} &→ {}^{14}\text{N} + γ,\label{CNO_3} \\
+    {}^{14}\text{N} + {}^{1}\text{H} &→ {}^{15}\text{O} + γ,\label{CNO_4} \\
+    {}^{15}\text{O} &→ {}^{15}\text{N} + e{}^{+} + \nu_{e},\label{CNO_5} \\
+    {}^{15}\text{N} + {}^{1}\text{H} &→ {}^{12}\text{C} + {}^{4}\text{He}. \label{CNO_6}
+\end{align}
+
+Alternatively, the Nitrogen-15 can also absorb a proton and create Oxygen-16~\cref{CNO_7}, which then absorbs another proton to create Fluorine-17~\cref{CNO_8} followed by a $\beta^{+}$ decay to Oxygen-17~\cref{CNO_9}. This finally absorbs a proton to create back Nitrogen-14 and Helium-4~\cref{CNO_10}, leaving us back at~\cref{CNO_4}.
+
+\begin{align}
+    {}^{15}\text{N} + {}^{1}\text{H} &→ {}^{16}\text{O} + γ,\label{CNO_7} \\
+    {}^{16}\text{O} + {}^{1}\text{H} &→ {}^{17}\text{F} + γ,\label{CNO_8} \\
+    {}^{17}\text{F} &→ {}^{17}\text{O} + e{}^{+} + \nu_{e},\label{CNO_9} \\
+    {}^{17}\text{O} + {}^{1}\text{H} &→ {}^{14}\text{N} + {}^{4}\text{He}. \label{CNO_10}
+\end{align}
+
+After exhausting the Hydrogen in the core, there is no radiation pressure to counteract gravity, and the core starts to contract. As the core temperature increases, Hydrogen burning continues in a shell around the core. The luminosity increases, the star expands and cools, becoming a red giant. This increases the temperature and pressure, allowing for the next phase: Helium burning. 
+
+\subsubsection{Helium Burning}
+At around 300 million Kelvin, Helium burning starts in the core. The core expands and we see an increase in luminosity and surface temperature. The star begins to move towards the horizontal branch. The CNO cycle is now active in a shell around the core. 
+
+\subsection{The production of heavy nuclei}
+After the Helium in the core is exhausted, the core contracts again, increasing the temperature and pressure. Helium burning continues in a shell around the core, with Hydrogen burning in a shell further out. The star expands further and cools, moving up the asymptotic giant branch (AGB). A similar process continues for heavier elements. After Carbon burning, we have Neon, Oxygen and Silicon burning stages, each occurring at higher temperatures and shorter timescales, as seen in~\cref{fig: star_burning_stages}. This continues until we reach Iron-56, which has the highest binding energy per nucleon. Beyond this point, fusion no longer releases energy, and the star can no longer support itself against gravitational collapse. After quickly contracting the star expels its outer layers in a supernova explosion, leaving behind three possible remnants depending on the initial mass of the star: a white dwarf, a neutron star, or a black hole. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width = 0.45\textwidth]{star_burning_stages.png}
+\caption{Graph showing the nuclei a star uses for fuel and for how long~\cite{gorgen:presentations}.}
+\label{fig: star_burning_stages}
+\end{figure}
+
+Beyond Iron-56, we need to look at neutron capture processes to create heavier elements. The two main processes are the slow neutron capture process (s-process) and the rapid neutron capture process (r-process). There is also the proton capture process (p-process) for creating certain proton-rich isotopes. These processes occur in different astrophysical environments and contribute to the abundance of heavy elements in the universe.
+
+
+\paragraph{s-process}\mbox{}\\
+The slow neutron capture process (s-process) occurs in environments with relatively low neutron fluxes. As it is so slow, it only produces stable isotopes along the valley of stability as seen in~\cref{fig: Resonance}. It slowly increases in mass number, until it steps of the line of stability. As the neutron capture is slow compared to the beta decay, the nucleus decays diagonally up to the left in the nuclide chart through $\beta^{-}$ decay. When low/intermediate mass stars in the AGB phase experience thermal pulses, they free neutrons through various reactions. This is over timescales of tens of thousands of years, explaining the low neutron flux, and why only a slow, but steady process could utilize these neutrons. For more massive stars, the neutrons are produced during Helium burning in the core. This process creates isotopes with mass numbers in range of approximately 60 to 90. 
+
+\paragraph{r-process}\mbox{}\\
+The rapid neutron capture process (r-process) occurs in environments with extremely high neutron fluxes, such as during supernova explosions or neutron star mergers. In these environments, nuclei can capture neutrons much faster than they can undergo beta decay. This leads to the creation of very neutron-rich isotopes, which then $β^{+}$-decay back towards stability after the neutron flux subsides. As this process occurs so fast and its condition are usually short-lived, we need to understand the cross sections of neutron-rich isotopes far from stability to model this process accurately. The r-process is responsible for producing approximately half of the elements heavier than Iron, including many of the heaviest elements like naturally occurring Uranium. 
+
+\paragraph{p-process}\mbox{}\\
+The proton capture process (p-process) happens much less frequently than the s- and r-processes. As we observe certain proton-rich isotopes that cannot be created through neutron capture and subsequent beta decay, we need another process to explain their existence. The p-process is thought to occur during supernova explosions, but is not yet fully understood. 
+
+
+These processes all create a complex network of nuclear reactions, which influence the likelihood of each other happening. As seen in~\cref{fig: Resonance}, the number of pathways to create the different isotopes are complex and intertwined. Small changes in one reaction rate can have significant effects on the final abundances of elements produced. 
+
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.5\linewidth]{astrophysicsProcesses.png}
     \caption{Diagram showing the nuclide chart with the different nucleosynthesis sites. \cite{Nature_Wiedeking}}
-    \label{fig:Resonance}
+    \label{fig: Resonance}
 \end{figure}
 
-% the \paragraph produces a bold heading for a new paragraph but not a new subsection
-\paragraph{s-process}
-\paragraph{r-process}
-\paragraph{p-process}
+
+\section{Nuclear Level Density \& Gamma-ray Strength Function}
+\subsection{Nuclear Level Density}
+When investigating lower excited states of a nucleus, we can mostly treat them as discrete energy levels. At higher excitation energies, however, the number of energy levels increases rapidly, and they become so closely spaced that we can no longer resolve them individually. This is not only due to there being more energy states closer to each other, but also due to higher excitation energies having smaller mean lifetimes $τ$, leading to a larger width $Γ = 1/τ$. This also contributes to the levels overlapping and becoming unresolvable. We therefore describe the \textit{density} $ρ$ of the number of energy levels $ΔN$, in a given energy interval $ΔE$ as a function of excitation energy $E_x$. 
+
+\begin{equation}\label{eq: level_density}
+  ρ(E_x) = \frac{ΔN(E_x)}{ΔE_x}.
+\end{equation}
+
+The level spacing $D = 1/ρ$ gives us the average distance between the energy levels at a given excitation energy. At lower excitation energies, we have $D ≫ Γ$, allowing us to resolve the individual energy levels experimentally. As we increase the excitation energy, $D$ decreases while $Γ$ increases. We enter into the quasi-continuum region when $D ≥ Γ$. In this region we cannot resolve the individual energy levels experimentally, but they are still separate. Finally, at even higher excitation energies, we reach the continuum region where $D ≤ Γ$. Here the energy levels overlap significantly, and we can no longer treat them as separate levels. 
+
+% TODO: Write about why NLD is important for astrophysics and how they are measured.
+
+\subsection{Gamma-ray Strength Function}
+The gamma-ray strength function (GSF) describes the transition probability of gamma-ray emission or absorption in $(n, γ)$ and $(γ, n)$ reactions respectively~\cite{utsunomiya:2020_gamma}. This is used in the Hauser-Feshbach model of compound nuclear reactions~\cite{PhysRev.87.366}. As it models both absorption and emission, it is split in two parts: The upwards and downwards GSF. 
+
+\subsubsection{Downwards GSF}
+The downwards GSF $\overleftarrow{f_{X_1}}(E_{γ})$ describes the probability of gamma-ray emission from an excited state in which $E_γ$ is the energy of the emitted gamma-ray and $X$ is either an electric (E) or magnetic (M) transition of multipolarity $1$. We assume from Weisskopf-estimates of gamma decay that a multipolarity of $1$ dominates the gamma decay~\cite{sunniva:presentations}. The function can be defined as follows~\cite{utsunomiya:2020_gamma}:
+
+\begin{equation}\label{eq: DGSF}
+  \overleftarrow{f_{X_1}}(E_{γ}) = \frac{\left<Γ_{X_1}(E_{γ} / E^3_{γ})\right>}{D_{ℓ}}
+\end{equation}
+where $<Γ_{X_1}>$ is the average width of the gamma transition and $D_{ℓ}$ is the level spacing of levels for s-waves or p-waves with $ℓ = 0,1$, respectively.
+
+\subsubsection{Upwards GSF}    
+The upwards GSF $\overrightarrow{f_{X_1}}(E_{γ})$ describes the probability of gamma-ray absorption. It can be defined as follows~\cite{utsunomiya:2020_gamma}:
+\begin{equation}\label{eq: UGSF}
+  \overrightarrow{f_{X_1}}(E_{γ}) = \frac{\left<σ_{X_1}(E_{γ})\right>}{3E_{γ}(πℏc)^2}
+\end{equation}
+where $<σ_{X_1}(E_{γ})>$ is the average cross section for gamma-ray absorption of energy $E_{γ}$. 
+
+\subsection{Finding the GSF and NLD Experimentally}
+Using the Oslo method and inverse kinematics, we can experimentally derive both the GSF and NLD for a given nucleus. This was done in 2020 using $d(\ce{^{86}Kr},pγ)\ce{^{87}Kr}$ reactions~\cite{Ingeberg2020}. 
 
 
-\section{Nuclear Level Density and Gamma Strength Function}
 
-\begin{table}[]
-    \centering
-    \caption{Table showing the typical energy ranges for the different resonances}
-    \begin{tabular}{|c|c|}
-        \hline
-        resonance & Typical energy range (MeV) \\
-        \hline
-         GDR& \\
-         \hline
-    \end{tabular}
-    \label{tab:resonance_energy}
-\end{table}
+% TODO: Write about why GSF is important for astrophysics and how they are measured. 
+
+
+% \begin{table}[]
+%     \centering
+%     \caption{Table showing the typical energy ranges for the different resonances}
+%     \begin{tabular}{|c|c|}
+%         \hline
+%         resonance & Typical energy range (MeV) \\
+%         \hline
+%          GDR& \\
+%          \hline
+%     \end{tabular}
+%     \label{tab:resonance_energy}
+% \end{table}
 
 
 \section{TALYS}
+TALYS~\cite{TALYS} is a nuclear reaction code designed to calculate important observables such as cross sections and reaction rates. It serves as an essential tool in exploring nuclear reactions such as the s-process and r-process in astrophysics. It is in constant development, with new versions being released regularly to included new and updated models. As of version 1.96, TALYS includes several models for both the gamma-ray strength function (GSF) listed in ~\cref{tab:gsf_models} and the nuclear level density (NLD) listed in~\cref{tab:ld_models}. With the use of the optical model model, in describes a plethora of nuclear scattering and absorption reactions. One can input your own experimentally derived models for both GSF and NLD if desired.
 
-\section{TALYS exercises} %Remember you only need to write and show plots about the exercises, not the examples. And then the last task.
-The following TALYS simulations were performed using TALYS version 1.96 \cite{TALYS}. 
+With a simple text input file, the blazingly fast fortran code can simulate nuclear reactions in an energy range from 0 to 200 MeV in mere minutes. As it is open source, it has many collaborators in the field constantly improving and updating the code with their research. 
+
+\subsection{Gamma-ray strength function models}
+Table of the different GSF models available in TALYS is shown in~\cref{tab:gsf_models}. Default is strength 1 for neutrons and strength 2 for other particles. 
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|p{0.75\linewidth}|}
+\hline
+Model & Description \\\hline
+strength 1 & Kopecky-Uhl generalized Lorentzian \\\hline
+strength 2 & Brink-Axel Lorentzian \\\hline
+strength 3 & Hartree-Fock BCS tables \\\hline
+strength 4 & Hartree-Fock-Bogoliubov tables \\\hline
+strength 5 & Goriely’s hybrid model [48] \\\hline
+strength 6 & Goriely T-dependent HFB \\\hline
+strength 7 & T-dependent RMF \\\hline
+strength 8 & Gogny D1M HFB+QRPA \\\hline
+strength 9 & SMLO \\\hline
+\end{tabular}
+\caption{Gamma-ray strength function (GSF) models available in TALYS.}
+\label{tab:gsf_models}
+\end{table}
+
+\subsection{Level density models}
+Table of the different NLD models available in TALYS is shown in~\cref{tab:ld_models}. Default is ldmodel 1. 
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|p{0.75\linewidth}|}
+\hline
+Model & Description \\\hline
+ldmodel 1 & Constant Temperature + Fermi gas model (CTM) \\\hline
+ldmodel 2 & Back-shifted Fermi gas Model (BFM) \\\hline
+ldmodel 3 & Generalised Superfluid Model (GSM) \\\hline
+ldmodel 4 & Skyrme-Hartree-Fock-Bogoluybov level densities from numerical tables \\\hline
+ldmodel 5 & Gogny-Hartree-Fock-Bogoluybov level densities from numerical tables \\\hline
+ldmodel 6 & Temperature-dependent Gogny-Hartree-Fock-Bogoluybov level densities from numerical tables \\\hline
+\end{tabular}
+\caption{Level density (LD) models available in TALYS.}
+\label{tab:ld_models}
+\end{table}
+
+
+\section{TALYS exercises} % TODO: Maybe add plots in appendix with the all the different models?
+The following TALYS simulations were performed using TALYS version 1.96 \cite{TALYS}. The code used can be found at \url{https://github.com/Oskar-Idland/FYS4525-Advanced-Nuclear-Reactions-and-Applications-in-Astrophysics/tree/main}, in the notebook found at \verb|src/notebook.ipynb|. Input files are always named \verb|talys.inp|. All the files generated by TALYS are stored in the same folder as the input file with the name of the target nucleus. Experimental data for comparison were taken from the EXFOR database~\cite{EXFOR}. The parameters used for the EXFOR query can be found in the notebook where the data is plotted. 
 
 \subsection{Exercise 1}
+In this exercise, I simulated $\ce{^{191}Os + n}$ reaction and looking at the $(n, γ)$ and $(n, n')$ channels. I also simulated the $\ce{^{191}Re + p}$ reaction looking at the $(p, γ)$ channel. This was done in the energy range of 0 to 30 MeV using the default model parameters in TALYS. Output files can be found in the folder \verb|src/Os191/default| and \verb|src/Re191|. 
 \subsubsection{$\ce{^{191}Os}$}
-\paragraph{$(n, γ)$}
+\paragraph{$(n, γ)$}  \mbox{} \\
+Plot showing the $(n, γ)$ cross section for $\ce{^{191}Os}$ using the default GSF, and NLD model 4 in TALYS is shown in~\cref{fig: Os191_n_gamma_CS}.
 \begin{figure}[h!]
 \centering
-\includegraphics[width = 0.8\textwidth]{talys_exercises/figs/Os191_n_gamma_cross_section.pdf}
-\caption{Caption}
+\includegraphics{src/figs/Os191_n_gamma_cross_section.pdf}
+\caption{Plot from TALYS showing the $(n, γ)$ cross section for $\ce{^{191}Os}$ using the default GSF, and NLD model 4.}
 \label{fig: Os191_n_gamma_CS}
 \end{figure}
 
-\paragraph{$(n, n')$}
+\paragraph{$(n, n')$}\mbox{} \\
+Plot showing the $(n, n')$ cross section for $\ce{^{191}Os}$ using the default model parameters in TALYS is shown in~\cref{fig: Os191_n_nprime_CS}.
 \begin{figure}[h!]
 \centering
-\includegraphics[width = 0.8\textwidth]{talys_exercises/figs/Os191_n_nprime_cross_section.pdf}
-\caption{Caption}
+\includegraphics{src/figs/Os191_n_nprime_cross_section.pdf}
+\caption{Plot from TALYS showing the $(n, n')$ cross section for $\ce{^{191}Os}$ using the default model parameters.}
 \label{fig: Os191_n_nprime_CS}
 \end{figure}
 
 
 \subsubsection{$\ce{^{191}Re}$}
-\paragraph{$(n, γ)$}
+\paragraph{$(n, γ)$}\mbox{} \\
+Plot showing the $(p, γ)$ cross section for $\ce{^{191}Re}$ using the default model parameters in TALYS is shown in~\cref{fig: Re191_p_gamma_CS}.
 \begin{figure}[h!]
 \centering
-\includegraphics[width = 0.8\textwidth]{talys_exercises/figs/Re191_p_gamma_cross_section.pdf}
-\caption{Caption}
+\includegraphics{src/figs/Re191_p_gamma_cross_section.pdf}
+\caption{Plot from TALYS showing the $(p, γ)$ cross section for $\ce{^{191}Re}$ using the default model parameters.}
 \label{fig: Re191_p_gamma_CS}
 \end{figure}
 
 
 \subsection{Exercise 2}
+In this exercise, I simulated $\ce{^{208}Pb + n}$ reaction looking at the $(n, n')$, $(n, 2n)$ and $(n, γ)$ channels. This was done in the energy range of 0 to 20 MeV using the default model parameters in TALYS. The output files can be found in the folder \verb|src/Pb208/default|. The result was then compared with experimental data from EXFOR~\cite{EXFOR}.
+
 \subsubsection{$\ce{^{208}Pb}$}
-\paragraph{$(n, n')$}
+\paragraph{$(n, n')$}\mbox{} \\
+Plot showing the $(n, n')$ cross section for $\ce{^{208}Pb}$ using the default model parameters in TALYS is shown in~\cref{fig: Pb208_n_nprime_CS}.
 \begin{figure}[h!]
 \centering
-\includegraphics[width = 0.8\textwidth]{talys_exercises/figs/Pb208_n_nprime_inl_cross_section_comparison_complete_data.pdf}
-\caption{Caption}
+\includegraphics{src/figs/Pb208_n_nprime_inl_cross_section_comparison_complete_data.pdf}
+\caption{Plot showing the $(n, n')$ cross section for $\ce{^{208}Pb}$ using the default model parameters in TALYS compared with experimental data from EXFOR~\cite{EXFOR}. Parameters for the EXFOR query can be found in the notebook here: \url{https://github.com/Oskar-Idland/FYS4525-Advanced-Nuclear-Reactions-and-Applications-in-Astrophysics/blob/main/src/notebook.ipynb}}
 \label{fig: Pb208_n_nprime_CS}
 \end{figure}
 
-\paragraph{$(n, 2n)$}
+\paragraph{$(n, 2n)$}\mbox{} \\
+Plot showing the $(n, 2n)$ cross section for $\ce{^{208}Pb}$ using the default model parameters in TALYS is shown in~\cref{fig: Pb208_n_2n_CS_EXFOR}.
 \begin{figure}[h!]
 \centering
-\includegraphics[width = 0.8\textwidth]{talys_exercises/figs/Pb208_n_2n_cross_section_comparison_complete_data.pdf}
-\caption{Caption}
+\includegraphics{src/figs/Pb208_n_2n_cross_section_comparison_complete_data.pdf}
+\caption{Plot showing the $(n, 2n)$ cross section for $\ce{^{208}Pb}$ using the default model parameters in TALYS compared with experimental data from EXFOR~\cite{EXFOR}. EXFOR~\cite{EXFOR}. Parameters for the EXFOR query can be found in the notebook here: \url{https://github.com/Oskar-Idland/FYS4525-Advanced-Nuclear-Reactions-and-Applications-in-Astrophysics/blob/main/src/notebook.ipynb}}
 \label{fig: Pb208_n_2n_CS_EXFOR}
 \end{figure}
 
-\paragraph{$(n, γ)$}
+\paragraph{$(n, γ)$}\mbox{} \\
+Plot showing the $(n, γ)$ cross section for $\ce{^{208}Pb}$ using the default model parameters in TALYS is shown in~\cref{fig: Pb208_n_gamma_CS_EXFOR}.
 \begin{figure}[h!]
 \centering
-\includegraphics[width = 0.8\textwidth]{talys_exercises/figs/Pb208_n_gamma_cross_section_comparison_complete_data.pdf}
-\caption{Caption}
+\includegraphics{src/figs/Pb208_n_gamma_cross_section_comparison_complete_data.pdf}
+\caption{Plot showing the $(n, γ)$ cross section for $\ce{^{208}Pb}$ using the default model parameters in TALYS compared with experimental data from EXFOR~\cite{EXFOR}. Parameters for the EXFOR query can be found in the notebook here: \url{https://github.com/Oskar-Idland/FYS4525-Advanced-Nuclear-Reactions-and-Applications-in-Astrophysics/blob/main/src/notebook.ipynb}}
 \label{fig: Pb208_n_gamma_CS_EXFOR}
 \end{figure}
 
 
-\subsection{Exercise 3}
-\subsubsection{$\ce{^{208}Pb}$ With Varying Models}
-\clearpage
+\subsection{Exercise 3: $\ce{^{208}Pb}$ With Varying Models}
+In this exercise, I simulated $\ce{^{208}Pb + n}$ reaction looking at the $(n, γ)$ channels. TALYS version 1.96 offers nine GSF models and six NLD models. I ran all combinations of these models giving in total 54 simulations. Using the combined data I created a band showing the span of cross sections depending on the models used. To not let outliers distort what the majority of the models predict, I plotted the median value of all the models as well. I then interpolated all the models and calculated their mean squared logarithmic error (MSLE) compared to experimental data from EXFOR~\cite{EXFOR} to find which combination of NLD and GSF models that best reproduced the experimental data. The input and output files can be found in the folder \verb|src/Pb208/d<ld_model_number>s<gsf_model_number>|, example: \verb|src/Pb208/d1s1| for NLD model 1 and GSF model 1.
+
+Plot showing the TALYS calculations for the $(n, γ)$ cross section for $\ce{^{208}Pb}$ with varying NLD and GSF models is shown in~\cref{fig: Pb208_n_gamma_var_CS}. The plot also includes what TALYS considers the "best" model.
 \begin{figure}[h!]
 \centering
-\includegraphics[width = 1.3\textwidth,angle=-90]{talys_exercises/figs/Pb208_n_gamma_cross_section_varying_models_with_exfor.pdf}
-\caption{Caption}
-\label{fig: Pb208_n_gamma_var_CS_EXFOR}
+\includegraphics{src/figs/Pb208_n_gamma_cross_section_varying_models_band.pdf}
+\caption{Plot showing the TALYS calculations for the $(n, γ)$ cross section for $\ce{^{208}Pb}$ with all combinations of NLD and GSF models. The "best" model according to TALYS is also shown is compared to the mean of all the models.}
+\label{fig: Pb208_n_gamma_var_CS}
 \end{figure}
-\clearpage
 
+Plot showing the top TALYS calculations for the $(n, γ)$ cross section for $\ce{^{208}Pb}$ with varying NLD and GSF models compared with experimental data from EXFOR is shown in~\cref{fig: Pb208_n_gamma_top_models_CS_EXFOR}. The model TALYS considers the "best" is also included with its respective rank of 42 among all models.  
 
-\subsection{Exercise 4}
-\subsubsection{$\ce{^{191}Os}(n, γ)$ With Experimental $γ$-Ray Strength Function}
 \begin{figure}[h!]
 \centering
-\includegraphics[width = 0.8\textwidth]{talys_exercises/figs/Os191_n_gamma_cross_section_experimental_data.pdf}
-\caption{Caption}
+\includegraphics{src/figs/Pb208_n_gamma_cross_section_top_3_models_with_exfor.pdf}
+\caption{Plot showing the TALYS calculations for the $(n, γ)$ cross section for $\ce{^{208}Pb}$ with the top three combinations of NLD and GSF models compared with experimental data from EXFOR~\cite{EXFOR}. "Ld" refers to the level density function and $γ$s being the gamma ray strength function. Parameters for the EXFOR query can be found in the notebook here: \url{https://github.com/Oskar-Idland/FYS4525-Advanced-Nuclear-Reactions-and-Applications-in-Astrophysics/blob/main/src/notebook.ipynb}.}
+\label{fig: Pb208_n_gamma_top_models_CS_EXFOR}
+\end{figure}
+
+% Complete plot with all models. 
+% \begin{figure}[h!]
+% \centering
+% \includegraphics[width = 1.3\textwidth,angle=-90]{src/figs/Pb208_n_gamma_cross_section_varying_models_band_with_exfor.pdf}
+% \caption{Caption}
+% \label{fig: Pb208_n_gamma_var_CS_EXFOR}
+% \end{figure}
+% % \clearpage
+
+
+\subsection{Exercise 4: $\ce{^{191}Os}(n, γ)$ With Experimental $γ$-Ray Strength Function and Level Density}
+In this exercise, I simulated the $\ce{^{191}Os + n}$ reaction looking at the $(n, γ)$ channel. I compared the theoretical TALYS model with experimental Oslo data~\cite{PhysRevC.99.065806}. From this paper, I got the recommended SLO and GLO function parameters as seen in \cref{tab: Oslo_params}. To normalize the NLD and GSF, I used the parameters seen in \cref{tab: Oslo_norm_params}. Both use NLD model 4, while the GSF remained default. The input and output files can be found in the folder \verb|src/Os191/default| and \verb|src/Os191/exp|. 
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+$Γ_{E_1}$ [MeV] & $Γ_{M_1}$ [MeV] & $σ_{E_1}$ [mb] & $σ_{M_1}$ [mb] & $E_{E_1}$ [MeV] & $E_{M_1}$ [MeV] \\\hline
+2.8 & 4.0 & 615.0 & 2.1 & 13.2 & 7.1 \\\hline
+\end{tabular}
+\caption{Table showing the recommended SLO and GLO function parameters for $\ce{^{191}Os}$ from experimental Oslo data~\cite{PhysRevC.99.065806}.}
+\label{tab: Oslo_params}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+$a$ [MeV$^{-1}$] & $E_{\text{sh}}$ [MeV] & $E_{d}$ [MeV] & $σ_{d}$ [mb] & $T_{\text{CT}}$ [MeV] & $E_{0}$ [MeV] & $ρ(S_n)$ [$10^{6}$MeV$^{-1}$] \\\hline
+18.474 & 0.328 & 1.1 & 2.8 & 0.5 & 0.331 & 3.79 \\\hline
+\end{tabular}
+\caption{Table showing the normalization parameters taken from~\cite{PhysRevC.99.065806}.}
+\label{tab: Oslo_norm_params}
+\end{table}
+
+As seen in~\cref{fig: Os191_n_gamma_CS_EXP}, using the experimental values gave lower cross sections and a noticeable dip at $2.5$MeV compared to the theoretical models in TALYS. 
+\begin{figure}[h!]
+\centering
+\includegraphics{src/figs/Os191_n_gamma_cross_section_experimental_data.pdf}
+\caption{Plot showing the $(n, γ)$ cross section for $\ce{^{191}Os}$ using the default GSF, and NLD model 4 compared with using experimental Oslo data~\cite{PhysRevC.99.065806} for the GSF and NLD.}
 \label{fig: Os191_n_gamma_CS_EXP}
 \end{figure}
 
 
-\subsection{Task}
-\subsubsection{$\ce{^{120}Sn}(n, γ)$} % TODO: Better heading
+\subsection{Task: $\ce{^{119}Sn}(n, γ)$}
+For the final task I chose to study the $\ce{^{119}Sn}(n, γ)\ce{^{120}Sn}$ reaction. This isotope is interesting as it is the most abundant isotope of Tin, making up approximately 33\% of natural Tin~\cite{nndc:nudat3} and can give insight into the s-process. The GSF and NLD for $\ce{^{119}Sn}$ has been studied experimentally using the Oslo method~\cite{markova2023systematicstudylowlyingelectric}.
+Using the same method as in exercise 4, I simulated both cross sections and reaction rates for the $(n, γ)$ channel using both the theoretical TALYS models and the experimental Oslo data. The input parameters for the experimental data can be found in table II and III of~\cite{markova2023systematicstudylowlyingelectric}.
+The input and output files  for the simulation using experimental data can be found in the folder \verb|src/Sn119/exp|. The varying models can be found in \verb|src/Sn119/d<ld_model_number>s<gsf_model_number>|, example: \verb|src/Sn119/d1s1| for NLD model 1 and GSF model 1. In the same folders their is also a \verb|talys_astro.inp| file for calculating the reaction rates, with their respective \verb|talys_astro.out| files. 
 
-test 
+\subsubsection{Reaction Rates}
+In~\cref{fig: Sn119_n_gamma_RR_JINA} we see the reaction rates for the default TALYS parameters compared with experimental data from JINA Reaclib Database~\cite{reaclib:jina}. All possible combinations of NLD and GSF models in TALYS are shown in~\cref{fig: Sn119_n_gamma_RR_JINA_band}. All models seem to overshoot the experimental data, expect at higher temperatures. The top performing models are shown in~\cref{fig: Sn119_n_gamma_RR_top_3_models_JINA}, ranked by their MSLE compared to the experimental data. What TALYS considers the "best" model is also included, ranking 11th among all models.
+
+\begin{figure}[h!]
+\centering
+\includegraphics{src/figs/Sn119_n_gamma_reaction_rate_with_jina.pdf}
+\caption{Comparison of the reaction rates using default TALYS parameters and compared with experimental data from JINA Reaclib Database~\cite{reaclib:jina}.}
+\label{fig: Sn119_n_gamma_RR_JINA}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics{src/figs/Sn119_n_gamma_reaction_rates_varying_models_band_with_jina.pdf}
+\caption{Comparison of the reaction rates using all TALYS models compared with experimental data from JINA Reaclib Database~\cite{reaclib:jina}.}
+\label{fig: Sn119_n_gamma_RR_JINA_band}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics{src/figs/Sn119_n_gamma_reaction_rates_top_3_models_with_jina.pdf}
+\caption{Comparison of the reaction rates using top 3 TALYS models compared with experimental data from JINA Reaclib Database~\cite{reaclib:jina} and what TALYS believe is the "best" model. "Ld" refers to the level density function and $γ$s being the gamma ray strength function.}
+\label{fig: Sn119_n_gamma_RR_top_3_models_JINA}
+\end{figure}
+
+
+\subsubsection{Cross Sections}
+The cross sections were simulated from 0 to 30 MeV, but experimental data is only available up to approximately 0.6 MeV and so the x-axis is limited to this range in~\cref{fig: Sn119_n_gamma_CS_EXFOR}. In this range, we see the default TALYS parameters have a good fit. The default TALYS parameters along with all combinations of NLD and GSF models in TALYS in the full energy range is shown in~\cref{fig: Sn119_n_gamma}. The top performing models are shown in~\cref{fig: Sn119_n_gamma_top_3_models_with_exfor}, ranked by their MSLE compared to the experimental data. What TALYS considers the "best" model is also included, ranking 8th among all models. A comparison of the experimental Oslo data and the default TALYS parameters can be seen in ~\cref{fig: Sn119_n_gamma_CS_EXP}. Finally, a comparison with the data from EXFOR can be seen in ~\cref{fig: Sn119_n_gamma_CS_EXP_vs_EXFOR}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics{src/figs/Sn119_n_gamma_cross_section_with_exfor.pdf}
+\caption{Plot showing the $(n, γ)$ cross section for $\ce{^{119}Sn}$ with experimental data from EXFOR~\cite{EXFOR}.}
+\label{fig: Sn119_n_gamma_CS_EXFOR}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics{src/figs/Sn119_n_gamma_cross_section_varying_models_band.pdf}
+\caption{Plot showing the $(n, γ)$ cross section for $\ce{^{119}Sn}$ with all combinations of NLD and GSF models in TALYS, compared with the default TALYS parameters.}
+\label{fig: Sn119_n_gamma}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics{src/figs/Sn119_n_gamma_cross_section_top_3_models_with_exfor.pdf}
+\caption{Plot showing the $(n, γ)$ cross section for $\ce{^{119}Sn}$ with the top 3 combinations of NLD and GSF models compared with experimental data from EXFOR~\cite{EXFOR}. "Ld" refers to the level density function and $γ$s being the gamma ray strength function.}
+\label{fig: Sn119_n_gamma_top_3_models_with_exfor}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics{src/figs/Sn119_n_gamma_cross_section_experimental_data.pdf}
+\caption{Plot showing the $(n, γ)$ cross section for $\ce{^{119}Sn}$ using the default GSF, and NLD model 4 compared with using experimental Oslo data~\cite{markova2023systematicstudylowlyingelectric}.}
+\label{fig: Sn119_n_gamma_CS_EXP}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics{src/figs/Sn119_n_gamma_cross_section_varying_models_band_with_exfor_and_experimental_gsf.pdf}
+\caption{Plot showing the $(n, γ)$ cross section for $\ce{^{119}Sn}$ using experimental Oslo data~\cite{markova2023systematicstudylowlyingelectric} for the GSF and NLD compared with the default TALYS parameters and experimental data from EXFOR~\cite{EXFOR}.}
+\label{fig: Sn119_n_gamma_CS_EXP_vs_EXFOR}
+\end{figure}
+
 
 \section{Conclusion and Outlook}
+Through this project, we have demonstrated the versatility and utility of the TALYS nuclear reaction code in simulating neutron capture reactions relevant to astrophysical processes. We saw how important the choice of model for the Oslo model potential is for accurately predicting reaction cross sections and rates, with models varying significantly in their results. It's easy to just try all models, but this is inefficient, time consuming and can lead to a locally optimal solution which might not work that well for other isotopes. Benchmarking against experimental data is therefore crucial to validate the models used. Through the use of experimentally determined gamma-ray strength functions and nuclear level densities, we attempt to bridge the gap between theoretical predictions and observed data even more. In this case there was not too much difference between the experimental and theoretical models when looking at cross sections, but this might not always be the case. Future work needs to systematically look at the assumptions of all the different models used in TALYS to see if there is any patterns to explain which models work and which do not. 
 
-\newpage
-\section*{Appendix A: } %The * means that it will be an unnumbered section.
-% you can include any appendix you want.  
+
+% \section*{Appendix A: } %The * means that it will be an unnumbered section.
+% you can include any appendix you wanT 
+\clearpage
+\newpage 
 \printbibliography
 \end{document}
 
